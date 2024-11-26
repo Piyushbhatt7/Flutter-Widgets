@@ -31,12 +31,14 @@ class MyHomePage extends StatelessWidget {
              appBar: AppBar(
              title: Text('Flutter Container'),
              ),
-            body:  Container(
-            width: 100,
-            height: 100,
-            color: Colors.cyan,
-            child: Text('Hello Dev!'),
-      ),
+            body:  Center(
+              child: Container(
+              width: 100,
+              height: 100,
+              color: Colors.cyan,
+              child: Text('Hello Dev!'),
+                    ),
+            ),
     );     
   }
 }
