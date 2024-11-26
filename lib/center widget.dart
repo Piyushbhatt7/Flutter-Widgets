@@ -5,6 +5,6 @@ class CenterWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(); // it align its child widget to center of the available space on the screen
   }
 } 
