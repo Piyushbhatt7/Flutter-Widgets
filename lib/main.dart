@@ -25,21 +25,18 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
 
-  @override
+  @override 
   Widget build(BuildContext context) {
         return Scaffold(
              appBar: AppBar(
              title: Text('Flutter Container'),
              ),
-            body:  Center(
-              child: Container(
-              width: 100,
-              height: 100,
-              color: Colors.cyan,
-              child: Text('Hello Dev!'),
-                    ),
-            ),
-    );     
+            body:  Text("Flutter development", style: TextStyle(
+              color: Colors.pinkAccent,
+              fontSize: 23,
+              fontWeight: FontWeight.bold,
+            ),)
+    ); 
   }
 }
 
