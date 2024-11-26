@@ -5,6 +5,18 @@ class CenterWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(); // it align its child widget to center of the available space on the screen
+    return Scaffold(
+             appBar: AppBar(
+             title: Text('Center Widget'),
+             ),
+            
+            body:  Center(      // it align its child widget to center of the available space on the screen
+              child: Text("Flutter development", style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w400
+                         ),
+              ),
+            )
+    ); 
   }
 } 
