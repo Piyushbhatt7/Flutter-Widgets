@@ -34,7 +34,8 @@ class MyHomePage extends StatelessWidget {
             body:  Text("Flutter development", style: TextStyle(
               color: Colors.pinkAccent,
               fontSize: 23,
-              fontWeight: FontWeight.bold,
+              fontWeight: FontWeight.w900,
+              backgroundColor: Colors.black
             ),)
     ); 
   }
