@@ -9,7 +9,9 @@ class Buttons extends StatelessWidget {
       appBar: AppBar(
         title: Text('Buttons'),
       ),
-      
+        body: TextButton(onPressed: (){
+          
+        }, child: child),
     );
   }
 }
