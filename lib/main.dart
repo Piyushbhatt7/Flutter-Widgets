@@ -16,11 +16,19 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(),
     );
   }
 }
 
+class MyHomePage extends StatelessWidget {
+  const MyHomePage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
 
   @override
   Widget build(BuildContext context) {
@@ -30,9 +38,11 @@ class MyApp extends StatelessWidget {
        
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
        
-        title: Text(widget.title),
+        title: Text('Flutter Container'),
       ),
-      body:  
+      body:  Container(),
+
     );
   }
 
+  
