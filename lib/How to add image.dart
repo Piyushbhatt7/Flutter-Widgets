@@ -10,6 +10,10 @@ class adding_image extends StatelessWidget {
         title: Text('Adding an image'),
         backgroundColor: Colors.amberAccent,
       ),
+       
+       
+
+
     );
   }
 }
