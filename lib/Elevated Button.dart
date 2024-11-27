@@ -11,7 +11,7 @@ class Elevated_Button extends StatelessWidget {
        ),
 
        body: ElevatedButton(
-        child: Text('Elevated Button'),  // Elevated Button
+        child: Text('Elevated Button'),  // Elevated Button or Raised Button
         onPressed: (){
           print('Button Pressed');
         },
