@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wigets/Buttons.dart';
+import 'package:flutter_wigets/Text%20Buttons.dart';
 
 void main() {
   runApp(const MyApp());
