@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wigets/Text%20Buttons.dart';
+import 'package:flutter_wigets/Elevated%20Button.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Buttons(),
+      home: const Elevated_Button(),
     );
   }
 }

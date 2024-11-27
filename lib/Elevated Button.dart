@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
 
-class ElevatedButton extends StatelessWidget {
-  const ElevatedButton({super.key});
+class Elevated_Button extends StatelessWidget {
+  const Elevated_Button({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+       appBar: AppBar(
+         title: Text("Elevated Button"),
+       ),
+
+       body: Elevated_Button(),
+    );
   }
 }
