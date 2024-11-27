@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wigets/Elevated%20Button.dart';
+import 'package:flutter_wigets/Outline%20Button.dart';
 
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Elevated_Button(),
+      home: const Outline_Button(),
     );
   }
 }
