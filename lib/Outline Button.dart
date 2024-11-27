@@ -5,6 +5,15 @@ class Outline_Button extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+       appBar: AppBar(
+        title: Text('Outlined Button'),
+       ),
+        body: OutlinedButton(onPressed: (){
+             print('Button Tapped');
+        }, 
+
+        child: Text('Outlined Button'))
+    );
   }
 }
