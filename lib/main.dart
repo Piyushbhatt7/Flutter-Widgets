@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wigets/Outlined%20Button.dart';
+import 'package:flutter_wigets/How%20to%20add%20image.dart';
 
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Outlined_Button(),
+      home: const adding_image(),
     );
   }
 }
