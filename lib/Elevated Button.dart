@@ -10,7 +10,9 @@ class Elevated_Button extends StatelessWidget {
          title: Text("Elevated Button"),
        ),
 
-       body: Elevated_Button(),
+       body: ElevatedButton(
+        child: Text('Elevated Button'),
+       ),
     );
   }
 }
