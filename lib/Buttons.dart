@@ -12,6 +12,11 @@ class Buttons extends StatelessWidget {
         body: TextButton(onPressed: (){
               print("Text button tapped");
         }, 
+                                                       
+        onLongPress: (){
+           print("Long press");
+        },
+
         child: Text('Click here!')
          
          ),
