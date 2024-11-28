@@ -10,10 +10,11 @@ class Rows extends StatelessWidget {
         title: Text('How Row Works'),
         backgroundColor: Colors.greenAccent,
       ),
-      body: Center(
+      body: Container(
+        height: 300,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        // crossAxisAlignment: CrossAxisAlignment.stretch,
+         crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text('A',style: TextStyle(fontSize: 40),),
             Text('B',style: TextStyle(fontSize: 40),),
