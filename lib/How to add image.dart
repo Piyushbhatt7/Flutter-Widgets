@@ -14,7 +14,10 @@ class adding_image extends StatelessWidget {
       ),
        
        body: Center(
-        child: Image.asset('assets/images/lodu.png')),
+        child: Container(
+          width: 200,
+          height: 350,
+          child: Image.asset('assets/images/lodu.png'))),
 
 
 
