@@ -16,7 +16,7 @@ class Columns extends StatelessWidget {
         children: [
           Text('A',style: TextStyle(fontSize: 40),),
           Text('B',style: TextStyle(fontSize: 40),),
-          Text('C'),
+          Text('C',style: TextStyle(fontSize: 40),),
           Text('D'),
           Text('E')
         ],
