@@ -21,7 +21,7 @@ class Rows extends StatelessWidget {
             Text('C',style: TextStyle(fontSize: 40),),
             Text('D',style: TextStyle(fontSize: 40),),
             Text('E',style: TextStyle(fontSize: 40),)
-          ],
+          ],  
         ),
       ),
     );
