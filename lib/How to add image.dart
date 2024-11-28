@@ -17,7 +17,9 @@ class adding_image extends StatelessWidget {
         child: Container(
           width: 200,
           height: 350,
-          child: Image.asset('assets/images/lodu.png'))),
+          child: Image.asset('assets/images/bob.png')
+          
+          )),
 
 
 
