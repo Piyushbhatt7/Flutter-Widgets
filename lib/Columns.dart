@@ -6,7 +6,8 @@ class Columns extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+      appBar: AppBar(                                       // Columns are vertical |
+                                                                               //   |
         title: Text('How Row Works'),
         backgroundColor: Colors.redAccent,
       ),
