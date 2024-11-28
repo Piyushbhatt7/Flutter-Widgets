@@ -12,14 +12,16 @@ class Columns extends StatelessWidget {
         backgroundColor: Colors.redAccent,
       ),
 
-      body: Column(
-        children: [
-          Text('A',style: TextStyle(fontSize: 40),),
-          Text('B',style: TextStyle(fontSize: 40),),
-          Text('C',style: TextStyle(fontSize: 40),),
-          Text('D',style: TextStyle(fontSize: 40),),
-          Text('E',style: TextStyle(fontSize: 40),)
-        ],
+      body: Center(
+        child: Column(
+          children: [
+            Text('A',style: TextStyle(fontSize: 40),),
+            Text('B',style: TextStyle(fontSize: 40),),
+            Text('C',style: TextStyle(fontSize: 40),),
+            Text('D',style: TextStyle(fontSize: 40),),
+            Text('E',style: TextStyle(fontSize: 40),)
+          ],
+        ),
       ),
     );
   }
