@@ -18,7 +18,7 @@ class Columns extends StatelessWidget {
           Text('B',style: TextStyle(fontSize: 40),),
           Text('C',style: TextStyle(fontSize: 40),),
           Text('D',style: TextStyle(fontSize: 40),),
-          Text('E')
+          Text('E',style: TextStyle(fontSize: 40),)
         ],
       ),
     );
