@@ -8,8 +8,18 @@ class Columns extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(                                       // Columns are vertical |
                                                                                //   |
-        title: Text('How Row Works'),
+        title: Text('How Column Works'),
         backgroundColor: Colors.redAccent,
+      ),
+
+      body: Column(
+        children: [
+          Text('A'),
+          Text('B'),
+          Text('C'),
+          Text('D'),
+          Text('E')
+        ],
       ),
     );
   }
