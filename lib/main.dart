@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wigets/How%20to%20add%20image.dart';
+import 'package:flutter_wigets/Row.dart';
 
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const adding_image(),
+      home: const Rows(),
     );
   }
 }

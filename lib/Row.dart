@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
 
-class Row extends StatelessWidget {
-  const Row({super.key});
+class Rows extends StatelessWidget {
+  const Rows({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('How Row Works'),
+        backgroundColor: Colors.deepOrangeAccent,
+      ),
+    );
   }
 }
