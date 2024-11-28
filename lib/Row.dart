@@ -12,6 +12,7 @@ class Rows extends StatelessWidget {
       ),
       body: Center(
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Text('A',style: TextStyle(fontSize: 40),),
             Text('B',style: TextStyle(fontSize: 40),),
