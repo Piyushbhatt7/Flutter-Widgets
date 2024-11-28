@@ -8,7 +8,7 @@ class Rows extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('How Row Works'),
-        backgroundColor: Colors.deepOrangeAccent,
+        backgroundColor: Colors.greenAccent,
       ),
     );
   }
