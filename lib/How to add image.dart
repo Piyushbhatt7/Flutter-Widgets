@@ -13,6 +13,8 @@ class adding_image extends StatelessWidget {
         backgroundColor: Colors.amberAccent,  
       ),
        
+       body: Center(
+        child: Image.asset('assets/images/lodu.png')),
 
 
 
