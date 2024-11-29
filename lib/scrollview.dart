@@ -24,7 +24,7 @@ class scrollview extends StatelessWidget {
           
           
             SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
+              scrollDirection: Axis.horizontal,  // you can scroll the direction horizontally
               child: Row(
                 children: [
                   Container(
@@ -38,6 +38,13 @@ class scrollview extends StatelessWidget {
               height: 200,
               width: 400,
               color: Colors.cyanAccent,
+            ),
+
+             Container(
+              margin: EdgeInsets.only(bottom: 10),
+              height: 200,
+              width: 400,
+              color: Colors.deepOrange,
             ),
                 ],
               ),
