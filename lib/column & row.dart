@@ -43,9 +43,9 @@ class Rows_and_Columns extends StatelessWidget {
             Text('R3',style: TextStyle(fontSize: 25),),
             Text('R4',style: TextStyle(fontSize: 25),),
             Text('R5',style: TextStyle(fontSize: 25),),
-          //  ElevatedButton(onPressed: (){
+           ElevatedButton(onPressed: (){
 
-          //  }, child: Text('click'))
+           }, child: Text('click'))
           ],
           
         ),
