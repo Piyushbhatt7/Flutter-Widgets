@@ -8,7 +8,7 @@ class scrollview extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Scroll View'),
-        backgroundColor: Colors.pinkAccent,
+        backgroundColor: Colors.grey,
       ),
 
       body: SingleChildScrollView(  // if you have the simiral pattern you can use the Listview widget
