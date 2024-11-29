@@ -11,11 +11,13 @@ class Inkwell extends StatelessWidget {
         backgroundColor: Colors.blueAccent,
       ),
 
-      body: Container(
-        width: 200,
-        height: 200,
-        child: 
-     
+      body: Center(
+        child: Container(
+          width: 200,
+          height: 200,
+          child: 
+             
+        ),
       ),
     );
   }
