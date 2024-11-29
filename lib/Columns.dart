@@ -12,8 +12,11 @@ class Columns extends StatelessWidget {
         backgroundColor: Colors.redAccent,
       ),
 
-      body: Center(
+      body: Container(
+        height: 300,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text('A',style: TextStyle(fontSize: 40),),
             Text('B',style: TextStyle(fontSize: 40),),
