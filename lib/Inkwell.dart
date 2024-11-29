@@ -29,6 +29,17 @@ class Inkwell extends StatelessWidget {
             width: 200,
             height: 200,
             color: Colors.redAccent,
+            child: Center(
+              child: InkWell(
+                onTap: () {
+                  print('Text widget Tapped!');
+                },
+                child: Text(
+                  'Click here!', 
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20),),
+              )),
                  
                
           ),
