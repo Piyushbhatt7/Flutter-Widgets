@@ -14,13 +14,13 @@ class Inkwell extends StatelessWidget {
       body: Center(
         child: InkWell(
           onTap: () {
-            print('Tapped 1');
+            print('Tapped on container');
           },
           onLongPress: () {
-            print('Tapped 2');
+            print('Long Tapped on container');
           },
           onDoubleTap: () {
-            print('Tapped 3');
+            print('Double Tapped on Container');
           },
           
 
