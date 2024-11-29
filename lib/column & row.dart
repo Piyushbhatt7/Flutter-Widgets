@@ -20,6 +20,7 @@ class Rows_and_Columns extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
             Text('R1',style: TextStyle(fontSize: 25),),
             Text('R2',style: TextStyle(fontSize: 25),),
