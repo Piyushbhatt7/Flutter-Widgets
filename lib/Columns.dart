@@ -15,15 +15,20 @@ class Columns extends StatelessWidget {
       body: Container(
         height: 300,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text('A',style: TextStyle(fontSize: 40),),
-            Text('B',style: TextStyle(fontSize: 40),),
-            Text('C',style: TextStyle(fontSize: 40),),
-            Text('D',style: TextStyle(fontSize: 40),),
-            Text('E',style: TextStyle(fontSize: 40),)
+            Text('A',style: TextStyle(fontSize: 20),),
+            Text('B',style: TextStyle(fontSize: 20),),
+            Text('C',style: TextStyle(fontSize: 20),),
+            Text('D',style: TextStyle(fontSize: 20),),
+            Text('E',style: TextStyle(fontSize: 20),),
+            
+          //  ElevatedButton(onPressed: (){
+
+          //  }, child: Text('click'))
           ],
+          
         ),
       ),
     );
