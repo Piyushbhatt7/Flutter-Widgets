@@ -22,6 +22,14 @@ class Rows_and_Columns extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
+
+                Column(
+                           children: [
+                            ElevatedButton(onPressed: (){
+
+                            }, child: Text('Button'))
+                           ],
+                ),
             Text('R1',style: TextStyle(fontSize: 25),),
             Text('R2',style: TextStyle(fontSize: 25),),
             Text('R3',style: TextStyle(fontSize: 25),),
