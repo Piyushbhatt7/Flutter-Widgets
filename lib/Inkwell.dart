@@ -12,6 +12,8 @@ class Inkwell extends StatelessWidget {
       ),
 
       body: Container(
+        width: 200,
+        height: 200,
         child: 
      
       ),
