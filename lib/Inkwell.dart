@@ -12,9 +12,8 @@ class Inkwell extends StatelessWidget {
       ),
 
       body: Container(
-        child: ElevatedButton(onPressed: (){
-            print('Tapped');
-        }, child: Text('Button')),
+        child: 
+     
       ),
     );
   }
