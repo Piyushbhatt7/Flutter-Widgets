@@ -21,12 +21,29 @@ class scrollview extends StatelessWidget {
               width: 200,
               color: Colors.green,
             ),
-            Container(
+          
+          
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children: [
+                  Container(
+                    margin: EdgeInsets.only(bottom: 10),
+                    height: 200,
+                    width: 400,
+                    color: Colors.pink,
+                  ),
+              Container(
               margin: EdgeInsets.only(bottom: 10),
               height: 200,
-              width: 200,
-              color: Colors.pink,
+              width: 400,
+              color: Colors.cyanAccent,
             ),
+                ],
+              ),
+            ),
+           
+           
             Container(
               margin: EdgeInsets.only(bottom: 10),
               height: 200,
