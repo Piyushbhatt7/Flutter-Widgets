@@ -11,39 +11,42 @@ class scrollview extends StatelessWidget {
         backgroundColor: Colors.pinkAccent,
       ),
 
-      body: Column(
-        children: [
-          Container(
-            margin: EdgeInsets.only(bottom: 10),
-            height: 200,
-            width: 200,
-            color: Colors.green,
-          ),
-          Container(
-            margin: EdgeInsets.only(bottom: 10),
-            height: 200,
-            width: 200,
-            color: Colors.pink,
-          ),
-          Container(
-            margin: EdgeInsets.only(bottom: 10),
-            height: 200,
-            width: 200,
-            color: Colors.black,
-          ),
-          Container(
-            margin: EdgeInsets.only(bottom: 10),
-            height: 200,
-            width: 200,
-            color: Colors.yellow,
-          ),
-          Container(
-            margin: EdgeInsets.only(bottom: 10),
-            height: 200,
-            width: 200,
-            color: Colors.blue,
-          ),
-        ],
+      body: SingleChildScrollView(  // if you have the simiral pattern you can use the Listview widget
+        //scrollDirection: ,
+        child: Column(
+          children: [
+            Container(
+              margin: EdgeInsets.only(bottom: 10),
+              height: 200,
+              width: 200,
+              color: Colors.green,
+            ),
+            Container(
+              margin: EdgeInsets.only(bottom: 10),
+              height: 200,
+              width: 200,
+              color: Colors.pink,
+            ),
+            Container(
+              margin: EdgeInsets.only(bottom: 10),
+              height: 200,
+              width: 200,
+              color: Colors.black,
+            ),
+            Container(
+              margin: EdgeInsets.only(bottom: 10),
+              height: 200,
+              width: 200,
+              color: Colors.yellow,
+            ),
+            Container(
+              margin: EdgeInsets.only(bottom: 10),
+              height: 200,
+              width: 200,
+              color: Colors.blue,
+            ),
+          ],
+        ),
       ),
     );
   }
