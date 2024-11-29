@@ -17,7 +17,7 @@ class Columns extends StatelessWidget {
         width: 300,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
-          crossAxisAlignment: CrossAxisAlignment.stretch,
+          crossAxisAlignment: CrossAxisAlignment.end,
           children: [
             Text('A',style: TextStyle(fontSize: 20),),
             Text('B',style: TextStyle(fontSize: 20),),
