@@ -10,6 +10,12 @@ class Inkwell extends StatelessWidget {
         title: Text('Inkwell'),
         backgroundColor: Colors.blueAccent,
       ),
+
+      body: Container(
+        child: ElevatedButton(onPressed: (){
+            print('Tapped');
+        }, child: Text('Button')),
+      ),
     );
   }
 }
