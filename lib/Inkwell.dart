@@ -12,12 +12,26 @@ class Inkwell extends StatelessWidget {
       ),
 
       body: Center(
-        child: Container(
-          width: 200,
-          height: 200,
-          color: Colors.tealAccent,
-         // child: 
-             
+        child: InkWell(
+          onTap: () {
+            print('Tapped 1');
+          },
+          onLongPress: () {
+            print('Tapped 2');
+          },
+          onDoubleTap: () {
+            print('Tapped 3');
+          },
+          
+
+
+          child: Container(
+            width: 200,
+            height: 200,
+            color: Colors.redAccent,
+                 
+               
+          ),
         ),
       ),
     );
