@@ -5,13 +5,15 @@ class ListviewBuilder extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(f
+    return Scaffold(
       appBar: AppBar(
         title: Text('ListView Widget'),
         backgroundColor: Colors.lightBlue,
       ),
 
-      body: ListView.builder(itemBuilder: itemBuilder),
+      body: ListView.builder(itemBuilder:(context, index) {
+        return
+      },),
     );
   }
 }
