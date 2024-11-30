@@ -9,6 +9,11 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Application',
+      //theme: ThemeData.dark(),
+      theme: ThemeData(
+        primarySwatch: Colors.blue
+      ),
+      
     );
     
   }
