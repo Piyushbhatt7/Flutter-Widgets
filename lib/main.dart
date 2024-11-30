@@ -13,9 +13,30 @@ class MyApp extends StatelessWidget{
       theme: ThemeData(
         primarySwatch: Colors.blue
       ),
+
+      home: MainScreen(),
       
     );
     
+  }
+  
+}
+
+class MainScreen extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+
+      appBar: AppBar(
+        title: Text('Flutter Main Screen'),
+
+      ),
+
+      body: Container(
+        color: Colors.indigoAccent,
+      ),
+
+    );
   }
   
 }
