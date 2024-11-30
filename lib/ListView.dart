@@ -14,12 +14,12 @@ class Listview extends StatelessWidget {
       body: ListView(
         children: [
           Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
-           Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
-            Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
-             Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
-              Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
-               Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
-                Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+           Text('Two', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+            Text('Three', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+             Text('Four', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+              Text('Five', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+               Text('Six', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+                Text('Seven', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
 
         ],
       ),
