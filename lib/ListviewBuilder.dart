@@ -22,9 +22,9 @@ class ListviewBuilder extends StatelessWidget {
       ),
 
       body: ListView.builder(itemBuilder:(context, index) {
-        return Text('One', style: TextStyle(fontSize: 21, fontWeight: FontWeight.w600),);
+        return Text(name[], style: TextStyle(fontSize: 21, fontWeight: FontWeight.w600),);
       },
-              itemCount: 5, // it will repeat the 5 times and it is most usefull for fetching dynamic data
+              itemCount: name.length, // it will repeat the 5 times and it is most usefull for fetching dynamic data
        ),
     );
   }
