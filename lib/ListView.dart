@@ -15,7 +15,12 @@ class Listview extends StatelessWidget {
         children: [
           Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
            Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
-           
+            Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+             Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+              Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+               Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+                Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+
         ],
       ),
     );
