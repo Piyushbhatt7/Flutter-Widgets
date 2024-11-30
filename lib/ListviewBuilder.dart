@@ -12,7 +12,7 @@ class ListviewBuilder extends StatelessWidget {
       ),
 
       body: ListView.builder(itemBuilder:(context, index) {
-        return
+        return Text('One', style: TextStyle(fontSize: 21, fontWeight: FontWeight.w600),);
       },),
     );
   }
