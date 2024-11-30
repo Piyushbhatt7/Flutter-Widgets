@@ -8,11 +8,12 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Application',
-      //theme: ThemeData.dark(),
-      theme: ThemeData(
-        primarySwatch: Colors.blue
-      ),
+      theme: ThemeData.dark(),
+      // theme: ThemeData(
+      //   primarySwatch: Colors.blue
+      // ),
 
       home: MainScreen(),
       
@@ -33,7 +34,7 @@ class MainScreen extends StatelessWidget{
       ),
 
       body: Container(
-        color: Colors.indigoAccent,
+        color: Colors.green.shade100,
       ),
 
     );
