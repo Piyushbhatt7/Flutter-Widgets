@@ -5,6 +5,16 @@ class ListviewBuilder extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    var name = [
+      'Raman',
+      'Piyush'
+      'Priya'
+      'Samyual'
+      'Kanish'
+      'Kanishka'
+
+    ];
     return Scaffold(
       appBar: AppBar(
         title: Text('ListView Widget'),
