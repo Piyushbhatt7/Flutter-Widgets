@@ -27,7 +27,7 @@ class ListviewBuilder extends StatelessWidget {
         return Text(name[index], style: TextStyle(fontSize: 21, fontWeight: FontWeight.w600),);
       },
               itemCount: name.length, // it will repeat the 5 times and it is most usefull for fetching dynamic data
-              reverse: false,
+              reverse: false, // make it true if you want to reverse the data
        ),
     );
   }
