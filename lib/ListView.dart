@@ -11,40 +11,38 @@ class Listview extends StatelessWidget {
         backgroundColor: Colors.lightBlueAccent,
       ),
 
-      body: Center(
-        child: ListView(
-          children: [
+      body: ListView(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+          ),
+           Padding(
+             padding: const EdgeInsets.all(8.0),
+             child: Text('Two', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+           ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+              child: Text('Three', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
             ),
              Padding(
                padding: const EdgeInsets.all(8.0),
-               child: Text('Two', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+               child: Text('Four', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
              ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Text('Three', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+                child: Text('Five', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
               ),
                Padding(
                  padding: const EdgeInsets.all(8.0),
-                 child: Text('Four', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+                 child: Text('Six', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
                ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Text('Five', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+                  child: Text('Seven', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
                 ),
-                 Padding(
-                   padding: const EdgeInsets.all(8.0),
-                   child: Text('Six', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
-                 ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Text('Seven', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
-                  ),
-        
-          ],
-        ),
+      
+        ],
       ),
     );
   } // Listview
