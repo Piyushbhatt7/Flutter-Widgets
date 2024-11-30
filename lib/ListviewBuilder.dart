@@ -29,6 +29,7 @@ class ListviewBuilder extends StatelessWidget {
               itemCount: name.length, // it will repeat the 5 times and it is most usefull for fetching dynamic data
               reverse: false, // make it true if you want to reverse the data
               itemExtent: 150, // providea size to your data
+              scrollDirection: Axis.horizontal,
        ),
     );
   }
