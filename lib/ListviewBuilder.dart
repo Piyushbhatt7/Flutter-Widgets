@@ -38,7 +38,7 @@ class ListviewBuilder extends StatelessWidget {
               itemCount: name.length, // it will repeat the 5 times and it is most usefull for fetching dynamic data
               reverse: false, // make it true if you want to reverse the data
               separatorBuilder: (context, index) {
-                return Divider(height: 10,); // it will provide a separation line
+                return Divider(height: 10, thickness: 3,); // it will provide a separation line
               },
        ),
     );
