@@ -11,7 +11,11 @@ class Listview extends StatelessWidget {
         backgroundColor: Colors.lightBlueAccent,
       ),
 
-      //body: ,
+      body: ListView(
+        children: [
+          Text('One', style: TextStyle(fontSize: 23, fontWeight: FontWeight.w600),),
+        ],
+      ),
     );
   } // Listview
 }
