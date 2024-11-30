@@ -13,7 +13,7 @@ class ListviewBuilder extends StatelessWidget {
       'Priya',
       'Samyual',   // dynamic data
       'Kanish',
-      'Raman',
+      'Samay',
       
 
     ];
