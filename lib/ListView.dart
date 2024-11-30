@@ -13,7 +13,7 @@ class Listview extends StatelessWidget {
 
       body: ListView(
         scrollDirection: Axis.horizontal,
-        reverse: true,
+        reverse: true, // it wil reverse the content
         children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
