@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget{
       title: 'Flutter Application',
       theme: ThemeData.dark(), // I have se the theme as dark
       // theme: ThemeData(
-      //   primarySwatch: Colors.blue // you can also 
+      //   primarySwatch: Colors.blue    // you can also use ThemeData to set color according to you
       // ),
 
       home: MainScreen(),
