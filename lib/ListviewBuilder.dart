@@ -32,13 +32,14 @@ class ListviewBuilder extends StatelessWidget {
       //         scrollDirection: Axis.horizontal,
       //  ),
 
-       body: ListView.builder(itemBuilder:(context, index) {
+       body: ListView.separated(itemBuilder:(context, index) {
         return Text(name[index], style: TextStyle(fontSize: 21, fontWeight: FontWeight.w600),);
       },
               itemCount: name.length, // it will repeat the 5 times and it is most usefull for fetching dynamic data
               reverse: false, // make it true if you want to reverse the data
-              itemExtent: 150, // providea size to your data
-              scrollDirection: Axis.horizontal,
+              separatorBuilder: (context, index) {
+                return Divider(height: 4,);
+              },
        ),
     );
   }
