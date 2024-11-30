@@ -7,12 +7,14 @@ class ListviewBuilder extends StatelessWidget {
   Widget build(BuildContext context) {
 
     var name = [
-      'Raman',
+      
       'Piyush',
+      'Kanishka',
       'Priya',
       'Samyual',   // dynamic data
       'Kanish',
-      'Kanishka',
+      'Raman',
+      
 
     ];
     return Scaffold(
@@ -25,6 +27,7 @@ class ListviewBuilder extends StatelessWidget {
         return Text(name[index], style: TextStyle(fontSize: 21, fontWeight: FontWeight.w600),);
       },
               itemCount: name.length, // it will repeat the 5 times and it is most usefull for fetching dynamic data
+              reverse: false,
        ),
     );
   }
