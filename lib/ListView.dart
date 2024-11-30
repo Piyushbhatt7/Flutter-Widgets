@@ -12,7 +12,7 @@ class Listview extends StatelessWidget {
       ),
 
       body: ListView(
-        
+        scrollDirection: Axis.horizontal,
         children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
