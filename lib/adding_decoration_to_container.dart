@@ -12,7 +12,11 @@ class AddingDecorationToContainer extends StatelessWidget {
       ),
 
       body: Container(
-        
+
+        child: Container(
+          height: 200,
+          width: 200,
+        ),
       ),
     );
   }
