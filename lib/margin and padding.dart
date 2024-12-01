@@ -11,7 +11,11 @@ class margin_and_padding extends StatelessWidget {
 
       ),
 
-      body: Container(),
+      body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        color: Colors.blueAccent.shade100,
+      ),
     );
   }
 }
