@@ -25,7 +25,12 @@ class AddingDecorationToContainer extends StatelessWidget {
                
               // borderRadius: BorderRadius.only(topLeft: Radius.circular(21), bottomRight: Radius.circular(21)) // when using BorderRadius.only and BorderRadius.all you can't pass the value in double / you need to pass the value in Radius object like Radius.elliptical or circular and etc.
 
-               borderRadius: BorderRadius.all(Radius.circular(21)) // border radius.all work same as a border radius.only
+               borderRadius: BorderRadius.all(Radius.circular(21)), // border radius.all work same as a border radius.only
+
+               border: Border.all(
+                width: 5,
+                color: Colors.green
+               )
             ),
           ),
         ),
