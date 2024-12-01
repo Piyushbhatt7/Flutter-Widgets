@@ -20,23 +20,27 @@ class Expanded_widget extends StatelessWidget {
             height: 100,
             color: Colors.blue.shade300,
           ),
-
-          Container(
-            width: 50,
-            height: 100,
-            color: Colors.orange.shade300,
-          ),
-
+      
           Container(
             width: 50,
             height: 100,
             color: Colors.green.shade300,
           ),
-
-          Container(
-            width: 50,
-            height: 100,
-            color: Colors.pink.shade300,
+      
+          Expanded(
+            child: Container(
+              width: 50,
+              height: 100,
+              color: Colors.orange.shade300,
+            ),
+          ),
+      
+          Expanded(
+            child: Container(
+              width: 50,
+              height: 100,
+              color: Colors.pink.shade300,
+            ),
           ),
           
         ],
