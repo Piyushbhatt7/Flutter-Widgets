@@ -21,6 +21,7 @@ class AddingDecorationToContainer extends StatelessWidget {
           
             decoration: BoxDecoration(
                color: Colors.amber,
+               borderRadius: BorderRadius.circular(12), // to
             ),
           ),
         ),
