@@ -18,7 +18,7 @@ class margin_and_padding extends StatelessWidget {
       // ),
 
       body: Container(
-        color: Colors.orangeAccent,
+        color: Colors.redAccent,
         margin: EdgeInsets.all(50),                      // margin provide spacing outside the container
         child: Padding(
           padding: const EdgeInsets.all(8.0),
