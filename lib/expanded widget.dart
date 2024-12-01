@@ -12,7 +12,35 @@ class Expanded_widget extends StatelessWidget {
         backgroundColor: Colors.deepPurpleAccent,
       ),
 
-      body: Container(),
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Container(
+            width: 50,
+            height: 100,
+            color: Colors.blue.shade300,
+          ),
+
+          Container(
+            width: 50,
+            height: 100,
+            color: Colors.orange.shade300,
+          ),
+
+          Container(
+            width: 50,
+            height: 100,
+            color: Colors.green.shade300,
+          ),
+
+          Container(
+            width: 50,
+            height: 100,
+            color: Colors.pink.shade300,
+          ),
+          
+        ],
+      ),
     );
   }
 }
