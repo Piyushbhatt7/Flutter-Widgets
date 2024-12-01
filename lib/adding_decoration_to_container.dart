@@ -17,8 +17,8 @@ class AddingDecorationToContainer extends StatelessWidget {
         child: Center(
           child: Container(
             height: 200,
-            width: 200,
-           
+            width: 200,      
+          
             decoration: BoxDecoration(
                color: Colors.amber,
             ),
