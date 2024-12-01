@@ -12,7 +12,10 @@ class margin_and_padding extends StatelessWidget {
 
       ),
 
-      body: Text('Hello World !', style: TextStyle(fontSize: 21),)
+      body: Padding(
+        padding: const EdgeInsets.only(top: 12, left: 34),
+        child: Text('Hello World !', style: TextStyle(fontSize: 21),),
+      )
     );
   }
 }
