@@ -12,7 +12,8 @@ class AddingDecorationToContainer extends StatelessWidget {
       ),
 
       body: Container(
-
+        width: double.infinity,
+        height: double.infinity,
         child: Container(
           height: 200,
           width: 200,
