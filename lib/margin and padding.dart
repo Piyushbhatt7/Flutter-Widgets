@@ -8,14 +8,11 @@ class margin_and_padding extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Margin and Padding'),
+        backgroundColor: Colors.blue,
 
       ),
 
-      body: Container(
-        width: double.infinity,
-        height: double.infinity,
-        color: Colors.blueAccent.shade100,
-      ),
+      body: Text('Hello World !', style: TextStyle(fontSize: 21),)
     );
   }
 }
