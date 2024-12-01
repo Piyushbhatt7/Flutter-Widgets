@@ -27,7 +27,7 @@ class AddingDecorationToContainer extends StatelessWidget {
 
                borderRadius: BorderRadius.all(Radius.circular(21)), // border radius.all work same as a border radius.only
 
-               border: Border.all(
+               border: Border.all(  // border.all provide a border to a whole container
                 width: 5,
                 color: Colors.green
                )
