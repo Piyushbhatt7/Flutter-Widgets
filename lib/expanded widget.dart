@@ -15,10 +15,12 @@ class Expanded_widget extends StatelessWidget {
       body: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Container(
-            width: 50,
-            height: 100,
-            color: Colors.blue.shade300,
+          Expanded(
+            child: Container(
+              width: 50,
+              height: 100,
+              color: Colors.blue.shade300,
+            ),
           ),
       
           Expanded(
