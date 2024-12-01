@@ -21,10 +21,12 @@ class Expanded_widget extends StatelessWidget {
             color: Colors.blue.shade300,
           ),
       
-          Container(
-            width: 50,
-            height: 100,
-            color: Colors.green.shade300,
+          Expanded(
+            child: Container(
+              width: 50,
+              height: 100,
+              color: Colors.green.shade300,
+            ),
           ),
       
           Expanded(
