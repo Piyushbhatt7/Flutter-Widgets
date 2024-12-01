@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_wigets/adding_decoration_to_container.dart';
+import 'package:flutter_wigets/expanded%20widget.dart';
 
 main(){
   runApp(MyApp());  
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget{
       //   primarySwatch: Colors.blue    // you can also use ThemeData to set color according to you
       // ),
 
-      home: AddingDecorationToContainer(),
+      home: Expanded_widget(),
       
     );
     
