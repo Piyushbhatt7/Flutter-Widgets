@@ -12,6 +12,7 @@ class AddingDecorationToContainer extends StatelessWidget {
       ),
  
       body: Container(
+        color: Colors.blue.shade50,
         width: double.infinity,
         height: double.infinity,
         child: Center(
@@ -29,11 +30,14 @@ class AddingDecorationToContainer extends StatelessWidget {
 
                border: Border.all(  // border.all provide a border to a whole container
                 width: 5,
-                color: Colors.green
+                color: Colors.black
                ),
 
                boxShadow: [
-                BoxShadow()
+                BoxShadow(
+                  blurRadius: 11,
+                  spreadRadius: 8,
+                )
                ]
             ),
           ),
