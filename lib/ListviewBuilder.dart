@@ -11,7 +11,7 @@ class ListviewBuilder extends StatelessWidget {
       'Piyush',
       'Kanishka',
       'Priya',
-      'Samyual',   // dynamic data
+      'Samiksha',   // dynamic data
       'Kanish',
       'Samay',
       
@@ -40,7 +40,7 @@ class ListviewBuilder extends StatelessWidget {
               separatorBuilder: (context, index) {
                 return Divider(height: 10, thickness: 3,); // it will provide a separation line and you can also provide a thickness to it in float or integer value
               },
-              
+
        ),
     );
   }
