@@ -11,7 +11,9 @@ class AddingDecorationToContainer extends StatelessWidget {
         backgroundColor: Colors.deepPurpleAccent,
       ),
 
-      body: Container(),
+      body: Container(
+        
+      ),
     );
   }
 }
