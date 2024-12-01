@@ -30,7 +30,11 @@ class AddingDecorationToContainer extends StatelessWidget {
                border: Border.all(  // border.all provide a border to a whole container
                 width: 5,
                 color: Colors.green
-               )
+               ),
+
+               boxShadow: [
+                BoxShadow()
+               ]
             ),
           ),
         ),
