@@ -10,7 +10,7 @@ class AddingDecorationToContainer extends StatelessWidget {
         title: Text('Decoration'),
         backgroundColor: Colors.deepPurpleAccent,
       ),
-
+ 
       body: Container(
         width: double.infinity,
         height: double.infinity,
