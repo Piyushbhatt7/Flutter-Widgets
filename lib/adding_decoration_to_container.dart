@@ -35,8 +35,8 @@ class AddingDecorationToContainer extends StatelessWidget {
 
                boxShadow: [
                 BoxShadow(
-                  blurRadius: 11,
-                  spreadRadius: 8,
+                  blurRadius: 52, // provide a shadow to a container
+                 // spreadRadius: 8, // spread the radius 
                 )
                ]
             ),
