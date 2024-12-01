@@ -23,7 +23,7 @@ class AddingDecorationToContainer extends StatelessWidget {
                color: Colors.amber,
               // borderRadius: BorderRadius.circular(12), // to make a circle use the half of container width [BorderRadius.circular is a shorcut way to change the edges of container]
                
-               borderRadius: BorderRadius.only()
+               borderRadius: BorderRadius.only(topLeft: ) // when using BorderRadius.only and BorderRadius.all you can't pass the value in double
             ),
           ),
         ),
