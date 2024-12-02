@@ -11,7 +11,7 @@ class custom_fonts extends StatelessWidget {
 
       ),
 
-      body: ,
+      body: Text(data),
     );
   }
 }
