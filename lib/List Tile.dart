@@ -25,7 +25,7 @@ class List_Tile extends StatelessWidget {
         body: ListView.separated(itemBuilder:(context, index) {
          
          return ListTile(
-          leading: ,
+          leading: Text("$index"),
           title: ,
           subtitle: ,
           trailing: ,
