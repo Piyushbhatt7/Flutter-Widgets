@@ -35,7 +35,7 @@ class List_Tile extends StatelessWidget {
 
         itemCount: name.length,
         separatorBuilder: (context, index) {
-          return Divider(height: 100, thickness: 1,);
+          return Divider(height: 40, thickness: 1,);
         },
     ),
     );
