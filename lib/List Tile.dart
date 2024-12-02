@@ -22,7 +22,21 @@ class List_Tile extends StatelessWidget {
         backgroundColor: Colors.lightBlue,
       ),
 
-      
+        body: ListView.separated(itemBuilder:(context, index) {
+         
+         return ListTile(
+          leading: ,
+          title: ,
+          subtitle: ,
+          trailing: ,
+          
+         );
+        },
+
+        itemCount: name.length,
+        separatorBuilder: (context, index) {
+          return Divider(height: 100, thickness: 1,);
+        },
     );
   }
 }
