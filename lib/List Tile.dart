@@ -26,9 +26,9 @@ class List_Tile extends StatelessWidget {
          
          return ListTile(
           leading: Text("$index"),
-          title: ,
-          subtitle: ,
-          trailing: ,
+          title: Text(name[index]),
+          subtitle: Text('Numbers'),
+          trailing: Icon(Icons.emoji_emotions_outlined),
 
          );
         },
