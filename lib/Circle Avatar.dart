@@ -7,7 +7,7 @@ class Circle_Avatar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('List Tile Widget'),
+        title: Text('Circle Avatar'),
         backgroundColor: Colors.lightBlue,
       ),
       
