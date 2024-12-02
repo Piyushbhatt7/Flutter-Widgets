@@ -12,13 +12,10 @@ class Circle_Avatar extends StatelessWidget {
       ),
       
      body: Center(
-       child: Container(
-        width: 150,
-        height: 150,
-         child: CircleAvatar(
-            backgroundImage: AssetImage('assets/images/lodu.png'),
-            backgroundColor: Colors.transparent,
-         ),
+       child: CircleAvatar(
+          backgroundImage: AssetImage('assets/images/lodu.png'),
+          backgroundColor: Colors.transparent,
+          radius: 100,
        ),
      ),
       
