@@ -25,7 +25,7 @@ class List_Tile extends StatelessWidget {
         body: ListView.separated(itemBuilder:(context, index) {
          
          return ListTile(
-          leading: Text("${index+1}"),
+          leading: Text("${index+1}"), // to start the index from 1 use {index+1}
           title: Text(name[index]),
           subtitle: Text('Numbers'),
           trailing: Icon(Icons.emoji_emotions_outlined),
