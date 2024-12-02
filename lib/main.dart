@@ -3,6 +3,7 @@ import 'package:flutter_wigets/Circle%20Avatar.dart';
 import 'package:flutter_wigets/List%20Tile.dart';
 import 'package:flutter_wigets/ListviewBuilder.dart';
 import 'package:flutter_wigets/adding_decoration_to_container.dart';
+import 'package:flutter_wigets/custom%20fonts.dart';
 import 'package:flutter_wigets/expanded%20widget.dart';
 import 'package:flutter_wigets/margin%20and%20padding.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget{
       //   primarySwatch: Colors.blue    // you can also use ThemeData to set color according to you
       // ),
 
-      home: Circle_Avatar(),
+      home: custom_fonts(),   
       
     );
     

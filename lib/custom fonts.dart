@@ -11,7 +11,7 @@ class custom_fonts extends StatelessWidget {
 
       ),
 
-      body: Text(data),
+      body: Center(child: Text('Custom fonts', style: TextStyle(fontFamily: 'ddsfonts', fontSize: 50, fontWeight: FontWeight.bold),)),    // use the family name from pubspec.yaml 
     );
   }
 }
