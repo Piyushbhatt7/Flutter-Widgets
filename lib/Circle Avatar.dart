@@ -17,7 +17,7 @@ class Circle_Avatar extends StatelessWidget {
         height: 150,
          child: CircleAvatar(
             backgroundImage: AssetImage('assets/images/lodu.png'),
-            backgroundColor: Colors.transparent,
+            backgroundColor: Colors.white,
          ),
        ),
      ),
