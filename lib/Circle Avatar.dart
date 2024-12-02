@@ -14,7 +14,15 @@ class Circle_Avatar extends StatelessWidget {
      body: Center(
        child: CircleAvatar(
         //foregroundImage: AssetImage('assets/images/bob.png'),
-        child: Text('Circle Avatar', style: TextStyle(fontSize: 21), ),
+        child: Container(
+          margin: EdgeInsets.only(bottom: 15),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              Text('Circle Avatar', style: TextStyle(fontSize: 21), ),
+            ],
+          ),
+        ),
         backgroundImage: AssetImage('assets/images/lodu.png'),
           backgroundColor: Colors.green,
         //  radius: 100,                           while using radius no need to use container
