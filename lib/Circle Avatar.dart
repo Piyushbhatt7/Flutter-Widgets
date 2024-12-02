@@ -17,7 +17,7 @@ class Circle_Avatar extends StatelessWidget {
           backgroundColor: Colors.transparent,
         //  radius: 100,                           while using radius no need to use container
      //   minRadius: 10,                         // set th minimum radius of a image
-        maxRadius: 100,       // same work as a radius 
+        maxRadius: 100,       // same work as a radius   circle will not be more than 100 no matter how long the image should be
        ),
      ),
       
