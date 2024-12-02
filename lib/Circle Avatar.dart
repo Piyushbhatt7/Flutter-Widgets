@@ -11,7 +11,9 @@ class Circle_Avatar extends StatelessWidget {
         backgroundColor: Colors.lightBlue,
       ),
       
-     
+     body: CircleAvatar(
+        backgroundImage: AssetImage('asset/images/bob'),
+     ),
       
       );
   }
