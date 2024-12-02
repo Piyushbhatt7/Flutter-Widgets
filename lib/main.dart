@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_wigets/List%20Tile.dart';
 import 'package:flutter_wigets/ListviewBuilder.dart';
 import 'package:flutter_wigets/adding_decoration_to_container.dart';
 import 'package:flutter_wigets/expanded%20widget.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget{
       //   primarySwatch: Colors.blue    // you can also use ThemeData to set color according to you
       // ),
 
-      home: ListviewBuilder(),
+      home: List_Tile(),
       
     );
     
