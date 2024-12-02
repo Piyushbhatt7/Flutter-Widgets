@@ -29,7 +29,7 @@ class List_Tile extends StatelessWidget {
           title: ,
           subtitle: ,
           trailing: ,
-          
+
          );
         },
 
@@ -37,6 +37,7 @@ class List_Tile extends StatelessWidget {
         separatorBuilder: (context, index) {
           return Divider(height: 100, thickness: 1,);
         },
+    ),
     );
   }
 }
