@@ -6,6 +6,7 @@ import 'package:flutter_wigets/adding_decoration_to_container.dart';
 import 'package:flutter_wigets/custom%20fonts.dart';
 import 'package:flutter_wigets/expanded%20widget.dart';
 import 'package:flutter_wigets/margin%20and%20padding.dart';
+import 'package:flutter_wigets/styles%20and%20themes.dart';
 
 main(){
   runApp(MyApp());  
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget{
       //   primarySwatch: Colors.blue    // you can also use ThemeData to set color according to you
       // ),
 
-      home: custom_fonts(),   
+      home: styles_themes(),   
       
     );
     
