@@ -77,7 +77,7 @@ flutter:
   fonts:
     - family: Schyler
       fonts:
-        - asset: fonts/dds.ttf
+        - asset: assets/fonts/dds.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
