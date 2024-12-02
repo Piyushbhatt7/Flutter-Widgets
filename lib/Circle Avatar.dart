@@ -13,7 +13,7 @@ class Circle_Avatar extends StatelessWidget {
       
      body: Center(
        child: CircleAvatar(
-        child: Text('Circle Avatar', ),
+        child: Text('Circle Avatar', style: TextStyle(fontSize: 21), ),
         //  backgroundImage: AssetImage('assets/images/lodu.png'),
           backgroundColor: Colors.transparent,
         //  radius: 100,                           while using radius no need to use container
