@@ -16,6 +16,7 @@ class Circle_Avatar extends StatelessWidget {
           backgroundImage: AssetImage('assets/images/lodu.png'),
           backgroundColor: Colors.transparent,
         //  radius: 100,                           while using radius no need to use container
+        minRadius: 10,
        ),
      ),
       
