@@ -19,7 +19,7 @@ class Circle_Avatar extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
-              Text('Circle Avatar', style: TextStyle(fontSize: 21), ),
+              Text('Circle Avatar', style: TextStyle(fontSize: 19, fontWeight: FontWeight.bold), ),
             ],
           ),
         ),
