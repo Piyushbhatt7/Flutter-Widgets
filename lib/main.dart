@@ -49,6 +49,13 @@ class MainScreen extends StatelessWidget{
       //     ],
       //   ),
       // ),    
+      //
+
+      body: Column(
+        children: [
+          
+        ],
+      ), 
 
     );
   }
