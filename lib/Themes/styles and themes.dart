@@ -8,4 +8,18 @@ TextStyle large(){
   );
 }
 
-TextStyle 
+TextStyle medium(){
+
+  return TextStyle(
+    fontSize: 15,
+    fontWeight: FontWeight.w200
+  )
+}
+
+TextStyle small(){
+
+  return TextStyle(
+    fontSize: 10,
+    fontWeight: FontWeight.normal
+  )
+}
