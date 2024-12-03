@@ -12,12 +12,16 @@ class Card_Widget extends StatelessWidget {
         backgroundColor: Colors.lightBlue,
       ),
 
-      body: Card(
-        child: Text(
-          'Card', 
-          style: TextStyle(fontSize: 25),
-          )
-          ),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Card(
+          elevation: 20,
+          child: Text(
+            '  Card Widget  ', 
+            style: TextStyle(fontSize: 25),
+            )
+            ),
+      ),
     );
   }
 }
