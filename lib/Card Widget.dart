@@ -9,6 +9,7 @@ class Card_Widget extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Card Widget'),
+        backgroundColor: Colors.lightBlue,
       ),
 
       body: Card(
