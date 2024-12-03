@@ -10,6 +10,8 @@ class Card_Widget extends StatelessWidget {
       appBar: AppBar(
         title: Text('Card Widget'),
       ),
+
+      body: Text('Card', style: TextStyle(fontSize: 25),),
     );
   }
 }
