@@ -12,15 +12,15 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Application',
-     // theme: ThemeData.dark(), // I have se the theme as dark
-      theme: ThemeData(
-        primarySwatch: Colors.blue,    // you can also use ThemeData to set color according to you
-        textTheme: TextTheme(
-            headlineLarge: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-            headlineSmall: TextStyle(fontSize: 18, fontWeight: FontWeight.w300, fontStyle: FontStyle.italic),
+     theme: ThemeData.dark(), // I have se the theme as dark
+      // theme: ThemeData(
+      //   primarySwatch: Colors.blue,    // you can also use ThemeData to set color according to you
+      //   textTheme: TextTheme(
+      //       headlineLarge: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+      //       headlineSmall: TextStyle(fontSize: 18, fontWeight: FontWeight.w300, fontStyle: FontStyle.italic),
             
-        ),
-      ),
+      //   ),
+      // ),
       
 
       home: Card_Widget(),   
