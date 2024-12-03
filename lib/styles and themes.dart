@@ -12,7 +12,10 @@ class styles_themes extends StatelessWidget {
 
       body: Column(
         children: [
-          Text('Hello World',),
+          Text('Hello World', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+          Text('Hello World', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400, fontStyle: FontStyle.italic),),
+          Text('Hello World', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+          Text('Hello World', style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),),
         ],
       ),   
     );
