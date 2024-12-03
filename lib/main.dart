@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget{
       theme: ThemeData(
         primarySwatch: Colors.blue,    // you can also use ThemeData to set color according to you
         textTheme: TextTheme(
-
+            headLine1: TextStyle(fontSize: 21, fontWeight: FontWeight.bold)
         ),
       ),
       
