@@ -38,17 +38,17 @@ class MainScreen extends StatelessWidget{
 
       ),  
 
-      body: Center(
-        child: Column(
-        // mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text('Hello', style: Theme.of(context).textTheme.headlineLarge!.copyWith(color: Colors.green)),
-            Text('World', style: Theme.of(context).textTheme.headlineSmall!.copyWith(color: Colors.pink),),
-            Text('Hello', style: Theme.of(context).textTheme.headlineLarge,),
-            Text('World', style:Theme.of(context).textTheme.headlineSmall!.copyWith(color: Colors.orange),),
-          ],
-        ),
-      ),    
+      // body: Center(
+      //   child: Column(
+      //   // mainAxisAlignment: MainAxisAlignment.center,
+      //     children: [
+      //       Text('Hello', style: Theme.of(context).textTheme.headlineLarge!.copyWith(color: Colors.green)),
+      //       Text('World', style: Theme.of(context).textTheme.headlineSmall!.copyWith(color: Colors.pink),),    // by using theme custom themes from MaterialAPP is limited
+      //       Text('Hello', style: Theme.of(context).textTheme.headlineLarge,),
+      //       Text('World', style:Theme.of(context).textTheme.headlineSmall!.copyWith(color: Colors.orange),),
+      //     ],
+      //   ),
+      // ),    
 
     );
   }
