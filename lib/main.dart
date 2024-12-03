@@ -41,7 +41,7 @@ class MainScreen extends StatelessWidget{
         child: Column(
         // mainAxisAlignment: MainAxisAlignment.center,
           children: [
-           // Text('Hello', style: Theme.of(context).textTheme.headlineLarge.co),
+            Text('Hello', style: Theme.of(context).textTheme.headlineLarge.co),
             Text('World', style: Theme.of(context).textTheme.headlineSmall!.copyWith(color: Colors.greenAccent),),
             Text('Hello', style: Theme.of(context).textTheme.headlineLarge,),
             Text('World', style:Theme.of(context).textTheme.headlineSmall,),
