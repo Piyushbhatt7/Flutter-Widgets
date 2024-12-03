@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 
-TextStyle boldText(){
+TextStyle large(){
   return TextStyle(
-    fontSize: 11,
+    fontSize: 22,
+    fontWeight: FontWeight.bold
 
   );
 }
+
+TextStyle 
