@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_wigets/Themes/styles%20and%20themes.dart';
 
 main(){
   runApp(MyApp());  
@@ -53,7 +54,11 @@ class MainScreen extends StatelessWidget{
 
       body: Column(
         children: [
-          
+
+          Text('Piyush', style: large(),),
+          Text('Sasha', style: large(),),
+          Text('Kaniska', style: small(),),
+          Text('data')
         ],
       ), 
 
