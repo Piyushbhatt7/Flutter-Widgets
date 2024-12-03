@@ -18,10 +18,11 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Application',
-      theme: ThemeData.dark(), // I have se the theme as dark
-      // theme: ThemeData(
-      //   primarySwatch: Colors.blue    // you can also use ThemeData to set color according to you
-      // ),
+     // theme: ThemeData.dark(), // I have se the theme as dark
+      theme: ThemeData(
+        primarySwatch: Colors.blue    // you can also use ThemeData to set color according to you
+      ),
+      
 
       home: styles_themes(),   
       
