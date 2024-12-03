@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_wigets/Card%20Widget.dart';
 import 'package:flutter_wigets/Themes/styles%20and%20themes.dart';
 
 main(){
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget{
       ),
       
 
-      home: MainScreen(),   
+      home: Card_Widget(),   
       
     );
     
