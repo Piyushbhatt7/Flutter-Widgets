@@ -11,7 +11,12 @@ class Card_Widget extends StatelessWidget {
         title: Text('Card Widget'),
       ),
 
-      body: Text('Card', style: TextStyle(fontSize: 25),),
+      body: Card(
+        child: Text(
+          'Card', 
+          style: TextStyle(fontSize: 25),
+          )
+          ),
     );
   }
 }
