@@ -10,7 +10,11 @@ class styles_themes extends StatelessWidget {
         title: Text('Styles and Theme'),
       ),
 
-      body: Text('Hello World'),   
+      body: Column(
+        children: [
+          Text('Hello World'),
+        ],
+      ),   
     );
   }
 }
