@@ -22,7 +22,8 @@ class MyApp extends StatelessWidget{
       theme: ThemeData(
         primarySwatch: Colors.blue,    // you can also use ThemeData to set color according to you
         textTheme: TextTheme(
-            headLine1: TextStyle(fontSize: 21, fontWeight: FontWeight.bold)
+            headLine1: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),
+            subtitle1: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
         ),
       ),
       
@@ -45,9 +46,14 @@ class MainScreen extends StatelessWidget{
 
       ),
 
-      body: Container(
-        color: Colors.green.shade100,
-      ),
+      body: Column(
+        children: [
+          Text('Hello World', style: Theme.of(context).textTheme.headLine1),
+          Text('Hello World', style:),
+          Text('Hello World', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+          Text('Hello World', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500,fontStyle: FontStyle.italic),),
+        ],
+      ),   
 
     );
   }

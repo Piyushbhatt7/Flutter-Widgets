@@ -12,8 +12,8 @@ class styles_themes extends StatelessWidget {
 
       body: Column(
         children: [
-          Text('Hello World',),
-          Text('Hello World', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w400, fontStyle: FontStyle.italic),),
+          Text('Hello World', style: Theme.of(context).textTheme.headLine1),
+          Text('Hello World', style:),
           Text('Hello World', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
           Text('Hello World', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500,fontStyle: FontStyle.italic),),
         ],
