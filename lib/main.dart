@@ -57,8 +57,8 @@ class MainScreen extends StatelessWidget{
 
           Text('Piyush', style: large(),),
           Text('Sasha', style: large(),),
-          Text('Kaniska', style: small(),),
-          Text('data')
+          Text('Bhatt', style: small(),),
+          Text('Love', style: medium(),)
         ],
       ), 
 
