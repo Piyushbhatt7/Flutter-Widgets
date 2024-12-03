@@ -12,14 +12,17 @@ class Card_Widget extends StatelessWidget {
         backgroundColor: Colors.lightBlue,
       ),
 
-      body: Padding(
-        padding: const EdgeInsets.all(8.0),
+      body: Center(
         child: Card(
-          elevation: 20,
-          child: Text(
-            '  Card Widget  ', 
-            style: TextStyle(fontSize: 25),
-            )
+          elevation: 7,
+          shadowColor: Colors.orange,
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+              'Card Widget', 
+              style: TextStyle(fontSize: 25),
+              ),
+          )
             ),
       ),
     );
