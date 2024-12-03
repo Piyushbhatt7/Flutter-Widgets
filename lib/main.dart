@@ -52,15 +52,17 @@ class MainScreen extends StatelessWidget{
       // ),    
       //
 
-      body: Column(
-        children: [
-
-          Text('Piyush', style: large(),),
-          Text('Bhatt', style: medium(),),
-          Text('Love', style: small(),),
-          Text('Sasha', style: large(),),
-          
-        ],
+      body: Center(
+        child: Column(
+          children: [
+        
+            Text('Piyush', style: large(),),
+            Text('Bhatt', style: medium(),),
+            Text('Love', style: small(),),
+            Text('Sasha', style: large(),),
+            
+          ],
+        ),
       ), 
 
     );
