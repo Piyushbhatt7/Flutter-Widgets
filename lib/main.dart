@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget{
         textTheme: TextTheme(
             headlineLarge: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             headlineSmall: TextStyle(fontSize: 18, fontWeight: FontWeight.w300, fontStyle: FontStyle.italic),
+            
         ),
       ),
       
