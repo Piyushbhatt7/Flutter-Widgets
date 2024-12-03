@@ -37,13 +37,15 @@ class MainScreen extends StatelessWidget{
 
       ),  
 
-      body: Column(
-        children: [
-          Text('Hello', style: Theme.of(context).textTheme.headlineLarge),
-          Text('World', style: Theme.of(context).textTheme.headlineSmall,),
-          Text('Hello', style: Theme.of(context).textTheme.headlineLarge,),
-          Text('World', style:Theme.of(context).textTheme.headlineSmall,),
-        ],
+      body: Center(
+        child: Column(
+          children: [
+            Text('Hello', style: Theme.of(context).textTheme.headlineLarge),
+            Text('World', style: Theme.of(context).textTheme.headlineSmall,),
+            Text('Hello', style: Theme.of(context).textTheme.headlineLarge,),
+            Text('World', style:Theme.of(context).textTheme.headlineSmall,),
+          ],
+        ),
       ),    
 
     );
