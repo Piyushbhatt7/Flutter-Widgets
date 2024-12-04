@@ -26,7 +26,7 @@ class Text_Field extends StatelessWidget {
               TextField(
 
                 controller: bitcoin,  // used to hide personal information
-                obscureText: true,
+               // obscureText: true, // it hide by ( . )
                // enabled: false,     // you can't write on next text filed
                   decoration: InputDecoration(
                     focusedBorder: OutlineInputBorder(
@@ -87,7 +87,7 @@ class Text_Field extends StatelessWidget {
               String ero = euro.text.toString();
    
               print("Bitcoin: $bit, Euro: $ero");
-
+ 
  
             }, child: Text('Currency')
             
