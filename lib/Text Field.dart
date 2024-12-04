@@ -84,8 +84,8 @@ class Text_Field extends StatelessWidget {
               String bit = bitcoin.text.toString();
               String ero = euro.text.toString();
 
-              print("Bitcoin: $bit");
-              
+              print("Bitcoin: $bit, Euro: $ero");
+
  
             }, child: Text('Currency')
             
