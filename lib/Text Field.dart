@@ -25,7 +25,7 @@ class Text_Field extends StatelessWidget {
             children: [
               TextField(
 
-                controller: bitcoin,
+                controller: bitcoin,  // used to hide personal information
                 obscureText: true,
                // enabled: false,     // you can't write on next text filed
                   decoration: InputDecoration(
@@ -60,6 +60,7 @@ class Text_Field extends StatelessWidget {
 
 
               TextField(
+                obscureText: true,
                 controller: euro,
                   decoration: InputDecoration(
                     focusedBorder: OutlineInputBorder(
