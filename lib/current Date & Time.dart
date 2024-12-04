@@ -23,6 +23,7 @@ class Current_date_time extends StatelessWidget {
             style: TextStyle(fontSize: 18, 
             fontWeight: FontWeight.bold, 
             color: Colors.white
+            
             ),
             )
             ),
