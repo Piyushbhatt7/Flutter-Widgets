@@ -26,6 +26,7 @@ class Text_Field extends StatelessWidget {
               TextField(
 
                 controller: bitcoin,
+                obscureText: true,
                // enabled: false,     // you can't write on next text filed
                   decoration: InputDecoration(
                     focusedBorder: OutlineInputBorder(
