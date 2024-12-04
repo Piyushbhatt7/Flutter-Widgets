@@ -16,7 +16,11 @@ class Text_Field extends StatelessWidget {
         child: Container(
           width: 300,
           child: TextField(
-              
+              decoration: InputDecoration(
+                border: OutlineInputBorder(
+                  
+                )
+              ),
           ),
         ),
       ),
