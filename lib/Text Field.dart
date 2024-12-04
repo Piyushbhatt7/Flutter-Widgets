@@ -15,17 +15,34 @@ class Text_Field extends StatelessWidget {
       body: Center(
         child: Container(
           width: 300,
-          child: TextField(
-              decoration: InputDecoration(
-                focusedBorder: ,
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(11),
-                  borderSide: BorderSide(
-                    color: Colors.pink
-                  )
-
-                )
+          child: Column(
+            children: [
+              TextField(
+                  decoration: InputDecoration(
+                    focusedBorder: ,
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(11),
+                      borderSide: BorderSide(
+                        color: Colors.pink
+                      )
+              
+                    )
+                  ),
               ),
+
+              TextField(
+                  decoration: InputDecoration(
+                    //focusedBorder: ,
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(11),
+                      borderSide: BorderSide(
+                        color: Colors.pink
+                      )
+              
+                    )
+                  ),
+              ),
+            ],
           ),
         ),
       ),
