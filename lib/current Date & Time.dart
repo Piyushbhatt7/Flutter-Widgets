@@ -20,7 +20,8 @@ class Current_date_time extends StatelessWidget {
           color: Colors.black,
           child: Center(
             child: Text("Current date and time: ${time}",  
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),)),
+            style: TextStyle(fontSize: 18, 
+            fontWeight: FontWeight.bold, color: Colors.white),)),
         ),
       ),
     );
