@@ -41,6 +41,9 @@ class Text_Field extends StatelessWidget {
                         color: Colors.yellow,
                     )
                   ),
+
+                  prefixIcon: Icon(Icons.emoji_events_sharp),
+                  suffixIcon: Icon(Icons.currency_bitcoin)
               ),
  
               ),
@@ -61,8 +64,10 @@ class Text_Field extends StatelessWidget {
                      
               
                     ),
-
                     
+                    suffixIcon: Icon(Icons.euro_symbol_outlined),
+                    prefixIcon: Icon(Icons.zoom_out_map_rounded)
+
                   ),
       
               ),
