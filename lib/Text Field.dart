@@ -30,12 +30,14 @@ class Text_Field extends StatelessWidget {
                     enabledBorder: OutlineInputBorder(
                        borderRadius: BorderRadius.circular(11),
                       borderSide: BorderSide(
-                        color: Colors.pink,
+                        color: Colors.yellow,
                     )
                   ),
               ),
  
- SizedBox(height: 10,),
+              ),
+
+              SizedBox(height: 10,),
               TextField(
                   decoration: InputDecoration(
                     focusedBorder: OutlineInputBorder(
