@@ -12,9 +12,11 @@ class Text_Field extends StatelessWidget {
         backgroundColor: Colors.lightBlue,
       ),
 
-      body: Center(
-        child: TextField(
-            
+      body: Container(
+        child: Center(
+          child: TextField(
+              
+          ),
         ),
       ),
     );
