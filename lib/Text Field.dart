@@ -18,7 +18,11 @@ class Text_Field extends StatelessWidget {
           child: TextField(
               decoration: InputDecoration(
                 border: OutlineInputBorder(
-                  
+                  borderRadius: BorderRadius.circular(11),
+                  borderSide: BorderSide(
+                    color: Colors.pink
+                  )
+
                 )
               ),
           ),
