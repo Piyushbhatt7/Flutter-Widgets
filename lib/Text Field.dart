@@ -43,7 +43,7 @@ class Text_Field extends StatelessWidget {
                   ),
 
                   prefixIcon: Icon(Icons.emoji_events_sharp),
-                  suffixIcon: Icon(Icons.currency_bitcoin)
+                  suffixIcon: Icon(Icons.currency_bitcoin)  // also use a iconbutton to make a click from user on it.
               ),
  
               ),
