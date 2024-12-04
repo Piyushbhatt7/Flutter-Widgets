@@ -26,9 +26,11 @@ class Text_Field extends StatelessWidget {
               TextField(
 
                 controller: bitcoin,  // used to hide personal information
-               // obscureText: true, // it hide by ( . )
+                obscureText: true, // it hide by ( . )
+               obscuringCharacter: '*', // it hide by *
                // enabled: false,     // you can't write on next text filed
                   decoration: InputDecoration(
+                    hintText: "Enter BitCoin",
                     focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(11),
                       borderSide: BorderSide(
@@ -63,6 +65,7 @@ class Text_Field extends StatelessWidget {
                 obscureText: true,     // used to hide personal information from the text
                 controller: euro,
                   decoration: InputDecoration(
+                     hintText: "Enter Euro",
                     focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(11),
                       borderSide: BorderSide(
