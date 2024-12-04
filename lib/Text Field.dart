@@ -7,7 +7,7 @@ class Text_Field extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-   
+  var bitcoin = TextEditingController();
 
 
     return Scaffold(
