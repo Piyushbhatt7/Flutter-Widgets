@@ -46,6 +46,8 @@ class Text_Field extends StatelessWidget {
               ),
 
               SizedBox(height: 10,),
+
+
               TextField(
                   decoration: InputDecoration(
                     focusedBorder: OutlineInputBorder(
@@ -58,8 +60,11 @@ class Text_Field extends StatelessWidget {
                     border: OutlineInputBorder(
                      
               
-                    )
+                    ),
+
+                    
                   ),
+      
               ),
             ],
           ),
