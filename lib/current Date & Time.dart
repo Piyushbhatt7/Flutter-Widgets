@@ -9,7 +9,7 @@ class Current_date_time extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Cuttent Date & Time'),
+        title: Text('Cuttent Date & Time'),  
         backgroundColor: Colors.lightBlueAccent,
       ),
 
