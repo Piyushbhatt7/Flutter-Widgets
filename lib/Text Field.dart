@@ -25,7 +25,7 @@ class Text_Field extends StatelessWidget {
             children: [
               TextField(
 
-                keyboardType: TextInputType.number
+                keyboardType: TextInputType.number,
 
                 controller: bitcoin,  // used to hide personal information
                 obscureText: true, // it hide by ( . )
