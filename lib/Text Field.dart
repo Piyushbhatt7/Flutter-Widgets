@@ -17,6 +17,7 @@ class Text_Field extends StatelessWidget {
           width: 300,
           child: TextField(
               decoration: InputDecoration(
+                focusedBorder: ,
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(11),
                   borderSide: BorderSide(
