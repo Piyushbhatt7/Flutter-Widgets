@@ -27,7 +27,7 @@ class Text_Field extends StatelessWidget {
                       )
                     ),
                     border: OutlineInputBorder(
-                     
+                        
               
                     )
                   ),
@@ -36,12 +36,14 @@ class Text_Field extends StatelessWidget {
  SizedBox(height: 10,),
               TextField(
                   decoration: InputDecoration(
-                    //focusedBorder: ,
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(11),
+                    focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(11),
                       borderSide: BorderSide(
-                        color: Colors.pink
-                      )
+                        color: Colors.green
+                      ),
+                    ),
+                    border: OutlineInputBorder(
+                     
               
                     )
                   ),
