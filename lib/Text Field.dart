@@ -13,6 +13,7 @@ class Text_Field extends StatelessWidget {
       ),
 
       body: Container(
+        width: 300,
         child: Center(
           child: TextField(
               
