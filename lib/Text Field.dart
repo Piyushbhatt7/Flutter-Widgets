@@ -28,7 +28,9 @@ class Text_Field extends StatelessWidget {
                     
                     ),
                     enabledBorder: OutlineInputBorder(
-                      
+                       borderRadius: BorderRadius.circular(11),
+                      borderSide: BorderSide(
+                        color: Colors.pink,
                     )
                   ),
               ),
