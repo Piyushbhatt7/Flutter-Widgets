@@ -20,12 +20,14 @@ class Text_Field extends StatelessWidget {
             children: [
               TextField(
                   decoration: InputDecoration(
-                   // focusedBorder: ,
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(11),
+                    focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(11),
                       borderSide: BorderSide(
                         color: Colors.pink
                       )
+                    ),
+                    border: OutlineInputBorder(
+                     
               
                     )
                   ),
