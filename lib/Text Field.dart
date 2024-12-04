@@ -79,6 +79,18 @@ class Text_Field extends StatelessWidget {
                   ),
       
               ),
+           
+            ElevatedButton(onPressed: (){
+              String bit = bitcoin.text.toString();
+              String ero = euro.text.toString();
+
+              print("Bitcoin: $bit");
+              
+ 
+            }, child: Text('Currency')
+            
+             ),
+           
             ],
           ),
         ),
