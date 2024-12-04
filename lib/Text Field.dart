@@ -60,7 +60,7 @@ class Text_Field extends StatelessWidget {
 
 
               TextField(
-                obscureText: true,
+                obscureText: true,     // 
                 controller: euro,
                   decoration: InputDecoration(
                     focusedBorder: OutlineInputBorder(
