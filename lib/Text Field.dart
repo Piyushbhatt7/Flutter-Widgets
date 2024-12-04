@@ -19,7 +19,7 @@ class Text_Field extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               TextField(
-                enabled: false,
+               // enabled: false,     // you can't write on next text filed
                   decoration: InputDecoration(
                     focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(11),
