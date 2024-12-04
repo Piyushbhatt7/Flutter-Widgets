@@ -33,6 +33,13 @@ class Text_Field extends StatelessWidget {
                         color: Colors.yellow,
                     )
                   ),
+
+                  disabledBorder:  OutlineInputBorder(
+                       borderRadius: BorderRadius.circular(11),
+                      borderSide: BorderSide(
+                        color: Colors.yellow,
+                    )
+                  ),
               ),
  
               ),
