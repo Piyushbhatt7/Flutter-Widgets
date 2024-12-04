@@ -24,6 +24,8 @@ class Text_Field extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               TextField(
+
+                controller: bitcoin,
                // enabled: false,     // you can't write on next text filed
                   decoration: InputDecoration(
                     focusedBorder: OutlineInputBorder(
@@ -57,6 +59,7 @@ class Text_Field extends StatelessWidget {
 
 
               TextField(
+                controller: euro,
                   decoration: InputDecoration(
                     focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(11),
