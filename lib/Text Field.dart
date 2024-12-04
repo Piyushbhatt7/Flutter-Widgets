@@ -16,6 +16,7 @@ class Text_Field extends StatelessWidget {
         child: Container(
           width: 300,
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               TextField(
                   decoration: InputDecoration(
