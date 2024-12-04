@@ -8,6 +8,7 @@ class Text_Field extends StatelessWidget {
   Widget build(BuildContext context) {
 
   var bitcoin = TextEditingController();
+  var euro = TextEditingController();
 
 
     return Scaffold(
