@@ -60,7 +60,7 @@ class Text_Field extends StatelessWidget {
 
 
               TextField(
-                obscureText: true,     // 
+                obscureText: true,     // used to hide personal information from the text
                 controller: euro,
                   decoration: InputDecoration(
                     focusedBorder: OutlineInputBorder(
@@ -85,7 +85,7 @@ class Text_Field extends StatelessWidget {
             ElevatedButton(onPressed: (){
               String bit = bitcoin.text.toString();
               String ero = euro.text.toString();
-
+   
               print("Bitcoin: $bit, Euro: $ero");
 
  
