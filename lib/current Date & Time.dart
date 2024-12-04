@@ -5,9 +5,11 @@ class Current_date_time extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var time = DateTime.now();
+
     return Scaffold(
       appBar: AppBar(
-        title: Text('Cuttent Date & Time'),
+        title: Text('Cuttent Time ${time}'),
         backgroundColor: Colors.lightBlueAccent,
       ),
     );
