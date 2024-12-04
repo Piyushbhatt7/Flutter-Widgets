@@ -73,13 +73,19 @@ class Text_Field extends StatelessWidget {
                         width: 2
                       ),
                     ),
-                   
-                   disabledBorder:  OutlineInputBorder(
+                     enabledBorder: OutlineInputBorder(
                        borderRadius: BorderRadius.circular(11),
                       borderSide: BorderSide(
                         color: Colors.brown,
                     )
                   ),
+                   
+                  //  disabledBorder:  OutlineInputBorder(
+                  //      borderRadius: BorderRadius.circular(11),
+                  //     borderSide: BorderSide(
+                  //       color: Colors.brown,
+                  //   )
+                  // ),
                     
                     suffixIcon: Icon(Icons.euro_symbol_outlined),
                     prefixIcon: Icon(Icons.zoom_out_map_rounded)
