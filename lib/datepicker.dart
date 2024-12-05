@@ -16,15 +16,18 @@ class _DatepickerState extends State<Datepicker> {
         backgroundColor: Colors.blueAccent,
       ),
 
-      body: Column(
-        children: [
-           Text('Select the Date', style: TextStyle(fontSize: 25),),
-
-           ElevatedButton(onPressed: (){
-
-           }, child: Text('Show)')
-           ),
-        ],
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+             Text('Select the Date', style: TextStyle(fontSize: 25),),
+        
+             ElevatedButton(onPressed: (){
+        
+             }, child: Text('Show')
+             ),
+          ],
+        ),
       ),
     );
   }
