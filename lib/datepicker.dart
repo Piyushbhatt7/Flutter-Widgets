@@ -43,7 +43,7 @@ class _DatepickerState extends State<Datepicker> {
                 print("Date selected: ${pickedTime.hour}-${pickedTime.minute}");
               }
         
-             }, child: Text('Show')
+             }, child: Text('Time')
              ),
         
         
