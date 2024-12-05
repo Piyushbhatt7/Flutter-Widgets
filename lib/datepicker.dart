@@ -26,7 +26,7 @@ class _DatepickerState extends State<Datepicker> {
         
              ElevatedButton(onPressed: () async {
 
-              DateTime? datePicked = await showDatePicker(context: context, firstDate: DateTime(2024), lastDate: DateTime(1999));
+              DateTime? datePicked = await showDatePicker(context: context,firstDate: DateTime(1999), lastDate: DateTime(2024));
 
               if(datePicked!=null){
                 print("Date selected: ${datePicked.day}-${datePicked.month}-${datePicked.year}");
