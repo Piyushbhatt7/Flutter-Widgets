@@ -10,6 +10,8 @@ class Dateformat_patterns extends StatefulWidget {
 class _Dateformat_patternsState extends State<Dateformat_patterns> {
   @override
   Widget build(BuildContext context) {
+
+    var time = datet
     return Scaffold(
       appBar: AppBar(
         title: Center(child: Text('DateFormat Patterns')),
