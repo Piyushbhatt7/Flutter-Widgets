@@ -28,6 +28,12 @@ class Current_date_time extends StatelessWidget {
               color: Colors.white,        
               ),
               ),
+
+              ElevatedButton(onPressed: (){
+
+                
+
+              }, child: Text('Current time:'))
             ],
           ),
         ),
