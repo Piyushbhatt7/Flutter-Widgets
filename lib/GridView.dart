@@ -11,7 +11,16 @@ class Gridview extends StatelessWidget {
         backgroundColor: Colors.tealAccent,
       ),
 
-      body: ,
+      body: GridView.count(crossAxisCount: 2,
+      children: [
+         Container(
+          color: Colors.black,
+         )
+      ],
+      
+      
+      ),
+      
     );
   }
 }
