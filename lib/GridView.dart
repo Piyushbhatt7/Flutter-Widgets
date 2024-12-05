@@ -24,44 +24,18 @@ class Gridview extends StatelessWidget {
         backgroundColor: Colors.tealAccent,
       ),
 
-      body: GridView.count(crossAxisCount: 3,  // devide the row 
+      body: GridView.count(crossAxisCount: 3, 
+      crossAxisSpacing: 11, // devide the row 
       children: [
-         Padding(
-           padding: const EdgeInsets.all(8.0),
-           child: Container(color: arrColors[0],),
-         ),
-         Padding(
-           padding: const EdgeInsets.all(8.0),
-           child: Container(color: arrColors[1],),
-         ),
-         Padding(
-           padding: const EdgeInsets.all(8.0),
-           child: Container(color: arrColors[2],),
-         ),
-         Padding(
-           padding: const EdgeInsets.all(8.0),
-           child: Container(color: arrColors[3],),
-         ),
-         Padding(
-           padding: const EdgeInsets.all(8.0),
-           child: Container(color: arrColors[4],),
-         ),
-         Padding(
-           padding: const EdgeInsets.all(8.0),
-           child: Container(color: arrColors[5],),
-         ),
-         Padding(
-           padding: const EdgeInsets.all(8.0),
-           child: Container(color: arrColors[6],),
-         ),
-         Padding(
-           padding: const EdgeInsets.all(8.0),
-           child: Container(color: arrColors[7],),
-         ),
-         Padding(
-           padding: const EdgeInsets.all(8.0),
-           child: Container(color: arrColors[8],),
-         ),
+         Container(color: arrColors[0],),
+         Container(color: arrColors[1],),
+         Container(color: arrColors[2],),
+         Container(color: arrColors[3],),
+         Container(color: arrColors[4],),
+         Container(color: arrColors[5],),
+         Container(color: arrColors[6],),
+         Container(color: arrColors[7],),
+         Container(color: arrColors[8],),
       ],
       
       
