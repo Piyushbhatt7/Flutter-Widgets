@@ -19,14 +19,17 @@ class Current_date_time extends StatelessWidget {
           width: 200,
           height: 200,
           color: Colors.black,
-          child: Center(
-            child: Text("Current date and time: ${time}",  
-            style: TextStyle(fontSize: 18, 
-            fontWeight: FontWeight.bold, 
-            color: Colors.white,        
-            ),
-            )
-            ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text("Current date and time: ${time}",  
+              style: TextStyle(fontSize: 18, 
+              fontWeight: FontWeight.bold, 
+              color: Colors.white,        
+              ),
+              ),
+            ],
+          ),
         ),
       ),
     );
