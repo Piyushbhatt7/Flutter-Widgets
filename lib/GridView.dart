@@ -42,7 +42,7 @@ class Gridview extends StatelessWidget {
       // ),
 
 
-      body: GridView.count(crossAxisCount: 3, // devide the row
+      body: GridView.extent(maxCrossAxisExtent: 100, // devide the row
       crossAxisSpacing: 11,  
       mainAxisSpacing: 11,
       children: [
