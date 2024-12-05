@@ -34,6 +34,19 @@ class _DatepickerState extends State<Datepicker> {
         
              }, child: Text('Show')
              ),
+        
+              ElevatedButton(onPressed: () async {
+
+              TimeOfDay? pickedTime = await showTimePicker(context: context,initialTime: TimeOfDay.now(), initialEntryMode: TimePickerEntryMode.input);
+
+              if(pickedTime!=null){
+                print("Date selected: ${pickedTime.hour}-${pickedTime.minute}");
+              }
+        
+             }, child: Text('Show')
+             ),
+        
+        
           ],
         ),
       ),
