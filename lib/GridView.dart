@@ -46,10 +46,22 @@ class Gridview extends StatelessWidget {
            padding: const EdgeInsets.all(8.0),
            child: Container(color: arrColors[4],),
          ),
-         Container(color: arrColors[5],),
-         Container(color: arrColors[6],),
-         Container(color: arrColors[7],),
-         Container(color: arrColors[8],),
+         Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: Container(color: arrColors[5],),
+         ),
+         Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: Container(color: arrColors[6],),
+         ),
+         Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: Container(color: arrColors[7],),
+         ),
+         Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: Container(color: arrColors[8],),
+         ),
       ],
       
       
