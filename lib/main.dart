@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_wigets/Card%20Widget.dart';
+import 'package:flutter_wigets/DateFormat%20Patterns.dart';
 import 'package:flutter_wigets/Text%20Field.dart';
 import 'package:flutter_wigets/Themes/styles%20and%20themes.dart';
 import 'package:flutter_wigets/current%20Date%20&%20Time.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget{
       ),
       
 
-      home: Current_date_time(),   
+      home: Dateformat_patterns(),   
       
     );
     
