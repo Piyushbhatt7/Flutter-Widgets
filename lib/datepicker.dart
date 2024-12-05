@@ -16,7 +16,11 @@ class _DatepickerState extends State<Datepicker> {
         backgroundColor: Colors.blueAccent,
       ),
 
-      body: ,
+      body: Column(
+        children: [
+          
+        ],
+      ),
     );
   }
 }
