@@ -27,7 +27,7 @@ class _Current_date_timeState extends State<Current_date_time> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text("Current date and time: ${time.minute}",     // time.year(for year) time.month(for current month) time.minute(for current minute)
+              Text("Current date and time: ${time}",     // time.year(for year) time.month(for current month) time.minute(for current minute)
               style: TextStyle(fontSize: 18, 
               fontWeight: FontWeight.bold, 
               color: Colors.white,        
