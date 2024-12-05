@@ -10,6 +10,8 @@ class Datepicker extends StatefulWidget {
 class _DatepickerState extends State<Datepicker> {
   @override
   Widget build(BuildContext context) {
+
+
     return Scaffold(
       appBar: AppBar(
         title: Center(child: Text('Date Picker')),
@@ -25,6 +27,10 @@ class _DatepickerState extends State<Datepicker> {
              ElevatedButton(onPressed: () async {
 
               DateTime? datePicked = await showDatePicker(context: context, firstDate: DateTime(2024), lastDate: DateTime(1999));
+
+              if(datePicked!=null){
+                print("Date selected: ${datePicked.day}-${datePicked.month}-${datePicked.year}");
+              }
         
              }, child: Text('Show')
              ),
