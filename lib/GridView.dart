@@ -6,7 +6,18 @@ class Gridview extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    var arrColors = [];
+    var arrColors = [
+
+           Colors.red,
+           Colors.green,
+           Colors.yellow,
+           Colors.brown,
+           Colors.orange,
+           Colors.grey,
+           Colors.pink,
+           Colors.black45,
+           Colors.purple
+    ];
     return Scaffold(
       appBar: AppBar(
         title: Text('Grid View'),
