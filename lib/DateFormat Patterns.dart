@@ -29,7 +29,7 @@ class _Dateformat_patternsState extends State<Dateformat_patterns> {
 
           children: [
 
-            Text("Current Time: ${DateFormat('hms').format(time)}"),
+            Text("Current Time: ${DateFormat('Hms').format(time)}"),
 
             ElevatedButton(onPressed: (){
 
