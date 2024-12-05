@@ -61,7 +61,7 @@ class Gridview extends StatelessWidget {
 
       body: GridView.builder( itemBuilder: (context,index){
           return Container(
-            color: arrColors[index],    // mixed version of bot extent and count
+            color: arrColors[index],             // mixed version of bot extent and count
           );
 
       }, itemCount: arrColors.length,
