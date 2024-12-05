@@ -13,6 +13,7 @@ class _Dateformat_patternsState extends State<Dateformat_patterns> {
     return Scaffold(
       appBar: AppBar(
         title: Text('DateFormat Patterns'),
+        backgroundColor: Colors.blue,
       ),
     );
   }
