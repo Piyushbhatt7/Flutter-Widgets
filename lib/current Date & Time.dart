@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Current_date_time extends StatelessWidget {
+class Current_date_time extends StatefulWidget {
   const Current_date_time({super.key});
 
+  @override
+  State<Current_date_time> createState() => _Current_date_timeState();
+}
+
+class _Current_date_timeState extends State<Current_date_time> {
   @override
   Widget build(BuildContext context) {
    
@@ -31,7 +36,9 @@ class Current_date_time extends StatelessWidget {
 
               ElevatedButton(onPressed: (){
 
-                
+                setState((){
+                  
+                });
 
               }, child: Text('Current time:'))
             ],
