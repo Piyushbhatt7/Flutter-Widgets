@@ -22,9 +22,9 @@ class _DatepickerState extends State<Datepicker> {
           children: [
              Text('Select the Date', style: TextStyle(fontSize: 25),),
         
-             ElevatedButton(onPressed: (){
+             ElevatedButton(onPressed: () async {
 
-              var datePicked = showDatePicker(context: context, firstDate: DateTime(2024), lastDate: DateTime(1999));
+              DateTime? datePicked = await showDatePicker(context: context, firstDate: DateTime(2024), lastDate: DateTime(1999));
         
              }, child: Text('Show')
              ),
