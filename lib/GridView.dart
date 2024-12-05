@@ -24,7 +24,7 @@ class Gridview extends StatelessWidget {
         backgroundColor: Colors.tealAccent,
       ),
 
-      body: GridView.count(crossAxisCount: 2,
+      body: GridView.count(crossAxisCount: 3,
       children: [
          Container(color: arrColors[0],),
          Container(color: arrColors[1],),
