@@ -59,11 +59,16 @@ class Gridview extends StatelessWidget {
       
       // ),
 
-      body: GridView.builder(gridDelegate: gridDelegate, itemBuilder: (context,index){
+      body: GridView.builder( itemBuilder: (context,index){
           return Container(
-            color: arrColors[0],
+            color: arrColors[index],
           );
-      })
+
+      }, itemCount: arrColors.length,
+
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3, crossAxisSpacing: 12, mainAxisSpacing: 12),
+      
+      )
       
     );
   }
