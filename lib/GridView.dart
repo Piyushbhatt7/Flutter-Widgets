@@ -15,7 +15,7 @@ class Gridview extends StatelessWidget {
            Colors.orange,
            Colors.grey,
            Colors.pink,
-           Colors.black45,
+           Colors.blue,
            Colors.purple
     ];
     return Scaffold(
