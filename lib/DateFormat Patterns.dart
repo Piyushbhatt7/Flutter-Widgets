@@ -12,7 +12,7 @@ class _Dateformat_patternsState extends State<Dateformat_patterns> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('DateFormat Patterns'),
+        title: Center(child: Text('DateFormat Patterns')),
         backgroundColor: Colors.blue,
       ),
     );
