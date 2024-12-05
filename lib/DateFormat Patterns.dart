@@ -15,6 +15,9 @@ class _Dateformat_patternsState extends State<Dateformat_patterns> {
         title: Center(child: Text('DateFormat Patterns')),
         backgroundColor: Colors.blue,
       ),
+
+      body: ,
+
     );
   }
 }
