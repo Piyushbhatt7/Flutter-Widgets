@@ -1,3 +1,5 @@
+import 'dart:math';
+import 'package:intl/intl.dart';
 import 'package:flutter/material.dart';
 
 class Dateformat_patterns extends StatefulWidget {
@@ -11,14 +13,35 @@ class _Dateformat_patternsState extends State<Dateformat_patterns> {
   @override
   Widget build(BuildContext context) {
 
-    var time = datet
+    var time = DateTime.now();
     return Scaffold(
       appBar: AppBar(
         title: Center(child: Text('DateFormat Patterns')),
         backgroundColor: Colors.blue,
       ),
 
-      body: ,
+      body: Container(
+        width: 200,
+        height: 200,
+
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+
+          children: [
+
+            Text("Current Time: ${DateFormat}"),
+
+            ElevatedButton(onPressed: (){
+
+              setState(() {
+                
+              });
+
+            }, child: Text('Current Time!'))
+          ],
+        ),
+      ),
+    
 
     );
   }
