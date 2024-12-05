@@ -26,11 +26,26 @@ class Gridview extends StatelessWidget {
 
       body: GridView.count(crossAxisCount: 3,
       children: [
-         Container(color: arrColors[0],),
-         Container(color: arrColors[1],),
-         Container(color: arrColors[2],),
-         Container(color: arrColors[3],),
-         Container(color: arrColors[4],),
+         Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: Container(color: arrColors[0],),
+         ),
+         Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: Container(color: arrColors[1],),
+         ),
+         Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: Container(color: arrColors[2],),
+         ),
+         Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: Container(color: arrColors[3],),
+         ),
+         Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: Container(color: arrColors[4],),
+         ),
          Container(color: arrColors[5],),
          Container(color: arrColors[6],),
          Container(color: arrColors[7],),
