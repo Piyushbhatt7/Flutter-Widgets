@@ -58,6 +58,12 @@ class Gridview extends StatelessWidget {
       // ],    
       
       // ),
+
+      body: GridView.builder(gridDelegate: gridDelegate, itemBuilder: (context,index){
+          return Container(
+            color: arrColors[0],
+          );
+      })
       
     );
   }
