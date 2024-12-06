@@ -15,15 +15,21 @@ class custom_widget extends StatelessWidget {
         child: Column(
           children: [
             
-             Container(
-        height: 200,
-        color: Colors.green,
-      ),
+       Expanded(
+        flex: 2,
+         child: Container(
+          height: 200,
+          color: Colors.green,
+               ),
+       ),
       
-       Container(
-        height: 200,
-        color: Colors.purple,
-      ),
+       Expanded(
+        flex: 2,
+         child: Container(
+          height: 200,
+          color: Colors.purple,
+               ),
+       ),
       
        Container(
         height: 200,
