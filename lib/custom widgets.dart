@@ -71,11 +71,9 @@ class custom_widget extends StatelessWidget {
           color: Colors.redAccent,
                ),
        ),
-         
-         
+              
           ],
-        ),
-      
+        ),   
       )
     );
   }
