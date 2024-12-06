@@ -25,14 +25,15 @@ class custom_widget extends StatelessWidget {
               child: SizedBox(
                 width: 100,
                 child: CircleAvatar(
-                   backgroundColor: Colors.green,
+                   backgroundColor: Colors.black,
                 ),
               
               ),
+              
             ),
           
           ),
-               ),
+       ),
        ),
       
        Expanded(
