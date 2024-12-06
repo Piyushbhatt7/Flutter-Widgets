@@ -43,8 +43,11 @@ class custom_widget extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: ListTile(
               leading: CircleAvatar(
-                
+                 backgroundColor: Colors.yellow,
               ),
+
+              title: Text('Name'),
+              subtitle: Text('Mobile No.'),
             ),
             )
             
