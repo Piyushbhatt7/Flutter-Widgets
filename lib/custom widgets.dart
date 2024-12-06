@@ -8,7 +8,7 @@ class custom_widget extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Custom widgets"),
-        
+        backgroundColor: Colors.blue,
       ),
     );
   }
