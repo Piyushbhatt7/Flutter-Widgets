@@ -31,10 +31,13 @@ class custom_widget extends StatelessWidget {
                ),
        ),
       
-       Container(
-        height: 200,
-        color: Colors.orange,
-      ),
+       Expanded(
+        flex: 2,
+         child: Container(
+          height: 200,
+          color: Colors.orange,
+               ),
+       ),
       
        Container(
         height: 200,
