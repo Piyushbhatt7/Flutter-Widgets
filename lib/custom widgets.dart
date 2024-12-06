@@ -16,15 +16,7 @@ class custom_widget extends StatelessWidget {
         color: Colors.green,
       ),
 
-       Container(
-        height: 400,
-        color: Colors.green,
-      ),
 
-       Container(
-        height: 400,
-        color: Colors.green,
-      ),
     );
   }
 }
