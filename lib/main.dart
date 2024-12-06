@@ -9,6 +9,7 @@ import 'package:flutter_wigets/Themes/styles%20and%20themes.dart';
 import 'package:flutter_wigets/adding_decoration_to_container.dart';
 import 'package:flutter_wigets/callback.dart';
 import 'package:flutter_wigets/current%20Date%20&%20Time.dart';
+import 'package:flutter_wigets/custom%20widgets.dart';
 import 'package:flutter_wigets/datepicker.dart';
 
 main(){
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget{
       ),
       
 
-      home: Callback(),   
+      home: custom_widget(),   
       
     );
     
