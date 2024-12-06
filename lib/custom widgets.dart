@@ -11,34 +11,36 @@ class custom_widget extends StatelessWidget {
         backgroundColor: Colors.blue,
       ),
 
-      body: Container(
-        child: Column(
-          children: [
-            
-             Container(
-        height: 200,
-        color: Colors.green,
-      ),
-
-       Container(
-        height: 200,
-        color: Colors.purple,
-      ),
-
-       Container(
-        height: 200,
-        color: Colors.orange,
-      ),
-
-       Container(
-        height: 200,
-        color: Colors.redAccent,
-      ),
-         
-         
-          ],
+      body: Expanded(
+        child: Container(
+          child: Column(
+            children: [
+              
+               Container(
+          height: 200,
+          color: Colors.green,
         ),
-
+        
+         Container(
+          height: 200,
+          color: Colors.purple,
+        ),
+        
+         Container(
+          height: 200,
+          color: Colors.orange,
+        ),
+        
+         Container(
+          height: 200,
+          color: Colors.redAccent,
+        ),
+           
+           
+            ],
+          ),
+        
+        ),
       )
     );
   }
