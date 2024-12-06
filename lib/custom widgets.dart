@@ -10,6 +10,10 @@ class custom_widget extends StatelessWidget {
         title: Text("Custom widgets"),
         backgroundColor: Colors.blue,
       ),
+
+      body: Container(
+        
+      ),
     );
   }
 }
