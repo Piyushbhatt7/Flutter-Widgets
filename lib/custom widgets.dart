@@ -16,22 +16,22 @@ class custom_widget extends StatelessWidget {
           children: [
             
              Container(
-        height: 400,
+        height: 200,
         color: Colors.green,
       ),
 
        Container(
-        height: 400,
+        height: 200,
         color: Colors.purple,
       ),
 
        Container(
-        height: 400,
+        height: 200,
         color: Colors.orange,
       ),
 
        Container(
-        height: 400,
+        height: 200,
         color: Colors.redAccent,
       ),
          
