@@ -3,6 +3,10 @@ import 'package:flutter/material.dart';
 class Callback extends StatelessWidget {
   const Callback({super.key});
 
+  callback(){
+    print("Function called");
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -10,11 +14,9 @@ class Callback extends StatelessWidget {
         title: Text('CallBack'),
       ),
 
-      body: ElevatedButton(onPressed: (){
-
-
-
-      }, child: Text('Callback Me'))
+      body: ElevatedButton(onPressed: callback,
+      
+      child: Text('Callback Me'))
     );
   }
 }
