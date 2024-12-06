@@ -19,20 +19,18 @@ class custom_widget extends StatelessWidget {
         flex: 2,
          child: Container(
           height: 200,
-          color: Colors.green,
+          color: Colors.black,
           child: ListView.builder(itemBuilder: (context, index) => Padding(
             padding: const EdgeInsets.all(11.0),
               child: SizedBox(
                 width: 100,
                 child: CircleAvatar(
-                   backgroundColor: Colors.black,
-                ),
-              
-              ),
-              
-            ),
+                   backgroundColor: Colors.white,
+                ),     
+              ),           
+            ),itemCount: 10, scrollDirection: Axis.horizontal,
           
-          ),
+          ), 
        ),
        ),
       
