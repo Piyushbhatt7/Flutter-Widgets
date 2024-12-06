@@ -5,6 +5,11 @@ class custom_widget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Custom widgets"),
+        
+      ),
+    );
   }
 }
