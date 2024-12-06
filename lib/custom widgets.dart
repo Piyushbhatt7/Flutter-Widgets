@@ -50,10 +50,10 @@ class custom_widget extends StatelessWidget {
               subtitle: Text('Mobile No.'),
               trailing: Icon(Icons.delete),
             ),
-            )
-            
-            
             ),
+            
+            
+            ), 
       ),
        ),
       
