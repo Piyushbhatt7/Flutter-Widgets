@@ -39,7 +39,7 @@ class custom_widget extends StatelessWidget {
          child: Container(
           height: 200,
           color: Colors.purple,
-               ),
+      ),
        ),
       
        Expanded(
