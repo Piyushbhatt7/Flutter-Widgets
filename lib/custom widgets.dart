@@ -48,6 +48,7 @@ class custom_widget extends StatelessWidget {
 
               title: Text('Name'),
               subtitle: Text('Mobile No.'),
+              trailing: Icon(Icons.delete),
             ),
             )
             
@@ -57,7 +58,7 @@ class custom_widget extends StatelessWidget {
        ),
       
        Expanded(
-        flex: 2,
+        flex: 1,
          child: Container(
           height: 200,
           color: Colors.orange,
