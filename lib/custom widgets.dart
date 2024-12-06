@@ -39,6 +39,8 @@ class custom_widget extends StatelessWidget {
          child: Container(
           height: 200,
           color: Colors.purple,
+          child: ListView.builder(itemBuilder: (context, index) => Padding(
+            padding: const EdgeInsets.all(8.0))),
       ),
        ),
       
