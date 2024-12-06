@@ -51,8 +51,7 @@ class custom_widget extends StatelessWidget {
               trailing: Icon(Icons.delete),
             ),
             ),
-            
-            
+                 
             ), 
       ),
        ),
