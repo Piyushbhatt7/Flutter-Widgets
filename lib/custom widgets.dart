@@ -65,7 +65,7 @@ class custom_widget extends StatelessWidget {
        ),
       
        Expanded(
-        flex: 4,
+        flex: 2,
          child: Container(
           height: 200,
           color: Colors.redAccent,
