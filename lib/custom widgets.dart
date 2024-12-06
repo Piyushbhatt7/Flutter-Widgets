@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class custom_widget extends StatelessWidget {
   const custom_widget({super.key});
 
