@@ -11,8 +11,8 @@ class Callback extends StatelessWidget {
       ),
 
       body: ElevatedButton(onPressed: (){
-        
-      }, child: child)
+
+      }, child: Text('Callback'))
     );
   }
 }
