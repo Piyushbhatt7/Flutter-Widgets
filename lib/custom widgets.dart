@@ -40,7 +40,16 @@ class custom_widget extends StatelessWidget {
           height: 200,
           color: Colors.purple,
           child: ListView.builder(itemBuilder: (context, index) => Padding(
-            padding: const EdgeInsets.all(8.0))),
+            padding: const EdgeInsets.all(8.0),
+            child: ListTile(
+              leading: CircleAvatar(
+                
+              ),
+            ),
+            )
+            
+            
+            ),
       ),
        ),
       
