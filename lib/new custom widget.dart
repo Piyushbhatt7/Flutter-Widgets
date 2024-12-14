@@ -4,6 +4,8 @@ import 'package:flutter/widgets.dart';
 class RoundedButtom extends StatelessWidget{
 
  final String btnName;
+ final Color bgcolor;
+ final Icon? icon;
 
 
 
