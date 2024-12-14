@@ -3,7 +3,7 @@ import 'package:flutter/widgets.dart';
 
 class RoundedButtom extends StatelessWidget{
 
- final String
+ final String btnName;
 
 
 
