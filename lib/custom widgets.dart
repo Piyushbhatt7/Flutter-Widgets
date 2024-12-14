@@ -15,24 +15,7 @@ class custom_widget extends StatelessWidget {
         child: Column(
           children: [
             
-       Expanded(
-        flex: 2,
-         child: Container(
-          height: 200,
-          color: Colors.black,
-          child: ListView.builder(itemBuilder: (context, index) => Padding(
-            padding: const EdgeInsets.all(11.0),
-              child: SizedBox(
-                width: 100,
-                child: CircleAvatar(
-                   backgroundColor: Colors.white,
-                ),     
-              ),           
-            ),itemCount: 10, scrollDirection: Axis.horizontal,
-          
-          ), 
-       ),
-       ),
+      
       
        Expanded(
         flex: 4,
