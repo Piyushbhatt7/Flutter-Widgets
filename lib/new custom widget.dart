@@ -35,10 +35,15 @@ class Rounded_Buttom extends StatelessWidget{
                 icon!,
                 Text(btnName, style: textStyle,)
              ],
-         ): Text(btnName, style: textStyle,)
+         ): Text(btnName, style: textStyle,
+         
+         ),
             
             style: ElevatedButton.styleFrom(
-              
+               shadowColor: Colors.pink,
+               shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.only(topRight: Radius.circular(12))
+               )
             ),
         
     );
