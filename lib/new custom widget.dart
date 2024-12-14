@@ -6,6 +6,7 @@ class RoundedButtom extends StatelessWidget{
  final String btnName;
  final Color bgcolor;
  final Icon? icon;
+ final TextStyle? textStyle;
 
 
 
