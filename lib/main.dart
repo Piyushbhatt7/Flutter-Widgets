@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_wigets/new%20custom%20widget.dart';
+import 'package:flutter_wigets/stack.dart';
 
 main() {
   runApp(MyApp());
@@ -25,14 +26,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: Rounded_Buttom(
-        btnName: 'Play',
-        icon: Icon(Icons.access_time_filled),
-        callback: () {
-          print('Pussy');
-        },
-        
-      ),
+      home: stack()
     );
   }
 }
