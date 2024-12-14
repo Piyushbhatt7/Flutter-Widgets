@@ -1,16 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wigets/Card%20Widget.dart';
-import 'package:flutter_wigets/DateFormat%20Patterns.dart';
-import 'package:flutter_wigets/Gridview.dart';
-import 'package:flutter_wigets/Gridviewrowcolumn.dart';
-import 'package:flutter_wigets/How%20to%20add%20image.dart';
-import 'package:flutter_wigets/Text%20Field.dart';
-import 'package:flutter_wigets/widgets/styles%20and%20themes.dart';
-import 'package:flutter_wigets/adding_decoration_to_container.dart';
-import 'package:flutter_wigets/callback.dart';
-import 'package:flutter_wigets/current%20Date%20&%20Time.dart';
-import 'package:flutter_wigets/custom%20widgets.dart';
-import 'package:flutter_wigets/datepicker.dart';
+
 import 'package:flutter_wigets/new%20custom%20widget.dart';
 
 main(){
