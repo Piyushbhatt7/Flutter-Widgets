@@ -7,6 +7,7 @@ class RoundedButtom extends StatelessWidget{
  final Color bgcolor;
  final Icon? icon;
  final TextStyle? textStyle;
+ final VoidCallback? voidCallback;
 
 
 
