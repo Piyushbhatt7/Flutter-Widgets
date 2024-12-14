@@ -15,6 +15,10 @@ class _new_customState extends State<new_custom> {
         backgroundColor: Colors.greenAccent,
         title: Text("Custom widget"),
       ),
+
+      body: ElevatedButton(onPressed: (){
+
+      }, child: Text('click')),
     );
   }
 }
