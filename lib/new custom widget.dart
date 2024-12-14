@@ -9,7 +9,7 @@ class new_custom extends StatefulWidget {
 
 class _new_customState extends State<new_custom> {
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { 
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.greenAccent,
