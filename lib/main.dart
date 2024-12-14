@@ -23,7 +23,10 @@ class MyApp extends StatelessWidget{
       ),
       
 
-      home: Rounded_Buttom(),   
+      home: Rounded_Buttom(btnName: 'Play', icon: Icon(Icons.access_time_filled), callback: (){
+           
+           print('Pussy');
+      },),   
       
     );
     
