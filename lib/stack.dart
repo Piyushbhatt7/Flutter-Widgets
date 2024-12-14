@@ -13,7 +13,42 @@ class stack extends StatelessWidget {
       ),
 
       body: Stack(
-         
+          children: [
+             Container(
+              width: 350,
+              height: 350,
+              color: Colors.deepOrange,
+             ),
+
+              Container(
+              width: 250,
+              height: 250,
+              color: Colors.grey,
+             ),
+
+
+              Container(
+              width: 200,
+              height: 200,
+              color: Colors.pinkAccent,
+             ),
+
+
+
+              Container(
+              width: 150,
+              height: 150,
+              color: Colors.black,
+             ),
+
+
+
+              Container(
+              width: 80,
+              height: 80,
+              color: Colors.blue,
+             ),
+          ],
       ),
     );
   }
