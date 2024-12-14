@@ -9,7 +9,11 @@ class Stack extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.green,
         title: Text('Stack widget'),
-        
+
+      ),
+
+      body: Stack(
+         
       ),
     );
   }
