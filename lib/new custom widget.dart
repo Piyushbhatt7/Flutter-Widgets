@@ -31,7 +31,9 @@ class Rounded_Buttom extends StatelessWidget{
     }, 
 
          child: icon!=null?   Row(
-             
+             children: [
+                
+             ],
          ): Text(btnName, style: textStyle,)
     );
     
