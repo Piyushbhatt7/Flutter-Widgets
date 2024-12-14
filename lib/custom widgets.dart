@@ -15,7 +15,7 @@ class custom_widget extends StatelessWidget {
         child: Column(
           children: [
             
-      
+      CatItems(),
       
        Expanded(
         flex: 4,
