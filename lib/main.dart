@@ -2,46 +2,47 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_wigets/new%20custom%20widget.dart';
 
-main(){
-  runApp(MyApp());  
+main() {
+  runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget{
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Application',
-    //theme: ThemeData.dark(), // I have se the theme as dark
+      //theme: ThemeData.dark(), // I have se the theme as dark
       theme: ThemeData(
-        primarySwatch: Colors.blue,    // you can also use ThemeData to set color according to you
+        primarySwatch: Colors
+            .blue, // you can also use ThemeData to set color according to you
         textTheme: TextTheme(
-            headlineLarge: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-            headlineSmall: TextStyle(fontSize: 18, fontWeight: FontWeight.w300, fontStyle: FontStyle.italic),
-            
+          headlineLarge: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+          headlineSmall: TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.w300,
+              fontStyle: FontStyle.italic),
         ),
       ),
-      
 
-      home: Rounded_Buttom(btnName: 'Play', icon: Icon(Icons.access_time_filled), callback: (){
-           
-           print('Pussy');
-      },),   
-      
+      home: Rounded_Buttom(
+        btnName: 'Play',
+        icon: Icon(Icons.access_time_filled),
+        callback: () {
+          print('Pussy');
+        },
+      ),
     );
-    
   }
 }
 
-class MainScreen extends StatelessWidget{
+class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
       appBar: AppBar(
         title: Text('Flutter Main Screen'),
-
-      ),  
+      ),
 
       // body: Center(
       //   child: Column(
@@ -53,23 +54,31 @@ class MainScreen extends StatelessWidget{
       //       Text('World', style:Theme.of(context).textTheme.headlineSmall!.copyWith(color: Colors.orange),),
       //     ],
       //   ),
-      // ),    
+      // ),
       //
 
       body: Center(
         child: Column(
           children: [
-        
-            Text('Piyush', style: large(),),
-            Text('Bhatt', style: medium(),),  // Universal theme managment 
-            Text('Love', style: small(),),
-            Text('Sasha', style: large(),),
-            
+            Text(
+              'Piyush',
+              style: large(),
+            ),
+            Text(
+              'Bhatt',
+              style: medium(),
+            ), // Universal theme managment
+            Text(
+              'Love',
+              style: small(),
+            ),
+            Text(
+              'Sasha',
+              style: large(),
+            ),
           ],
         ),
-      ), 
-
+      ),
     );
   }
-  
 }
