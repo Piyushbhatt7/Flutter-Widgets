@@ -10,6 +10,10 @@ class new_custom extends StatefulWidget {
 class _new_customState extends State<new_custom> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        
+      ),
+    );
   }
 }
