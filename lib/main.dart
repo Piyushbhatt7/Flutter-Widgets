@@ -58,28 +58,28 @@ class MainScreen extends StatelessWidget {
       // ),
       //
 
-      body: Center(
-        child: Column(
-          children: [
-            Text(
-              'Piyush',
-              style: large(),
-            ),
-            Text(
-              'Bhatt',
-              style: medium(),
-            ), // Universal theme managment
-            Text(
-              'Love',
-              style: small(),
-            ),
-            Text(
-              'Sasha',
-              style: large(),
-            ),
-          ],
-        ),
-      ),
+      // body: Center(
+      //   child: Column(
+      //     children: [
+      //       Text(
+      //         'Piyush',
+      //         style: large(),
+      //       ),
+      //       Text(
+      //         'Bhatt',
+      //         style: medium(),
+      //       ), // Universal theme managment
+      //       Text(
+      //         'Love',
+      //         style: small(),
+      //       ),
+      //       Text(
+      //         'Sasha',
+      //         style: large(),
+      //       ),
+      //     ],
+      //   ),
+      // ),
     );
   }
 }
