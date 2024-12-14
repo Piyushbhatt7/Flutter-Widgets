@@ -43,7 +43,7 @@ class Rounded_Buttom extends StatelessWidget{
                shadowColor: Colors.pink,
                shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.only(topRight: Radius.circular(21),
-                
+                 bottomLeft: Radius.circular(21),
                 )
                )
             ),
