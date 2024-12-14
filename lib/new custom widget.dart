@@ -36,6 +36,10 @@ class Rounded_Buttom extends StatelessWidget{
                 Text(btnName, style: textStyle,)
              ],
          ): Text(btnName, style: textStyle,)
+
+         style: ElevatedButton.styleFrom(
+           
+         ),
     );
     
   }
