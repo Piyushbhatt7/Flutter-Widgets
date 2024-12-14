@@ -12,7 +12,8 @@ class _new_customState extends State<new_custom> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.yellowAccent,
+        backgroundColor: Colors.greenAccent,
+        title: Text("Custom widget"),
       ),
     );
   }
