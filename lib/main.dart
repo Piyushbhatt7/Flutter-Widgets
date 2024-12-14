@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget{
       ),
       
 
-      home: new_custom(),   
+      home: RoundedButtom(),   
       
     );
     
