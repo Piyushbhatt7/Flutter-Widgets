@@ -15,7 +15,7 @@ class Rounded_Buttom extends StatelessWidget{
   {       
     required this.btnName, this.bgcolor = Colors.cyan, this.icon, this.textStyle, this.callback,
   }
- )
+ );
 
 
 
