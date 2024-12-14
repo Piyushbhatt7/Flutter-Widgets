@@ -11,6 +11,7 @@ import 'package:flutter_wigets/callback.dart';
 import 'package:flutter_wigets/current%20Date%20&%20Time.dart';
 import 'package:flutter_wigets/custom%20widgets.dart';
 import 'package:flutter_wigets/datepicker.dart';
+import 'package:flutter_wigets/new%20custom%20widget.dart';
 
 main(){
   runApp(MyApp());  
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget{
       ),
       
 
-      home: custom_widget(),   
+      home: new_custom(),   
       
     );
     
