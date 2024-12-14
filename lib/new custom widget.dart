@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class RoundedButtom extends StatelessWidget{
+class Rounded_Buttom extends StatelessWidget{
 
  final String btnName;
  final Color bgcolor;
@@ -10,7 +10,7 @@ class RoundedButtom extends StatelessWidget{
  final VoidCallback? callback;
 
 
- RoundedButtom(
+ Rounded_Buttom(
 
   {       
     required this.btnName, this.bgcolor = Colors.cyan, this.icon, this.textStyle, this.callback,
