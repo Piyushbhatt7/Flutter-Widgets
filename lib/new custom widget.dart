@@ -26,7 +26,7 @@ class RoundedButtom extends StatelessWidget{
       
       onPressed: (){
 
-        callback();
+        callback!();
 
     }, child:Row(
       children: [
