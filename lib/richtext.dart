@@ -30,7 +30,7 @@ class Rich_text extends StatelessWidget {
                   text: 'Hello', 
                 ),
         
-                TextSpan(text:'World', style: TextStyle(color: Colors.pinkAccent))
+                TextSpan(text:'World', style: TextStyle(color: Colors.pinkAccent, fontSize: 30, fontWeight: FontWeight.bold))
               ]
           )),
       ),
