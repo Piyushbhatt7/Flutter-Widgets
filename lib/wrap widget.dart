@@ -15,7 +15,7 @@ class Wrap_widget extends StatelessWidget {
           direction: Axis.horizontal,    // the  wrap widget work for both row and column
           spacing: 11,
           runSpacing: 11,
-          alignment: WrapAlignment.center,
+          alignment: WrapAlignment.spaceEvenly,
           children: [
             Container(
               height: 100,
