@@ -13,18 +13,16 @@ class sized_box extends StatelessWidget {
       body: ConstrainedBox(
         constraints: BoxConstraints(
           minWidth: 100,
-          minHeight: 100,
-          maxHeight: 150,
+          minHeight: 20,
+          maxHeight: 80,
           maxWidth: 400
         ),
-        child: Center(
-          child: SizedBox.shrink(
-            // width: 200,
-            // height: 50,
-                child: ElevatedButton(onPressed: (){
-                   
-                }, child: Text('Click pussy')),
-          ),
+        child: SizedBox.shrink(
+          // width: 200,
+          // height: 50,
+              child: ElevatedButton(onPressed: (){
+                 
+              }, child: Text('Click pussy')),
         ),
       ),
     );
