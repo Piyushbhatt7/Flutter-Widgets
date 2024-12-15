@@ -11,7 +11,7 @@ class Wrap_widget extends StatelessWidget {
         title: Text('Wrap wiget'),
       ),
 
-        body: Row(
+        body: Wrap(
           children: [
             Container(
               height: 100,
