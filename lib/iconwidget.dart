@@ -12,7 +12,7 @@ class Icon_widget extends StatelessWidget {
         
     ),
 
-    body: Center(child: Icon(Icons.computer_outlined, size: 100,)),
+    body: Center(child: Icon(Icons.computer_outlined, size: 100, color: Colors.purple,)),  // giving a tint to a Icon
 
     );
   }
