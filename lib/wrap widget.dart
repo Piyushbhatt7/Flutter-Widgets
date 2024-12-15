@@ -15,26 +15,26 @@ class Wrap_widget extends StatelessWidget {
           children: [
             Container(
               height: 100,
-              width: 100,
+              width: 300,
               color: Colors.amberAccent,
             ),
 
             Container(
               height: 100,
-              width: 100,
+              width: 300,
               color: Colors.green,
             ),
 
 
             Container(
               height: 100,
-              width: 100,
+              width: 300,
               color: Colors.yellow,
             ),
 
             Container(
               height: 100,
-              width: 100,
+              width: 300,
               color: Colors.blueAccent,
             ),
 
