@@ -11,6 +11,8 @@ class sized_box extends StatelessWidget {
         title: Text('Size box'),
       ),
       body: SizedBox(
+        width: 200,
+        height: 50,
             child: ElevatedButton(onPressed: (){
                
             }, child: Text('Click pussy')),
