@@ -40,7 +40,7 @@ class Wrap_widget extends StatelessWidget {
 
             Container(
               height: 100,
-              width: 100,
+              width: 300,
               color: Colors.pink,
             ),
 
