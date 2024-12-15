@@ -11,16 +11,16 @@ class Rich_text extends StatelessWidget {
         title: Text('Rich text'),
       ),
 
-        body: Center(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text("Hello"),
-              SizedBox(width: 3,),
-              Text('World', style: TextStyle(color: Colors.blue),)
-            ],
-          ),
-        ),
+        // body: Center(
+        //   child: Row(
+        //     mainAxisAlignment: MainAxisAlignment.center,
+        //     children: [
+        //       Text("Hello"),
+        //       SizedBox(width: 3,),
+        //       Text('World', style: TextStyle(color: Colors.blue),)
+        //     ],
+        //   ),
+        // ),
     );
   }
 }
