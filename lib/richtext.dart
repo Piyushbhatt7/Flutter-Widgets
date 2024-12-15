@@ -13,6 +13,7 @@ class Rich_text extends StatelessWidget {
 
         body: Center(
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text("Hello"),
               SizedBox(width: 3,),
