@@ -16,7 +16,7 @@ class Rich_text extends StatelessWidget {
         //     mainAxisAlignment: MainAxisAlignment.center,
         //     children: [
         //       Text("Hello"),
-        //       SizedBox(width: 3,),
+        //       SizedBox(width: 3,),                                      // alternative to make a Rich Text
         //       Text('World', style: TextStyle(color: Colors.blue),)
         //     ],
         //   ),
