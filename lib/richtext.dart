@@ -27,7 +27,9 @@ class Rich_text extends StatelessWidget {
             children: [
               TextSpan(
                 text: 'Hello', 
-              )
+              ),
+
+              TextSpan(text:'World')
             ]
         )),
     );
