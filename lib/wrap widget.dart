@@ -22,14 +22,20 @@ class Wrap_widget extends StatelessWidget {
             Container(
               height: 100,
               width: 100,
-              color: Colors.amberAccent,
+              color: Colors.green,
             ),
 
 
             Container(
               height: 100,
               width: 100,
-              color: Colors.amberAccent,
+              color: Colors.yellow,
+            ),
+
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.blueAccent,
             ),
           ],
         ),
