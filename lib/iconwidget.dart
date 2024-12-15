@@ -12,6 +12,8 @@ class Icon_widget extends StatelessWidget {
         
     ),
 
+    body: Center(child: Icon(Icons.computer_outlined, size: 100,)),
+
     );
   }
 }
