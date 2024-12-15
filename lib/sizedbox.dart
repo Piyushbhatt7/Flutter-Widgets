@@ -12,7 +12,10 @@ class sized_box extends StatelessWidget {
       ),
       body: ConstrainedBox(
         constraints: BoxConstraints(
-          
+          minWidth: 100,
+          minHeight: 100,
+          maxHeight: 200,
+          maxWidth: 400
         ),
         child: Center(
           child: SizedBox.square(
