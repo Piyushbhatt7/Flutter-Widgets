@@ -7,8 +7,11 @@ class sized_box extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.redAccent,
         title: Text('Size box'),
+      ),
+      body: SizedBox(
+            child: ,
       ),
     );
   }
