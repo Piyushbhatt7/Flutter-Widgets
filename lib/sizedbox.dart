@@ -11,7 +11,7 @@ class sized_box extends StatelessWidget {
         title: Text('Size box'),
       ),
       body: Center(
-        child: SizedBox(
+        child: SizedBox.expand(
           // width: 200,
           // height: 50,
               child: ElevatedButton(onPressed: (){
