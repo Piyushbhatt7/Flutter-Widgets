@@ -13,6 +13,7 @@ class Wrap_widget extends StatelessWidget {
 
         body: Wrap( 
           direction: Axis.vertical,    // the  wrap widget work for both row and column
+          spacing: 11,
           children: [
             Container(
               height: 100,
