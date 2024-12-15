@@ -22,16 +22,18 @@ class Rich_text extends StatelessWidget {
       //   ),
       // ),
 
-      body: RichText(
-        text: TextSpan(
-            children: [
-              TextSpan(
-                text: 'Hello', 
-              ),
-
-              TextSpan(text:'World')
-            ]
-        )),
+      body: Center(
+        child: RichText(
+          text: TextSpan(
+              children: [
+                TextSpan(
+                  text: 'Hello', 
+                ),
+        
+                TextSpan(text:'World', style: TextStyle(color: Colors.pinkAccent))
+              ]
+          )),
+      ),
     );
   }
 }
