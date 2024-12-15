@@ -15,7 +15,7 @@ class Rich_text extends StatelessWidget {
           children: [
             Text("Hello"),
             SizedBox(width: 3,),
-            Text('World', style: TextStyle(),)
+            Text('World', style: TextStyle(color: Colors.blue),)
           ],
         ),
     );
