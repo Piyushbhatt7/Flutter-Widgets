@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_wigets/sizedbox.dart';
 import 'package:flutter_wigets/wrap%20widget.dart';
 
 main() {
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: Wrap_widget()
+      home: sized_box()
     );
   }
 }
