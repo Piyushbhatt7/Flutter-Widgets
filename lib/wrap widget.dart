@@ -37,6 +37,32 @@ class Wrap_widget extends StatelessWidget {
               width: 100,
               color: Colors.blueAccent,
             ),
+
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.pink,
+            ),
+
+
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.purpleAccent,
+            ),
+
+
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.lime,
+            ),
+
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.black87,
+            ),
           ],
         ),
     );
