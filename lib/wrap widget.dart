@@ -11,8 +11,8 @@ class Wrap_widget extends StatelessWidget {
         title: Text('Wrap wiget'),
       ),
 
-        body: Wrap(
-          direction: Axis.vertical,
+        body: Wrap( 
+          direction: Axis.vertical,    // the  wrap widget work for both row and column
           children: [
             Container(
               height: 100,
