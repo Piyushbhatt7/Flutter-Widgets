@@ -12,6 +12,7 @@ class Wrap_widget extends StatelessWidget {
       ),
 
         body: Wrap(
+          direction: Axis.vertical,
           children: [
             Container(
               height: 100,
