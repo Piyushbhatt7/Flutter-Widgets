@@ -11,12 +11,14 @@ class Rich_text extends StatelessWidget {
         title: Text('Rich text'),
       ),
 
-        body: Row(
-          children: [
-            Text("Hello"),
-            SizedBox(width: 3,),
-            Text('World', style: TextStyle(color: Colors.blue),)
-          ],
+        body: Center(
+          child: Row(
+            children: [
+              Text("Hello"),
+              SizedBox(width: 3,),
+              Text('World', style: TextStyle(color: Colors.blue),)
+            ],
+          ),
         ),
     );
   }
