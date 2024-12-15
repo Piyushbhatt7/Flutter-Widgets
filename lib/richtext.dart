@@ -21,6 +21,11 @@ class Rich_text extends StatelessWidget {
         //     ],
         //   ),
         // ),
+
+       body: RichText(text: text),
+
+
+
     );
   }
 }
