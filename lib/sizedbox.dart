@@ -10,12 +10,14 @@ class sized_box extends StatelessWidget {
         backgroundColor: Colors.redAccent,
         title: Text('Size box'),
       ),
-      body: SizedBox(
-        width: 200,
-        height: 50,
-            child: ElevatedButton(onPressed: (){
-               
-            }, child: Text('Click pussy')),
+      body: Center(
+        child: SizedBox(
+          // width: 200,
+          // height: 50,
+              child: ElevatedButton(onPressed: (){
+                 
+              }, child: Text('Click pussy')),
+        ),
       ),
     );
   }
