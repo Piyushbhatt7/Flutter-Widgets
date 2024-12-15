@@ -10,6 +10,15 @@ class Wrap_widget extends StatelessWidget {
         backgroundColor: Colors.blueGrey,
         title: Text('Wrap wiget'),
       ),
+
+        body: Row(
+          children: [
+            Container(
+              height: 100,
+              width: 100,
+            )
+          ],
+        ),
     );
   }
 }
