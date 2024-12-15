@@ -18,6 +18,19 @@ class Wrap_widget extends StatelessWidget {
               width: 100,
               color: Colors.amberAccent,
             ),
+
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.amberAccent,
+            ),
+
+
+            Container(
+              height: 100,
+              width: 100,
+              color: Colors.amberAccent,
+            ),
           ],
         ),
     );
