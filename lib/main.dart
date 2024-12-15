@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-
-import 'package:flutter_wigets/new%20custom%20widget.dart';
-import 'package:flutter_wigets/stack.dart';
 import 'package:flutter_wigets/wrap%20widget.dart';
 
 main() {
