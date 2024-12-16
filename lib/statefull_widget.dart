@@ -20,7 +20,7 @@ class _statefull_widgetState extends State<statefull_widget> {
       ),
 
       body: Container(
-        color: Colors.orange.shade300,
+        color: Colors.lightBlueAccent,
         child: Center(
           child: Padding(
             padding: const EdgeInsets.all(8.0),
