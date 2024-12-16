@@ -24,7 +24,9 @@ class _statefull_widgetState extends State<statefull_widget> {
         child: Center(
           child: Column(
             children: [
-              TextField()
+              TextField(
+                controller: no1controller,
+              )
             ],
           ),
         ),
