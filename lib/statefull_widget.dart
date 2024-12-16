@@ -12,7 +12,7 @@ class _statefull_widgetState extends State<statefull_widget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.pinkAccent,
+        backgroundColor: Colors.green.shade300,
         title: Text("Statefull widget"),
       ),
     );
