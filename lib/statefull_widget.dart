@@ -20,9 +20,10 @@ class _statefull_widgetState extends State<statefull_widget> {
       ),
 
       body: Container(
-        color: Colors.blueGrey,
+        color: Colors.orange.shade300,
         child: Center(
           child: Column(
+            mainAxisAlignment: ,
             children: [
               TextField(
                 controller: no1controller,
