@@ -11,6 +11,13 @@ class Positioned_widget extends StatelessWidget {
          backgroundColor: Colors.tealAccent,
          title: Text('Positioed Widget'),
        ),
+
+       body: Container(
+        color: Colors.blueAccent,
+         child: Stack(
+          
+         ),
+       ),
     );
   }
 }
