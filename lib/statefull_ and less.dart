@@ -29,10 +29,10 @@ class _full_widgetState extends State<full_widget> {
                     // count = count+1;
                     // count +=1;
                     count++;
-                    print(count);
+                    
 
                     setState(() {
-                      
+                      print(count);
                     });
             }, child: Text("Increment count"))
           ],
