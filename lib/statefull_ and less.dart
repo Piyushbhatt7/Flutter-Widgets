@@ -10,6 +10,8 @@ class full_widget extends StatefulWidget {
 class _full_widgetState extends State<full_widget> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      
+    );
   }
 }
