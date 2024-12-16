@@ -15,6 +15,17 @@ class _statefull_widgetState extends State<statefull_widget> {
         backgroundColor: Colors.green.shade300,
         title: Text("Statefull widget"),
       ),
+
+      body: Container(
+        color: Colors.blueGrey,
+        child: Center(
+          child: Column(
+            children: [
+              TextField()
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
