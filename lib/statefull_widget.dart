@@ -61,7 +61,7 @@ class _statefull_widgetState extends State<statefull_widget> {
                   ),
                 ),
                 
-                Text("Result")
+                Text("Result", style: TextStyle(fontSize: 20),)
               ],
             ),
           ),
