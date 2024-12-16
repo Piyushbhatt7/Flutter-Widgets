@@ -23,7 +23,7 @@ class _statefull_widgetState extends State<statefull_widget> {
         color: Colors.orange.shade300,
         child: Center(
           child: Column(
-            mainAxisAlignment: ,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               TextField(
                 controller: no1controller,
