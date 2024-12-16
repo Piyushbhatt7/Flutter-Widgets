@@ -23,6 +23,8 @@ class awesome_icon extends StatelessWidget {
                       color: Colors.purple,
                     ),
 
+                    SizedBox(height: 20,),
+
                     FaIcon(FontAwesomeIcons.amazon, size: 80,)
             ],
           )), // giving a tint to an Icon
