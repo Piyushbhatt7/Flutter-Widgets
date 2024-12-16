@@ -33,7 +33,10 @@ class _statefull_widgetState extends State<statefull_widget> {
                 controller: no2controller,
               ),
 
+              SizedBox(height: 10,),
+
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   ElevatedButton(onPressed: (){
 
