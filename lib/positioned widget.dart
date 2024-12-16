@@ -13,6 +13,8 @@ class Positioned_widget extends StatelessWidget {
        ),
 
        body: Container(
+        width: double.infinity,
+        height: double.infinity,
         color: Colors.lightBlue.shade200,
          child: Stack(
           children: [
