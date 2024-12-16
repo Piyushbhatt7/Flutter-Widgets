@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_wigets/awesome%20icon.dart';
 import 'package:flutter_wigets/iconwidget.dart';
+import 'package:flutter_wigets/positioned%20widget.dart';
 import 'package:flutter_wigets/richtext.dart';
 import 'package:flutter_wigets/sizedbox.dart';
 import 'package:flutter_wigets/wrap%20widget.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: awesome_icon()
+      home: Positioned_widget()
     );
   }
 }
