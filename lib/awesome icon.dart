@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 
 class awesome_icon extends StatelessWidget {
   const awesome_icon({super.key});
@@ -12,11 +14,18 @@ class awesome_icon extends StatelessWidget {
       ),
 
       body: Center(
-          child: Icon(
-        Icons.play_circle_fill,
-        size: 100,
-        color: Colors.purple,
-      )), // giving a tint to an Icon
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                      Icons.play_circle_fill,
+                      size: 100,
+                      color: Colors.purple,
+                    ),
+
+                    FaIcon(FontAwesomeIcons.amazon, size: 80,)
+            ],
+          )), // giving a tint to an Icon
     );
   }
 }
