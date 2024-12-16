@@ -25,7 +25,7 @@ class awesome_icon extends StatelessWidget {
 
                     SizedBox(width: 20,),
 
-                    FaIcon(FontAwesomeIcons.amazon, size: 100,)
+                    FaIcon(FontAwesomeIcons.github, size: 100,)
             ],
           )), // giving a tint to an Icon
     );
