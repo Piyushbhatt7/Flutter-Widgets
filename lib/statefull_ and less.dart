@@ -20,7 +20,11 @@ class _full_widgetState extends State<full_widget> {
         child: 
         Column(
           children: [
-            Text("Counter")
+            Text("Counter"),
+
+            ElevatedButton(onPressed: (){
+
+            }, child: Text("Increment count"))
           ],
         ),
        ),
