@@ -19,6 +19,7 @@ class _full_widgetState extends State<full_widget> {
        body: Center(
         child: 
         Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text("Counter"),
 
