@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: full_widget()
+      home: statefull_widget()
     );
   }
 }
