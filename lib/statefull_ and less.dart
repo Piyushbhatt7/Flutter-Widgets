@@ -27,6 +27,7 @@ class _full_widgetState extends State<full_widget> {
 
             ElevatedButton(onPressed: (){
 
+                    count++;
             }, child: Text("Increment count"))
           ],
         ),
