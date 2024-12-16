@@ -10,6 +10,11 @@ class statefull_widget extends StatefulWidget {
 class _statefull_widgetState extends State<statefull_widget> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.pinkAccent,
+        title: Text("Statefull widget"),
+      ),
+    );
   }
 }
