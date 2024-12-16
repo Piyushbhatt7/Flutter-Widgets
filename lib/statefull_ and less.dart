@@ -11,7 +11,10 @@ class _full_widgetState extends State<full_widget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+       appBar: AppBar(
+        backgroundColor: Colors.purple,
+        title: Text("statefull widget"),
+       ),
     );
   }
 }
