@@ -26,7 +26,7 @@ class _full_widgetState extends State<full_widget> {
             Text("Counter: $count", style: TextStyle(fontSize: 30),),
 
             ElevatedButton(onPressed: (){
-
+                    // count = count+1;
                     count++;
             }, child: Text("Increment count"))
           ],
