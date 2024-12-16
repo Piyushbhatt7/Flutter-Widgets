@@ -8,6 +8,8 @@ class full_widget extends StatefulWidget {
 }
 
 class _full_widgetState extends State<full_widget> {
+
+  var count = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,7 +23,7 @@ class _full_widgetState extends State<full_widget> {
         Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Counter", style: TextStyle(fontSize: 30),),
+            Text("Counter: $count", style: TextStyle(fontSize: 30),),
 
             ElevatedButton(onPressed: (){
 
