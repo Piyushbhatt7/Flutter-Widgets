@@ -21,7 +21,7 @@ class _full_widgetState extends State<full_widget> {
         Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Counter"),
+            Text("Counter", style: TextStyle(fontSize: 30),),
 
             ElevatedButton(onPressed: (){
 
