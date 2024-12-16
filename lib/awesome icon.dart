@@ -9,11 +9,14 @@ class awesome_icon extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.tealAccent,
         title: Text('Icon widget'),
-        
-    ),
+      ),
 
-    body: Center(child: Icon(Icons.play_circle_fill, size: 100, color: Colors.purple,)),    // giving a tint to an Icon
-
+      body: Center(
+          child: Icon(
+        Icons.play_circle_fill,
+        size: 100,
+        color: Colors.purple,
+      )), // giving a tint to an Icon
     );
-  } 
-}   
+  }
+}
