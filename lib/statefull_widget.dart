@@ -28,6 +28,7 @@ class _statefull_widgetState extends State<statefull_widget> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 TextField(
+                  keyboardType: TextInputType.numberWithOptions(),
                   controller: no1controller,
                 ),
             
