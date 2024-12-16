@@ -15,6 +15,15 @@ class _full_widgetState extends State<full_widget> {
         backgroundColor: Colors.purple,
         title: Text("statefull widget"),
        ),
+
+       body: Center(
+        child: 
+        Column(
+          children: [
+            Text("Counter")
+          ],
+        ),
+       ),
     );
   }
 }
