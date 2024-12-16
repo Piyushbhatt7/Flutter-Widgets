@@ -59,7 +59,9 @@ class _statefull_widgetState extends State<statefull_widget> {
                       }, child: Text("Division")),
                     ],
                   ),
-                )
+                ),
+                
+                Text("Result")
               ],
             ),
           ),
