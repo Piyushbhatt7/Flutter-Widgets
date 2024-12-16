@@ -10,6 +10,7 @@ class statefull_widget extends StatefulWidget {
 class _statefull_widgetState extends State<statefull_widget> {
 
   var no1controller = TextEditingController();
+  var no2controller = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
