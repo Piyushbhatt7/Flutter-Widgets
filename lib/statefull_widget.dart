@@ -18,7 +18,7 @@ class _statefull_widgetState extends State<statefull_widget> {
         backgroundColor: Colors.black54,
         title: Center(child: Text("Statefull widget")),
       ),
-
+                                                                                                                    
       body: Container(
         color: Colors.blue.shade200,
         child: Center(
@@ -28,7 +28,7 @@ class _statefull_widgetState extends State<statefull_widget> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 TextField(
-                  keyboardType: TextInputType.numberWithOptions(),
+                  keyboardType: TextInputType.number,
                   controller: no1controller,
                 ),
             
