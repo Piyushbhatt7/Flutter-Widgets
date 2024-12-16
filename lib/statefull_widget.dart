@@ -26,6 +26,30 @@ class _statefull_widgetState extends State<statefull_widget> {
             children: [
               TextField(
                 controller: no1controller,
+              ),
+
+              TextField(
+                controller: no2controller,
+              ),
+
+              Row(
+                children: [
+                  ElevatedButton(onPressed: (){
+
+                  }, child: Text("Add")),
+
+                   ElevatedButton(onPressed: (){
+
+                  }, child: Text("Add")),
+
+                   ElevatedButton(onPressed: (){
+
+                  }, child: Text("Add")),
+
+                   ElevatedButton(onPressed: (){
+
+                  }, child: Text("Add")),
+                ],
               )
             ],
           ),
