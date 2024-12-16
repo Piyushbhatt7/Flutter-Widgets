@@ -61,7 +61,10 @@ class _statefull_widgetState extends State<statefull_widget> {
                   ),
                 ),
                 
-                Text("Result", style: TextStyle(fontSize: 20),)
+                Padding(
+                  padding: const EdgeInsets.all(21.0),
+                  child: Text("Result", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
+                )
               ],
             ),
           ),
