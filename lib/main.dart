@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_wigets/awesome%20icon.dart';
 import 'package:flutter_wigets/iconwidget.dart';
 import 'package:flutter_wigets/richtext.dart';
 import 'package:flutter_wigets/sizedbox.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: Icon_widget()
+      home: awesome_icon()
     );
   }
 }
