@@ -9,7 +9,7 @@ class Positioned_widget extends StatelessWidget {
        
        appBar: AppBar(
          backgroundColor: Colors.tealAccent,
-         title: ,
+         title: Text('Positioed Widget'),
        ),
     );
   }
