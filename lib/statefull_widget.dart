@@ -22,40 +22,46 @@ class _statefull_widgetState extends State<statefull_widget> {
       body: Container(
         color: Colors.orange.shade300,
         child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              TextField(
-                controller: no1controller,
-              ),
-
-              TextField(
-                controller: no2controller,
-              ),
-
-              SizedBox(height: 10,),
-
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  ElevatedButton(onPressed: (){
-
-                  }, child: Text("Add")),
-
-                   ElevatedButton(onPressed: (){
-
-                  }, child: Text("Subtraction")),
-
-                   ElevatedButton(onPressed: (){
-
-                  }, child: Text("Multiplication")),
-
-                   ElevatedButton(onPressed: (){
-
-                  }, child: Text("Division")),
-                ],
-              )
-            ],
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                TextField(
+                  controller: no1controller,
+                ),
+            
+                TextField(
+                  controller: no2controller,
+                ),
+            
+                //SizedBox(height: 10,),
+            
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      ElevatedButton(onPressed: (){
+                              
+                      }, child: Text("Add")),
+                              
+                       ElevatedButton(onPressed: (){
+                              
+                      }, child: Text("Subtraction")),
+                              
+                       ElevatedButton(onPressed: (){
+                              
+                      }, child: Text("Multiplication")),
+                              
+                       ElevatedButton(onPressed: (){
+                              
+                      }, child: Text("Division")),
+                    ],
+                  ),
+                )
+              ],
+            ),
           ),
         ),
       ),
