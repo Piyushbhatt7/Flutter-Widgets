@@ -19,13 +19,13 @@ class awesome_icon extends StatelessWidget {
             children: [
               Icon(
                       Icons.play_circle_fill,
-                      size: 100,
+                      size: 20,
                       color: Colors.purple,
                     ),
 
-                    SizedBox(height: 20,),
+                    SizedBox(width: 20,),
 
-                    FaIcon(FontAwesomeIcons.amazon, size: 80,)
+                    FaIcon(FontAwesomeIcons.amazon, size: 100,)
             ],
           )), // giving a tint to an Icon
     );
