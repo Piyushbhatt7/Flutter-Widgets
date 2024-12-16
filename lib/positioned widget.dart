@@ -19,6 +19,8 @@ class Positioned_widget extends StatelessWidget {
          child: Stack(
           children: [
                Positioned(
+                bottom: 41,
+                right: 41,
                  child: Container(
                   width: 100,
                   height: 100,
