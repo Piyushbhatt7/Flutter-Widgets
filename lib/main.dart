@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_wigets/awesome%20icon.dart';
 import 'package:flutter_wigets/iconwidget.dart';
+import 'package:flutter_wigets/maps.dart';
 import 'package:flutter_wigets/positioned%20widget.dart';
 import 'package:flutter_wigets/richtext.dart';
 import 'package:flutter_wigets/sizedbox.dart';
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: statefull_widget()
+      home: Maps()
     );
   }
 }
