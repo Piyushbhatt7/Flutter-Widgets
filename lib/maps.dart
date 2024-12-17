@@ -26,9 +26,12 @@ class Maps extends StatelessWidget {
       body: Container(
         child: ListView(
            children: arrData.map((value){
-              return Container(
-                color: Colors.blue.shade100,
-                  child: Text(value),
+              return Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Container(
+                  color: Colors.blue.shade100,
+                    child: Center(child: Text(value)),
+                ),
               );
            }).toList()
         ),
