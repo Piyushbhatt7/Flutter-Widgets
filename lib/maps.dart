@@ -25,9 +25,11 @@ class Maps extends StatelessWidget {
 
       body: Container(
         child: ListView(
-           children: [
-            
-           ],
+           children: arrData.map((value){
+              return Container(
+                
+              )
+           })
         ),
       ),
     );
