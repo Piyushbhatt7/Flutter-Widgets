@@ -29,6 +29,9 @@ class Maps extends StatelessWidget {
               return Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
+                  decoration: BoxDecoration(
+                    
+                  ),
                   color: Colors.blue.shade100,
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
