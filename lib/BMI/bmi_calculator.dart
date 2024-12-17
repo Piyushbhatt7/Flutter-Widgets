@@ -67,6 +67,15 @@ class _BmiCalculatorState extends State<BmiCalculator> {
           
                     keyboardType: TextInputType.number,
                 ),
+
+                SizedBox(height: 16,),
+
+                ElevatedButton(onPressed: (){
+
+
+                }, child: Text('Calculate')),
+
+                Text('data')
             ],
           ),
         ),
