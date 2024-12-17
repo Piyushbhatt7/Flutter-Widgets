@@ -14,7 +14,8 @@ class constraint_box extends StatelessWidget {
       body: ConstrainedBox(
         constraints: BoxConstraints(
             maxWidth: 200,
-            
+            maxHeight: 200,
+
         ),
         child: Text("Hello world!", style: TextStyle(
           fontSize: 21,
