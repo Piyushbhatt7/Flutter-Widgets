@@ -8,6 +8,7 @@ class constraint_box extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Constraint Box'),
+        backgroundColor: Colors.blue.shade200,
       ),
     );
   }
