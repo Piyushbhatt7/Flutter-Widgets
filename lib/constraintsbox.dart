@@ -10,6 +10,13 @@ class constraint_box extends StatelessWidget {
         title: Text('Constraint Box'),
         backgroundColor: Colors.blue.shade200,
       ),
+
+      body: ConstrainedBox(
+        child: Text("Hello world!", style: TextStyle(
+          fontSize: 21,
+          
+        ),),
+      ),
     );
   }
 }
