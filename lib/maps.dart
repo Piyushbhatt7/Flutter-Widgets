@@ -30,7 +30,10 @@ class Maps extends StatelessWidget {
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
                   color: Colors.blue.shade100,
-                    child: Center(child: Text(value)),
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Center(child: Text(value)),
+                    ),
                 ),
               );
            }).toList()
