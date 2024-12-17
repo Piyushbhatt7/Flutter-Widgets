@@ -6,7 +6,16 @@ class Maps extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    
+    var arrData = [
+      'name',
+      'Piyush',
+      'Sasha',
+      'Mark',
+      'Bhatt',
+      'Kaniska',
+      'Amayra',
+      'Ritika'
+    ];
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue.shade200,
