@@ -10,6 +10,10 @@ class BmiCalculator extends StatefulWidget {
 class _BmiCalculatorState extends State<BmiCalculator> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+        appBar: AppBar(
+            
+        ),
+    );
   }
 }
