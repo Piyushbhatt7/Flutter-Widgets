@@ -6,7 +6,6 @@ class Maps extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     var arrData = [
       'name',
       'Piyush',
@@ -22,26 +21,23 @@ class Maps extends StatelessWidget {
         backgroundColor: Colors.blue.shade200,
         title: Text('Maps'),
       ),
-
       body: Container(
         child: ListView(
-           children: arrData.map((value){
-              return Padding(
+            children: arrData.map((value) {
+          return Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(21),
+                color: Colors.blue.shade100,
+              ),
+              child: Padding(
                 padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  decoration: BoxDecoration(
-                     borderRadius: BorderRadius.circular(21),
-                     color: Colors.blue.shade100,
-                  ),
-                  
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Center(child: Text(value)),
-                    ),
-                ),
-              );
-           }).toList()
-        ),
+                child: Center(child: Text(value)),
+              ),
+            ),
+          );
+        }).toList()),
       ),
     );
   }
