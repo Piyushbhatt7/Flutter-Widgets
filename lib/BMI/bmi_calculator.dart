@@ -55,7 +55,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                 ),
           
           
-                SizedBox(height: 12,), 
+                SizedBox(height: 12,),   
            
           
                 TextField(
