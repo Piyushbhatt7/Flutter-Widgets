@@ -8,12 +8,26 @@ class BmiCalculator extends StatefulWidget {
 }
 
 class _BmiCalculatorState extends State<BmiCalculator> {
+
+    var  weightController = TextEditingController();
+    var  ftController = TextEditingController()
+    var  inchController = TextEditingController()
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.indigoAccent,
         title: Center(child: Text('BMI Calculator')),
+      ),
+
+      body: Column(
+        children: [
+            Text('BMI', style: TextStyle(fontSize: 30, fontWeight: FontWeight.w400),),
+
+            TextField(
+                controller: ,
+            )
+        ],
       ),
     );
   }
