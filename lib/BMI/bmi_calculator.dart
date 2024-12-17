@@ -71,7 +71,10 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                 SizedBox(height: 16,),
 
                 ElevatedButton(onPressed: (){
-
+                 
+                 var wt = weightController.text.toString();
+                 var ft = ftController.text.toString();
+                 var inc = inchController.text.toString();
 
                 }, child: Text('Calculate')),
 
