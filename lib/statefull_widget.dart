@@ -51,6 +51,11 @@ class _statefull_widgetState extends State<statefull_widget> {
                                 var no2 = int.parse(no2controller.text.toString());
 
                                 var sum = no1 + no2;
+                                result = "The sum of $no1 and $no2 is $sum";
+
+                                setState(() {
+                                    
+                                });
 
                         }, child: Text("Add")),
                                 
@@ -72,7 +77,7 @@ class _statefull_widgetState extends State<statefull_widget> {
                 
                 Padding(
                   padding: const EdgeInsets.all(21.0),
-                  child: Text("Result", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
+                  child: Text(result, style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
                 )
               ],
             ),
