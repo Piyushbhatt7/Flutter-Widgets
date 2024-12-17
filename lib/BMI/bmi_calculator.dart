@@ -56,7 +56,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
           
           
                 SizedBox(height: 12,), 
-          
+           
           
                 TextField(
                     controller: inchController,
