@@ -33,6 +33,7 @@ class _statefull_widgetState extends State<statefull_widget> {
                 ),
             
                 TextField(
+                   keyboardType: TextInputType.number,
                   controller: no2controller,
                 ),
             
