@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class BmiCalculator extends StatefulWidget {
@@ -22,7 +23,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
 
       body: Column(
         children: [
-            Text('BMI', style: TextStyle(fontSize: 30, fontWeight: FontWeight.w400),),
+            Text('BMI', style: TextStyle(fontSize: 30, fontWeight: FontWeight.w600),),
 
             TextField(
                 controller: weightController,
@@ -30,7 +31,31 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                     label: Text("Enter your weight in kgs"),
                     prefixIcon: Icon(Icons.line_weight_outlined)
                 ),
-            )
+
+                keyboardType: TextInputType.number,
+            ),
+
+
+            TextField(
+                controller: ftController,
+                decoration: InputDecoration(
+                    label: Text("Enter your height in ft"),
+                    prefixIcon: Icon(Icons.height_outlined)
+                ),
+
+                keyboardType: TextInputType.number,
+            ),
+
+
+            TextField(
+                controller: weightController,
+                decoration: InputDecoration(
+                    label: Text("Enter your height in inches"),
+                    prefixIcon: Icon(Icons.height_sharp)
+                ),
+
+                keyboardType: TextInputType.number,
+            ),
         ],
       ),
     );
