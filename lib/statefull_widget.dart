@@ -41,7 +41,7 @@ class _statefull_widgetState extends State<statefull_widget> {
             
                 Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: expande(
+                  child: Expanded(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
