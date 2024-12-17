@@ -26,7 +26,10 @@ class _BmiCalculatorState extends State<BmiCalculator> {
 
             TextField(
                 controller: weightController,
-                
+                decoration: InputDecoration(
+                    label: Text("Enter your weight in kgs"),
+                    prefixIcon: Icon(Icons.line_weight_outlined)
+                ),
             )
         ],
       ),
