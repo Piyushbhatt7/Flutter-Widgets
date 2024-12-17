@@ -88,7 +88,7 @@ class _statefull_widgetState extends State<statefull_widget> {
                                 var no2 = int.parse(no2controller.text.toString());
 
                                 var div = no1 / no2;
-                                result = "The Division of $no1 and $no2 is $div";
+                                result = "The Division of $no1 and $no2 is ${div.toStringAsFixed(2)}";
 
                                 setState(() {
                                     
