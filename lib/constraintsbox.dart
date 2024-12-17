@@ -12,6 +12,9 @@ class constraint_box extends StatelessWidget {
       ),
 
       body: ConstrainedBox(
+        constraints: BoxConstraints(
+          
+        ),
         child: Text("Hello world!", style: TextStyle(
           fontSize: 21,
           
