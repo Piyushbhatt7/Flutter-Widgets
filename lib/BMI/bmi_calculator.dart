@@ -18,45 +18,58 @@ class _BmiCalculatorState extends State<BmiCalculator> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.indigoAccent,
-        title: Center(child: Text('BMI Calculator')),
+        title: Center(child: Text('your BMI Calculator')),
       ),
 
-      body: Column(
-        children: [
-            Text('BMI', style: TextStyle(fontSize: 30, fontWeight: FontWeight.w600),),
-
-            TextField(
-                controller: weightController,
-                decoration: InputDecoration(
-                    label: Text("Enter your weight in kgs"),
-                    prefixIcon: Icon(Icons.line_weight_outlined)
+      body: Center(
+        child: Container(
+          width: 300,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+                Text('BMI', style: TextStyle(fontSize: 30, fontWeight: FontWeight.w600),),
+          
+                SizedBox(height: 21,),
+          
+                TextField(
+                    controller: weightController,
+                    decoration: InputDecoration(
+                        label: Text("Enter your weight in kgs"),
+                        prefixIcon: Icon(Icons.line_weight_outlined)
+                    ),
+          
+                    keyboardType: TextInputType.number,
                 ),
-
-                keyboardType: TextInputType.number,
-            ),
-
-
-            TextField(
-                controller: ftController,
-                decoration: InputDecoration(
-                    label: Text("Enter your height in ft"),
-                    prefixIcon: Icon(Icons.height_outlined)
+          
+                SizedBox(height: 12,),
+          
+          
+                TextField(
+                    controller: ftController,
+                    decoration: InputDecoration(
+                        label: Text("Enter your height in ft"),
+                        prefixIcon: Icon(Icons.height_outlined)
+                    ),
+          
+                    keyboardType: TextInputType.number,
                 ),
-
-                keyboardType: TextInputType.number,
-            ),
-
-
-            TextField(
-                controller: weightController,
-                decoration: InputDecoration(
-                    label: Text("Enter your height in inches"),
-                    prefixIcon: Icon(Icons.height_sharp)
+          
+          
+                SizedBox(height: 12,), 
+          
+          
+                TextField(
+                    controller: inchController,
+                    decoration: InputDecoration(
+                        label: Text("Enter your height in inches"),
+                        prefixIcon: Icon(Icons.height_sharp)
+                    ),
+          
+                    keyboardType: TextInputType.number,
                 ),
-
-                keyboardType: TextInputType.number,
-            ),
-        ],
+            ],
+          ),
+        ),
       ),
     );
   }
