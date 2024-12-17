@@ -30,7 +30,7 @@ class Maps extends StatelessWidget {
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
                   decoration: BoxDecoration(
-                    
+                     borderRadius: BorderRadius.circular(21)
                   ),
                   color: Colors.blue.shade100,
                     child: Padding(
