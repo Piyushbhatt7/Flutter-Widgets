@@ -60,15 +60,39 @@ class _statefull_widgetState extends State<statefull_widget> {
                         }, child: Text("Add")),
                                 
                          ElevatedButton(onPressed: (){
-                                
+                                var no1 = int.parse(no1controller.text.toString());
+                                var no2 = int.parse(no2controller.text.toString());
+
+                                var sum = no1 - no2;
+                                result = "The Subtraction of $no1 and $no2 is $sum";
+
+                                setState(() {
+                                    
+                                });
                         }, child: Text("Sub")),
                                 
                          ElevatedButton(onPressed: (){
-                                
+                                var no1 = int.parse(no1controller.text.toString());
+                                var no2 = int.parse(no2controller.text.toString());
+
+                                var sum = no1 * no2;
+                                result = "The Multi of $no1 and $no2 is $sum";
+
+                                setState(() {
+                                    
+                                });
                         }, child: Text("Mult")),
                                 
                          ElevatedButton(onPressed: (){
-                                
+                                var no1 = int.parse(no1controller.text.toString());
+                                var no2 = int.parse(no2controller.text.toString());
+
+                                var sum = no1 / no2;
+                                result = "The Division of $no1 and $no2 is $sum";
+
+                                setState(() {
+                                    
+                                });
                         }, child: Text("Div")),
                       ],
                     ),
