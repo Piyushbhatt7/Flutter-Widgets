@@ -11,6 +11,7 @@ class _statefull_widgetState extends State<statefull_widget> {
 
   var no1controller = TextEditingController();
   var no2controller = TextEditingController();
+  var result = "";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,6 +49,9 @@ class _statefull_widgetState extends State<statefull_widget> {
                         ElevatedButton(onPressed: (){
                                 var no1 = int.parse(no1controller.text.toString());
                                 var no2 = int.parse(no2controller.text.toString());
+
+                                var sum = no1 + no2;
+
                         }, child: Text("Add")),
                                 
                          ElevatedButton(onPressed: (){
