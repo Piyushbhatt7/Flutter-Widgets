@@ -51,7 +51,7 @@ class _statefull_widgetState extends State<statefull_widget> {
                                 
                          ElevatedButton(onPressed: (){
                                 
-                        }, child: Text("Subtraction")),
+                        }, child: Text("Sub")),
                                 
                          ElevatedButton(onPressed: (){
                                 
