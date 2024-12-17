@@ -27,6 +27,7 @@ class Maps extends StatelessWidget {
         child: ListView(
            children: arrData.map((value){
               return Container(
+                color: Colors.blue.shade100,
                   child: Text(value),
               );
            }).toList()
