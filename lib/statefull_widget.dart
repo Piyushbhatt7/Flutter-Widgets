@@ -75,8 +75,8 @@ class _statefull_widgetState extends State<statefull_widget> {
                                 var no1 = int.parse(no1controller.text.toString());
                                 var no2 = int.parse(no2controller.text.toString());
 
-                                var sum = no1 * no2;
-                                result = "The Multi of $no1 and $no2 is $sum";
+                                var mult = no1 * no2;
+                                result = "The Multi of $no1 and $no2 is $mult";
 
                                 setState(() {
                                     
