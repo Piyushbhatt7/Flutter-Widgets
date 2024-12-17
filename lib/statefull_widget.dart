@@ -46,7 +46,7 @@ class _statefull_widgetState extends State<statefull_widget> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         ElevatedButton(onPressed: (){
-                                
+                                var no1 = int.parse(no1controller.text.toString());
                         }, child: Text("Add")),
                                 
                          ElevatedButton(onPressed: (){
