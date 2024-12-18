@@ -16,6 +16,8 @@ class _BmiCalculatorState extends State<BmiCalculator> {
 
     var result = "";
 
+    var bgColor = '';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
