@@ -30,9 +30,12 @@ class _BmiCalculatorState extends State<BmiCalculator> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-                Text('BMI', style: TextStyle(fontSize: 35, fontWeight: FontWeight.w800),),
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 80.0),
+                  child: Text('BMI', style: TextStyle(fontSize: 35, fontWeight: FontWeight.w800),),
+                ),
           
-                SizedBox(height: 21,),
+                SizedBox(height: 18,),
           
                 TextField(
                     controller: weightController,
@@ -71,7 +74,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                     keyboardType: TextInputType.number,
                 ),
 
-                SizedBox(height: 16,), 
+                SizedBox(height: 18,), 
 
                 ElevatedButton(onPressed: (){
                  
@@ -124,7 +127,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
 
                 child: Text('Calculate', style: TextStyle(fontSize: 20, color: Colors.deepPurple),)),
 
-                SizedBox(height: 10,),
+                SizedBox(height: 12,),
 
                 Text(result, style: TextStyle(fontSize: 17, color: Colors.black, fontWeight: FontWeight.w700),)
             ],
