@@ -21,9 +21,13 @@ class _BmiCalculatorState extends State<BmiCalculator> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-       // backgroundColor: Colors.indigoAccent,
+        // backgroundColor: Colors.indigoAccent,
         backgroundColor: Colors.black,
-        title: Center(child: Text('your BMI Calculator', style: TextStyle(color: Colors.white),)),
+        title: Center(
+            child: Text(
+          'your BMI Calculator',
+          style: TextStyle(color: Colors.white),
+        )),
       ),
       body: Container(
         color: bgColor,
@@ -34,12 +38,12 @@ class _BmiCalculatorState extends State<BmiCalculator> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-              
-                  SizedBox(height: 55,),
+                  SizedBox(
+                    height: 55,
+                  ),
                   Text(
                     'BMI',
-                    style:
-                        TextStyle(fontSize: 35, fontWeight: FontWeight.w800),
+                    style: TextStyle(fontSize: 35, fontWeight: FontWeight.w800),
                   ),
                   SizedBox(
                     height: 25,
@@ -97,23 +101,23 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                         var wt = weightController.text.toString();
                         var ft = ftController.text.toString();
                         var inc = inchController.text.toString();
-                          
+
                         if (wt != "" && ft != "" && inc != "") {
                           // BMI calculation
-                          
+
                           var iwt = int.parse(wt);
                           var ift = int.parse(ft);
                           var iinch = int.parse(inc);
-                          
+
                           var tinch = (ift * 12) +
                               iinch; // formula to calculate the feet to inch
                           var tCm = tinch * 2.54;
                           var tM = tCm / 100;
-                          
+
                           var bmi = iwt / (tM * tM);
-                          
+
                           var msg = "";
-                          
+
                           if (bmi > 25) {
                             msg = "You are Over Weight 😓😭";
                             bgColor = Colors.redAccent.shade200;
@@ -124,14 +128,12 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                             msg = "Your are Helathy! 🎉🦾";
                             bgColor = Colors.pinkAccent.shade100;
                           }
-                          
+
                           setState(() {
                             result =
                                 "$msg \n Your BMI is = ${bmi.toStringAsFixed(3)}";
                           });
-                        } 
-                        
-                        else {
+                        } else {
                           setState(() {
                             result = "Please fill all the rquired blanks !!";
                           });
