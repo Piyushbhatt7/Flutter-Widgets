@@ -34,14 +34,14 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
               
-                  SizedBox(height: 60,),
+                  SizedBox(height: 55,),
                   Text(
                     'BMI',
                     style:
                         TextStyle(fontSize: 35, fontWeight: FontWeight.w800),
                   ),
                   SizedBox(
-                    height: 28,
+                    height: 25,
                   ),
                   TextField(
                     controller: weightController,
@@ -154,7 +154,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                       child: Text(
                     result,
                     style: TextStyle(
-                        fontSize: 18,
+                        fontSize: 17,
                         color: Colors.black,
                         fontWeight: FontWeight.w700),
                   ))
