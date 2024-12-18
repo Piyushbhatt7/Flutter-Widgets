@@ -96,7 +96,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                           
 
                           setState(() {
-                             result = "Your BMI is = $bmi";
+                             result = "Your BMI is = ${bmi.toStringAsFixed(3)}";
                           });
 
                  }
