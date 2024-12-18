@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_wigets/main.dart';
 
 class Intropage  extends StatelessWidget{
   @override
@@ -20,7 +21,7 @@ class Intropage  extends StatelessWidget{
              ElevatedButton(onPressed: (){
                   Navigator.push(context, MaterialPageRoute(builder: (context){
                         
-                        
+                        return MyApp();
                   }));
              }, child: Text('Next'))
           ],
