@@ -18,8 +18,8 @@ class Intropage  extends StatelessWidget{
              SizedBox(height: 12,),
 
              ElevatedButton(onPressed: (){
-              
-             }, child: child)
+
+             }, child: Text('Next'))
           ],
         ),
     );
