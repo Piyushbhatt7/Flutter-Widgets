@@ -16,7 +16,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
 
     var result = "";
 
-    var bgColor = '';
+    var bgColor = Colors.indigoAccent.shade200;
 
   @override
   Widget build(BuildContext context) {
