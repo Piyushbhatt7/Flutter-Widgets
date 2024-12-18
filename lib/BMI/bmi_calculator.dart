@@ -91,7 +91,11 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                        var tCm = tinch * 2.54;
                        var tM = tCm/100;
                        
-                           var bmi = iwt/() 
+                           var bmi = iwt/(tM*tM);
+
+                           result = "Your BMI is = $bmi";
+                           
+                            
 
                  }
 
