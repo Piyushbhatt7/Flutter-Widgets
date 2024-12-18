@@ -86,6 +86,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                        var iwt = int.parse(wt);
                        var ift = int.parse(ft);
                        var iinch = int.parse(inc);
+
                        
                  }
 
