@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_wigets/BMI/bmi_calculator.dart';
+import 'package:flutter_wigets/IntroPage.dart';
 import 'package:flutter_wigets/awesome%20icon.dart';
 import 'package:flutter_wigets/constraintsbox.dart';
 import 'package:flutter_wigets/iconwidget.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: BmiCalculator()
+      home: Intropage()
     );
   }
 }
