@@ -103,18 +103,19 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                                
                                if(bmi > 25)
                                {
-                                  msg = "You are Over Weight";
+                                  msg = "You are Over Weight 😓😭";
                                   bgColor = Colors.redAccent.shade200;
                                }
 
                                else if(bmi<18)
                                {
-                                  
+                                  msg = "You are Under Weight 😧🥲";
+                                  bgColor = Colors.greenAccent.shade200;
                                }
 
                                else
                                {
-                                  
+                                    msg = "Your are Helathy! 🎉🦾";
                                }
               
                               
