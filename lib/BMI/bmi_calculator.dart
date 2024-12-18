@@ -21,8 +21,9 @@ class _BmiCalculatorState extends State<BmiCalculator> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.indigoAccent,
-        title: Center(child: Text('your BMI Calculator')),
+       // backgroundColor: Colors.indigoAccent,
+        backgroundColor: Colors.black,
+        title: Center(child: Text('your BMI Calculator', style: TextStyle(),)),
       ),
       body: Container(
         color: bgColor,
