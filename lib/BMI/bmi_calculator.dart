@@ -68,13 +68,18 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                     keyboardType: TextInputType.number,
                 ),
 
-                SizedBox(height: 16,), d
+                SizedBox(height: 16,), 
 
                 ElevatedButton(onPressed: (){
                  
                  var wt = weightController.text.toString();
                  var ft = ftController.text.toString();
                  var inc = inchController.text.toString();
+
+                 if(wt!= "" && ft!= "" && inc!= ""){
+                    
+                       
+                 }
 
                 }, child: Text('Calculate')),
 
