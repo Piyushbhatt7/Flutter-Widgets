@@ -13,6 +13,9 @@ class _BmiCalculatorState extends State<BmiCalculator> {
     var  weightController = TextEditingController();
     var  ftController = TextEditingController();
     var  inchController = TextEditingController();
+
+    var result = "";
+    
   @override
   Widget build(BuildContext context) {
     return Scaffold(
