@@ -109,7 +109,20 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                  }
 
                 }, 
-                child: Text('Calculate', style: TextStyle(backgroundColor: Colors.black),)),
+                style: ElevatedButton.styleFrom(
+                  side: BorderSide(
+                    color: Colors.black,
+                    width: 3
+                  ),
+
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+
+                  
+                ),
+
+                child: Text('Calculate', style: TextStyle(fontSize: 20, color: Colors.deepPurple),)),
 
                 SizedBox(height: 10,),
 
