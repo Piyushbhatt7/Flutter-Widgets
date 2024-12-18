@@ -78,6 +78,11 @@ class _BmiCalculatorState extends State<BmiCalculator> {
 
                  if(wt!= "" && ft!= "" && inc!= ""){
                     
+                       // BMI calculation
+                 }
+
+                 else {
+
                        
                  }
 
