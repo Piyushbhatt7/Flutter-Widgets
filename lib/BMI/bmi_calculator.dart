@@ -32,10 +32,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                  Padding(
-                    padding: const EdgeInsets.only(bottom: 20.0),
-                    child: Text('BMI', style: TextStyle(fontSize: 35, fontWeight: FontWeight.w800),),
-                  ),
+                  Text('BMI', style: TextStyle(fontSize: 35, fontWeight: FontWeight.w800),),
             
                   SizedBox(height: 18,),
             
