@@ -87,7 +87,8 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                        var ift = int.parse(ft);
                        var iinch = int.parse(inc);
 
-                       
+                       var tinch = (ift*12) + iinch;       
+
                  }
 
                  else {
