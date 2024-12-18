@@ -16,7 +16,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
 
     var result = "";
 
-    var bgColor = Colors.indigoAccent.shade200;
+    var bgColor = Colors.indigoAccent.shade100;
 
   @override
   Widget build(BuildContext context) {
@@ -98,6 +98,23 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                            var tM = tCm/100;
                            
                                var bmi = iwt/(tM*tM);
+
+                               var msg = "";
+                               
+                               if(bmi > 25)
+                               {
+                                      
+                               }
+
+                               else if(bmi<18)
+                               {
+                                  
+                               }
+
+                               else
+                               {
+                                  
+                               }
               
                               
               
