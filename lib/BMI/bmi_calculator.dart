@@ -30,14 +30,14 @@ class _BmiCalculatorState extends State<BmiCalculator> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-                Text('BMI', style: TextStyle(fontSize: 30, fontWeight: FontWeight.w600),),
+                Text('BMI', style: TextStyle(fontSize: 35, fontWeight: FontWeight.w800),),
           
                 SizedBox(height: 21,),
           
                 TextField(
                     controller: weightController,
                     decoration: InputDecoration(
-                        label: Text("Enter your weight in kgs", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, fontStyle: FontStyle.italic),),
+                        label: Text("Enter your weight in kgs", style: TextStyle(fontSize: 17, fontWeight: FontWeight.w500, fontStyle: FontStyle.italic),),
                         prefixIcon: Icon(Icons.line_weight_outlined)
                     ),
           
@@ -50,7 +50,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                 TextField(
                     controller: ftController,
                     decoration: InputDecoration(
-                        label: Text("Enter your height in ft", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, fontStyle: FontStyle.italic),),
+                        label: Text("Enter your height in ft", style: TextStyle(fontSize: 17, fontWeight: FontWeight.w500, fontStyle: FontStyle.italic),),
                         prefixIcon: Icon(Icons.height_outlined)
                     ),
           
