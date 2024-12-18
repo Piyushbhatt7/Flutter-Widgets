@@ -11,7 +11,13 @@ class Intropage  extends StatelessWidget{
           title: Text('Intro Page'),
         ),
 
-       // body: ,
+        body: Column(
+          children: [
+             Text('Welcome', style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),),
+
+             SizedBox(height: 12,),
+          ],
+        ),
     );
     
   }
