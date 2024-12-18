@@ -82,6 +82,11 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                  if(wt!= "" && ft!= "" && inc!= ""){
                     
                        // BMI calculation
+
+                       var iwt = int.parse(wt);
+                       var ift = int.parse(ft);
+                       var iinch = int.parse(inc);
+                       
                  }
 
                  else {
@@ -93,7 +98,9 @@ class _BmiCalculatorState extends State<BmiCalculator> {
 
                 }, child: Text('Calculate')),
 
-                Text(result, style: TextStyle(fontSize: 17),)
+                SizedBox(height: 10,),
+
+                Text(result, style: TextStyle(fontSize: 17, color: Colors.black,),)
             ],
           ),
         ),
