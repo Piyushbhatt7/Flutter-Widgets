@@ -18,7 +18,9 @@ class Intropage  extends StatelessWidget{
              SizedBox(height: 12,),
 
              ElevatedButton(onPressed: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context){
 
+                  }));
              }, child: Text('Next'))
           ],
         ),
