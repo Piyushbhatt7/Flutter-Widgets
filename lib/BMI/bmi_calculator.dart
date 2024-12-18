@@ -87,7 +87,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                  else {
 
                        setState(() {
-                            result;
+                            result = "Please fill all the rquired blanks !!";
                        });
                  }
 
