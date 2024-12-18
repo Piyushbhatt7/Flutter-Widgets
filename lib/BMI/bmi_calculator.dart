@@ -116,6 +116,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                                else
                                {
                                     msg = "Your are Helathy! 🎉🦾";
+                                    bgColor = Colors.pink.shade100;
                                }
               
                               
