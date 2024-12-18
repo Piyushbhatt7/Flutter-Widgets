@@ -15,7 +15,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
     var  inchController = TextEditingController();
 
     var result = "";
-    
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -86,12 +86,14 @@ class _BmiCalculatorState extends State<BmiCalculator> {
 
                  else {
 
-                       
+                       setState(() {
+                            result;
+                       });
                  }
 
                 }, child: Text('Calculate')),
 
-                Text('data')
+                Text(result, style: TextStyle(fontSize: 17),)
             ],
           ),
         ),
