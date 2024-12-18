@@ -9,7 +9,7 @@ class Intropage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Intro Page'),
       ),
-      body: Center(
+      body: Center(   
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
