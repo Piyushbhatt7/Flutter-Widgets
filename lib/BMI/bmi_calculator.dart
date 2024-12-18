@@ -27,6 +27,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
       ),
 
       body: Container(
+        color: bgColor,
         child: Center(
           child: Container(
             width: 300,
