@@ -64,7 +64,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                 TextField( 
                     controller: inchController,
                     decoration: InputDecoration(
-                        label: Text("Enter your height in inches", style: TextStyle(),),
+                        label: Text("Enter your height in inches", style: TextStyle(fontSize: 12),),
                         prefixIcon: Icon(Icons.height_sharp)
                     ),
           
