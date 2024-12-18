@@ -37,7 +37,7 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                 TextField(
                     controller: weightController,
                     decoration: InputDecoration(
-                        label: Text("Enter your weight in kgs"),
+                        label: Text("Enter your weight in kgs", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, fontStyle: FontStyle.italic),),
                         prefixIcon: Icon(Icons.line_weight_outlined)
                     ),
           
