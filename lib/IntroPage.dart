@@ -11,7 +11,7 @@ class Intropage  extends StatelessWidget{
           title: Text('Intro Page'),
         ),
 
-        body: ,
+       // body: ,
     );
     
   }
