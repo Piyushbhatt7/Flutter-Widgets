@@ -16,6 +16,10 @@ class Intropage  extends StatelessWidget{
              Text('Welcome', style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),),
 
              SizedBox(height: 12,),
+
+             ElevatedButton(onPressed: (){
+              
+             }, child: child)
           ],
         ),
     );
