@@ -93,9 +93,11 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                        
                            var bmi = iwt/(tM*tM);
 
-                           result = "Your BMI is = $bmi";
-                           
-                            
+                          
+
+                          setState(() {
+                             result = "Your BMI is = $bmi";
+                          });
 
                  }
 
