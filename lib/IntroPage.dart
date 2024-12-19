@@ -8,11 +8,12 @@ class Intropage extends StatelessWidget {
 
     var nameController = TextEditingController();
 
-    
+
     return Scaffold(
       appBar: AppBar(
         title: Text('Intro Page'), 
       ),
+  
       body: Center(   
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -26,7 +27,7 @@ class Intropage extends StatelessWidget {
             ),
 
             TextField(
-                   controller: ,
+                   controller: nameController,
             ),
 
 
