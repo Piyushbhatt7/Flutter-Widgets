@@ -25,7 +25,7 @@ class Intropage extends StatelessWidget {
                 style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),
               ),
               SizedBox(
-                height: 12,
+                height: 8,
               ),
           
               TextField(
