@@ -1,17 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_wigets/BMI/bmi_calculator.dart';
-import 'package:flutter_wigets/IntroPage.dart';
-import 'package:flutter_wigets/awesome%20icon.dart';
-import 'package:flutter_wigets/constraintsbox.dart';
-import 'package:flutter_wigets/iconwidget.dart';
-import 'package:flutter_wigets/maps.dart';
-import 'package:flutter_wigets/positioned%20widget.dart';
-import 'package:flutter_wigets/richtext.dart';
-import 'package:flutter_wigets/sizedbox.dart';
-import 'package:flutter_wigets/splashScree.dart';
-import 'package:flutter_wigets/statefull_%20and%20less.dart';
-import 'package:flutter_wigets/statefull_widget.dart';
-import 'package:flutter_wigets/wrap%20widget.dart';
+
 
 main() {
   runApp(MyApp());

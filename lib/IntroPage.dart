@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_wigets/dashScreen.dart';
-import 'package:flutter_wigets/main.dart';
+
 
 class Intropage extends StatelessWidget {
   @override
