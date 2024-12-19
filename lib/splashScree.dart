@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_wigets/IntroPage.dart';
 
 class Splashscreen extends StatefulWidget {
-
   const Splashscreen({super.key});
 
   @override
@@ -13,14 +12,16 @@ class Splashscreen extends StatefulWidget {
 }
 
 class _SplashscreenState extends State<Splashscreen> {
-
-
- @override
+  @override
   void initState() {
     super.initState();
 
-    Timer(Duration(seconds: 2,), (){
-          Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> Intropage()));
+    Timer(
+        Duration(
+          seconds: 2,
+        ), () {
+      Navigator.pushReplacement(
+          context, MaterialPageRoute(builder: (context) => Intropage()));
     });
   }
 
