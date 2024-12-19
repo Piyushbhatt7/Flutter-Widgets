@@ -17,7 +17,7 @@ class _AddingRangeSliderState extends State<AddingRangeSlider> {
         title: Text('Range Slider Example'),
         backgroundColor: Colors.blueGrey,
       ),
-      body: Center(
+      body: Center( 
         child: RangeSlider(
           values: _values,
           labels: labels,
