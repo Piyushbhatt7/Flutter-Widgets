@@ -21,7 +21,7 @@ class _AddingRangeSliderState extends State<AddingRangeSlider> {
       body: Center(
         child: RangeSlider(
           values: _values,
-          labels: labels,
+          labels: labels, 
           divisions: 10,
           max: 100,
           min: 0,
