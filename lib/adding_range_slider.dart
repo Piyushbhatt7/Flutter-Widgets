@@ -22,7 +22,7 @@ class _AddingRangeSliderState extends State<AddingRangeSlider> {
           values: _values,
           labels: labels,
           divisions: 10,
-          max: 100,
+          max: 100, 
           min: 0,
          activeColor: Colors.red,
          inactiveColor: Colors.green,
