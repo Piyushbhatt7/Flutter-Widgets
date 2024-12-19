@@ -21,6 +21,7 @@ class _AddingRangeSliderState extends State<AddingRangeSlider> {
         child: RangeSlider(
           values: values, 
           labels: labels,
+          divisions: 10,
           onChanged: (newValue){
               values = newValue;
 
