@@ -9,7 +9,8 @@ class Splashscreen extends StatelessWidget {
     return Scaffold(
         
         appBar: AppBar(
-          backgroundColor: ,
+          backgroundColor: Colors.indigoAccent,
+          title: ,
         ),
     );
   }
