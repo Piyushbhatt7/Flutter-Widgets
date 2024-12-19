@@ -24,6 +24,8 @@ class _AddingRangeSliderState extends State<AddingRangeSlider> {
           divisions: 10,
           max: 100,
           min: 0,
+         activeColor: Colors.red,
+         inactiveColor: Colors.green,
           onChanged: (newValue) {
             setState(() {
               _values = newValue;
