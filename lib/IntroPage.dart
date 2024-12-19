@@ -13,7 +13,7 @@ class Intropage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Intro Page'), 
-        backgroundColor: Colors.deepPurpleAccent.shade200,
+        backgroundColor: Colors.deepPurpleAccent.shade100,
       ),
   
       body: Center(   
