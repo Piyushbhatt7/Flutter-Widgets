@@ -7,12 +7,14 @@ class Splashscreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.indigoAccent,
-        title: Center(child: Text('Splash screen')),
-      ),
+      // appBar: AppBar(
+      //   backgroundColor: Colors.indigoAccent,
+      //   title: Center(child: Text('Splash screen')),
+      // ),
 
-      body: ,
+      body: Container(
+        
+      ),
     );
   }
 }
