@@ -9,7 +9,7 @@ class _AddingRangeSliderState extends State<AddingRangeSlider> {
   @override
   Widget build(BuildContext context) {
 
-    RangeValues values = RangeValues(0, 5);
+    RangeValues values = RangeValues(0, 1);
 
     RangeLabels labels = RangeLabels(values.start.toString(), values.end.toString());
     return Scaffold(
@@ -22,6 +22,8 @@ class _AddingRangeSliderState extends State<AddingRangeSlider> {
           values: values, 
           labels: labels,
           divisions: 10,
+          max: 100,
+          min: 0,
           onChanged: (newValue){
               values = newValue;
               print('${newValue.start}, ${newValue.end}');
