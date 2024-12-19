@@ -15,30 +15,33 @@ class Intropage extends StatelessWidget {
       ),
   
       body: Center(   
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Text(
-              'Welcome',
-              style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),
-            ),
-            SizedBox(
-              height: 12,
-            ),
-
-            TextField(
-                   controller: nameController,
-            ),
-
-
-            ElevatedButton(
-                onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return MyApp();
-                  }));
-                },
-                child: Text('Next'))
-          ],
+        child: Container(
+          width: 300,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Text(
+                'Welcome',
+                style: TextStyle(fontSize: 21, fontWeight: FontWeight.bold),
+              ),
+              SizedBox(
+                height: 12,
+              ),
+          
+              TextField(
+                     controller: nameController,
+              ),
+          
+          
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) {
+                      return MyApp();
+                    }));
+                  },
+                  child: Text('Next'))
+            ],
+          ),
         ),
       ),
     );
