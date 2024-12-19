@@ -18,6 +18,10 @@ class _DashScreenState extends State<DashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
              Text("", style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),),
+
+             ElevatedButton(onPressed: (){
+                Navigator.pop(context);
+             }, child: Text("Back"),) 
           ],
         ),
       ),
