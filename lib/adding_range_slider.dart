@@ -24,6 +24,7 @@ class _AddingRangeSliderState extends State<AddingRangeSlider> {
           divisions: 10,
           onChanged: (newValue){
               values = newValue;
+              print('${newValue.start}, ${newValue.end}');
 
               setState(() {
                   
