@@ -11,6 +11,7 @@ class _DashScreenState extends State<DashScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Dash Screen'),
+        backgroundColor: Colors.blueGrey,
       ),
       body: Center(
         child: Text('Welcome to Dash Screen!'),
