@@ -14,7 +14,11 @@ class _DashScreenState extends State<DashScreen> {
         backgroundColor: Colors.blueGrey,
       ),
       body: Center(
-        child: Text('Welcome to Dash Screen!'),
+        child: Column(
+          children: [
+            
+          ],
+        ),
       ),
     );
   }
