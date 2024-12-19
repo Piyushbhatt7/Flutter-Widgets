@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_wigets/How%20to%20add%20image.dart';
 import 'package:flutter_wigets/IntroPage.dart';
+import 'package:flutter_wigets/adding_range_slider.dart';
 
 
 main() {
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: Intropage()
+      home: AddingRangeSlider()
     );
   }
 }
