@@ -10,22 +10,23 @@ class _AddingRangeSliderState extends State<AddingRangeSlider> {
 
   @override
   Widget build(BuildContext context) {
-    RangeLabels labels = RangeLabels(_values.start.toString(), _values.end.toString());
+    RangeLabels labels =
+        RangeLabels(_values.start.toString(), _values.end.toString());
 
     return Scaffold(
       appBar: AppBar(
         title: Text('Range Slider Example'),
         backgroundColor: Colors.blueGrey,
       ),
-      body: Center( 
+      body: Center(
         child: RangeSlider(
           values: _values,
           labels: labels,
           divisions: 10,
-          max: 100, 
+          max: 100,
           min: 0,
-         activeColor: Colors.red,
-         inactiveColor: Colors.green,
+          activeColor: Colors.red,
+          inactiveColor: Colors.green,
           onChanged: (newValue) {
             setState(() {
               _values = newValue;
