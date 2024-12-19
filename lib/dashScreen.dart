@@ -6,6 +6,9 @@ class DashScreen extends StatefulWidget {
 }
 
 class _DashScreenState extends State<DashScreen> {
+
+  var nameFromIntroPage;
+  DashScreen(this.nameFromIntroPage);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,11 +20,16 @@ class _DashScreenState extends State<DashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-             Text("", style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),),
-
-             ElevatedButton(onPressed: (){
+            Text(
+              nameFromIntroPage,
+              style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
+            ),
+            ElevatedButton(
+              onPressed: () {
                 Navigator.pop(context);
-             }, child: Text("Back"),) 
+              },
+              child: Text("Back"),
+            )
           ],
         ),
       ),
