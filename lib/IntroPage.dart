@@ -5,6 +5,8 @@ import 'package:flutter_wigets/main.dart';
 class Intropage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
+    var nameController = TextEditingController();
     return Scaffold(
       appBar: AppBar(
         title: Text('Intro Page'), 
