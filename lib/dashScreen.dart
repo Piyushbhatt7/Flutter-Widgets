@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
 
-class DashScreen extends StatefulWidget {
-  @override
-  _DashScreenState createState() => _DashScreenState();
-}
+class DashScreen extends StatelessWidget {
+  final String nameFromIntroPage;
 
-class _DashScreenState extends State<DashScreen> {
-
-  var nameFromIntroPage;
   DashScreen(this.nameFromIntroPage);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
