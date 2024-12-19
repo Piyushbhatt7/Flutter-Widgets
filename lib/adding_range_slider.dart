@@ -16,7 +16,8 @@ class AddingRangeSlider extends StatelessWidget {
         child: RangeSlider(
           values: values, 
           onChanged: (newValue){
-
+              values = newValue;
+              
           }),
       )
     );
