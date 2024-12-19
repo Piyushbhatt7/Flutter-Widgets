@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_wigets/dashScreen.dart';
 import 'package:flutter_wigets/main.dart';
 
 class Intropage extends StatelessWidget {
@@ -37,7 +38,7 @@ class Intropage extends StatelessWidget {
               ElevatedButton(
                   onPressed: () {
                     Navigator.push(context, MaterialPageRoute(builder: (context) {
-                      return MyApp();
+                      return DashScreen();
                     }));
                   },
                   child: Text('Next'))
