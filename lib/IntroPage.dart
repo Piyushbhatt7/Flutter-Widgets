@@ -22,10 +22,10 @@ class Intropage extends StatelessWidget {
             ),
 
             TextField(
-
+                   controller: ,
             ),
 
-            
+
             ElevatedButton(
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
