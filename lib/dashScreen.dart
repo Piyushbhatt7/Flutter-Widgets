@@ -15,8 +15,9 @@ class _DashScreenState extends State<DashScreen> {
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            
+             Text("", style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),),
           ],
         ),
       ),
