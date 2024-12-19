@@ -18,7 +18,7 @@ class Intropage extends StatelessWidget {
         child: Container(
           width: 300,
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
                 'Welcome',
