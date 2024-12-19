@@ -15,7 +15,7 @@ class Splashscreen extends StatelessWidget {
       body: Container(
          color: Colors.indigo,
          child: Center(
-          child: Text(data),
+          child: Text('Classico'),
          ),
       ),
     );
