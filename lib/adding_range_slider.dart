@@ -20,8 +20,10 @@ class _AddingRangeSliderState extends State<AddingRangeSlider> {
       body: Center(
         child: RangeSlider(
           values: values, 
+          labels: labels,
           onChanged: (newValue){
               values = newValue;
+
               setState(() {
                   
               });
