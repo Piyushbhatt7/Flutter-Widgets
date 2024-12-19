@@ -13,10 +13,14 @@ class Splashscreen extends StatelessWidget {
       // ),
 
       body: Container(
-         color: Colors.indigo,
-         child: Center(
-          child: Text('Classico', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white),),
-         ),
+        color: Colors.indigo,
+        child: Center(
+          child: Text(
+            'Classico',
+            style: TextStyle(
+                fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white),
+          ),
+        ),
       ),
     );
   }
