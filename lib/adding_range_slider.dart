@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 
-class AddingRangeSlider extends StatelessWidget {
+class AddingRangeSlider extends StatefulWidget {
+  @override
+  State<AddingRangeSlider> createState() => _AddingRangeSliderState();
+}
+
+class _AddingRangeSliderState extends State<AddingRangeSlider> {
   @override
   Widget build(BuildContext context) {
 
@@ -17,7 +22,9 @@ class AddingRangeSlider extends StatelessWidget {
           values: values, 
           onChanged: (newValue){
               values = newValue;
-              
+              setState(() {
+                  
+              });
           }),
       )
     );
