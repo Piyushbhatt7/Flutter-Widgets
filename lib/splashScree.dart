@@ -10,7 +10,7 @@ class Splashscreen extends StatelessWidget {
         
         appBar: AppBar(
           backgroundColor: Colors.indigoAccent,
-          title: ,
+          title: Text('Splash screen'),
         ),
     );
   }
