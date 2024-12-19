@@ -7,6 +7,8 @@ class Intropage extends StatelessWidget {
   Widget build(BuildContext context) {
 
     var nameController = TextEditingController();
+
+    
     return Scaffold(
       appBar: AppBar(
         title: Text('Intro Page'), 
