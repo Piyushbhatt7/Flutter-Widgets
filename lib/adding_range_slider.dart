@@ -25,12 +25,12 @@ class _AddingRangeSliderState extends State<AddingRangeSlider> {
           max: 100,
           min: 0,
           onChanged: (newValue){
-              values = newValue;
-              print('${newValue.start}, ${newValue.end}');
-
               setState(() {
-                  
+                  values = newValue;
               });
+
+                            
+              print('${newValue.start}, ${newValue.end}');
           }),
       )
     );
