@@ -17,7 +17,7 @@ class _AddingRangeSliderState extends State<AddingRangeSlider> {
       appBar: AppBar(
         title: Text('Range Slider Example'),
         backgroundColor: Colors.blueGrey,
-      ),
+      ), 
       body: Center(
         child: RangeSlider(
           values: _values,
