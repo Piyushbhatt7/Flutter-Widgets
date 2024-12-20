@@ -23,7 +23,7 @@ class Gradient_color extends StatelessWidget {
                 
               ],
         
-              center: Alignment.center,
+              center: Alignment.bottomCenter,
               stops: [0.0, 1.0],
             
             )
