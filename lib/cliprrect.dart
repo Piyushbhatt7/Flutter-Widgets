@@ -11,10 +11,13 @@ class Cliprrect extends StatelessWidget {
         title: Text('Clip Rrect'),
       ),
 
-      body: Container(
-        width: 200,
-        height: 200,
-        
+      body: ClipRRect(
+        borderRadius: BorderRadius.circular(21),
+        child: Container(
+          width: 200,
+          height: 200,
+          
+        ),
       ),
     );
   }
