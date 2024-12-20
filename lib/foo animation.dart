@@ -41,7 +41,7 @@ class _Foo_animationState extends State<Foo_animation> {
                         flag = false;
                         bgcolr = Colors.orange;
                       } else {
-                        _width = 260.0;
+                        _width = 260.0; 
                         _height = 150.0;
                         flag = true;
                         bgcolr = Colors.greenAccent;
