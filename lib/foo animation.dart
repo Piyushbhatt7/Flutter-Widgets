@@ -48,6 +48,7 @@ class _Foo_animationState extends State<Foo_animation> {
                   else{
                     _width = 260.0;
                      _height = 100.0;
+                     flag = true;
                   }
                   
 
