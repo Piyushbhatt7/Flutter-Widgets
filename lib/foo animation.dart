@@ -11,6 +11,7 @@ class _Foo_animationState extends State<Foo_animation> {
    double _width = 260.0;
     double _height = 150.0;
     bool flag = false;
+    Color bgcolr = Colors.blueGrey;
   @override
   Widget build(BuildContext context) {
 
