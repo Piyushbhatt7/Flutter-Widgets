@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_wigets/adding_range_slider.dart';
-import 'package:flutter_wigets/cliprrect.dart';
-import 'package:flutter_wigets/gradient.dart';
+import 'package:flutter_wigets/foo%20animation.dart';
+
 
 
 main() {
@@ -27,7 +26,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: Cliprrect(),
+      home: Foo_animation(),
     );
   }
 }
