@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Foo_animation extends StatelessWidget {
+class Foo_animation extends StatefulWidget {
   const Foo_animation({super.key});
 
+  @override
+  State<Foo_animation> createState() => _Foo_animationState();
+}
+
+class _Foo_animationState extends State<Foo_animation> {
   @override
   Widget build(BuildContext context) {
 
@@ -22,6 +27,7 @@ class Foo_animation extends StatelessWidget {
               color: Colors.grey,
               width: _width,
               height: _height,
+
               duration: Duration(seconds: 3
               ),
               
@@ -30,8 +36,11 @@ class Foo_animation extends StatelessWidget {
               SizedBox(height: 10,),
         
               ElevatedButton(onPressed: (){
-                 _width = 150.0;
+                
+                 setState(() {
+                    _width = 150.0;
                  _height = 260.0;
+                 });
               }, 
               child: Text('Animated container')
               )
