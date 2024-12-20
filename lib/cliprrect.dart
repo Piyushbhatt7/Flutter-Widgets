@@ -14,7 +14,7 @@ class Cliprrect extends StatelessWidget {
       body: Center(
         child: ClipRRect(
           borderRadius: BorderRadius.circular(30),
-          child: Image.asset("assets/images/bob.png") 
+          child: Image.asset("assets/images/22q79xqyj8wa1.jpg", width: 200, height: 200,) 
         ),
       ),
     );
