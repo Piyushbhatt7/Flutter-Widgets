@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_wigets/adding_range_slider.dart';
+import 'package:flutter_wigets/gradient.dart';
 
 
 main() {
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: AddingRangeSlider()
+      home: Gradient_color()
     );
   }
 }
