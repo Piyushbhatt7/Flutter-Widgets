@@ -11,14 +11,17 @@ class Gradient_color extends StatelessWidget {
         backgroundColor: Colors.lightBlueAccent.shade400,
       ),
 
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: [
-               
-            ] 
-          
-          )
+      body: Center(
+        child: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                 Colors.orange,
+                 Colors.purple
+              ] 
+            
+            )
+          ),
         ),
       ),
     );
