@@ -11,9 +11,17 @@ class Foo_animation extends StatelessWidget {
         title: Text('Foo Animation'),
       ),
 
-      body: Container(
-        
-      ),
+      body: Column(
+        children: [
+           AnimatedContainer(
+            width: 200,
+            height: 200,
+            duration: Duration(seconds: 3
+            ),
+            
+            )
+        ],
+      )
     );
   }
 }
