@@ -13,13 +13,14 @@ class Gradient_color extends StatelessWidget {
 
       body: Center(
         child: Container(
-          height: 400,
-          width: 360,
+          height: 480,
+          width: 400,
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                 Colors.orange,
-                 Colors.purple
+                 Colors.orange,              // work accordind to index given
+                 Colors.purple,
+
               ] 
             
             )
