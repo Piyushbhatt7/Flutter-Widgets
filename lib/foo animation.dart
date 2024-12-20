@@ -30,7 +30,8 @@ class Foo_animation extends StatelessWidget {
               SizedBox(height: 10,),
         
               ElevatedButton(onPressed: (){
-        
+                 _width = 150.0;
+                 _height = 260.0;
               }, 
               child: Text('Animated container')
               )
