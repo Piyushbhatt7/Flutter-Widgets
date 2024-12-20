@@ -27,7 +27,7 @@ class _Foo_animationState extends State<Foo_animation> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
              AnimatedContainer(
-              color: Colors.grey,
+              color: bgcolr,
               width: _width,
               height: _height,
               duration: Duration(seconds: 3),
@@ -44,6 +44,7 @@ class _Foo_animationState extends State<Foo_animation> {
                  _width = 150.0;
                  _height = 260.0;
                  flag = false;
+                 bgcolr = Colors.orange;
                   } 
                   
                   else{
