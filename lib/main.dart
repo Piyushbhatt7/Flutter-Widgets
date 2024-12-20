@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_wigets/adding_range_slider.dart';
+import 'package:flutter_wigets/cliprrect.dart';
 import 'package:flutter_wigets/gradient.dart';
 
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: Gradient_color()
+      home: Cliprrect(),
     );
   }
 }
