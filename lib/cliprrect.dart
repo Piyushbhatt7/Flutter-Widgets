@@ -10,6 +10,12 @@ class Cliprrect extends StatelessWidget {
         backgroundColor: Colors.cyanAccent.shade400,
         title: Text('Clip Rrect'),
       ),
+
+      body: Container(
+        width: 200,
+        height: 200,
+        
+      ),
     );
   }
 }
