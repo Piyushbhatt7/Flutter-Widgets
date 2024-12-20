@@ -13,6 +13,7 @@ class Gradient_color extends StatelessWidget {
 
       body: Center(
         child: Container(
+          height: 400,
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
