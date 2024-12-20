@@ -19,6 +19,12 @@ class Foo_animation extends StatelessWidget {
             duration: Duration(seconds: 3
             ),
             
+            ),
+
+            ElevatedButton(onPressed: (){
+
+            }, 
+            child: Text('Animated container')
             )
         ],
       )
