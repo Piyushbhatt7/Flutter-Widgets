@@ -10,6 +10,10 @@ class Foo_animation extends StatelessWidget {
         backgroundColor: Colors.indigoAccent,
         title: Text('Foo Animation'),
       ),
+
+      body: Container(
+        
+      ),
     );
   }
 }
