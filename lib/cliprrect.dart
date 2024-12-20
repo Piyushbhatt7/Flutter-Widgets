@@ -7,7 +7,7 @@ class Cliprrect extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.cyanAccent.shade200,
+        backgroundColor: Colors.cyanAccent.shade400,
         title: Text('Clip Rrect'),
       ),
     );
