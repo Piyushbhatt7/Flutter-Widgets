@@ -7,26 +7,30 @@ class Foo_animation extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.indigoAccent,
+        backgroundColor: Colors.redAccent.shade100,
         title: Text('Foo Animation'),
       ),
 
-      body: Column(
-        children: [
-           AnimatedContainer(
-            width: 200,
-            height: 200,
-            duration: Duration(seconds: 3
-            ),
-            
-            ),
-
-            ElevatedButton(onPressed: (){
-
-            }, 
-            child: Text('Animated container')
-            )
-        ],
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+             AnimatedContainer(
+              color: Colors.grey,
+              width: 200,
+              height: 200,
+              duration: Duration(seconds: 3
+              ),
+              
+              ),
+        
+              ElevatedButton(onPressed: (){
+        
+              }, 
+              child: Text('Animated container')
+              )
+          ],
+        ),
       )
     );
   }
