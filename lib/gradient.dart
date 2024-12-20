@@ -20,6 +20,7 @@ class Gradient_color extends StatelessWidget {
               colors: [
                  Colors.orange,              // work accordind to index given
                  Colors.purple,
+                 Colors.green
 
               ] 
             
