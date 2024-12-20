@@ -24,6 +24,7 @@ class Gradient_color extends StatelessWidget {
 
               begin: FractionalOffset(1.0, 0.8),
               end: FractionalOffset(0.0, 1.3),
+              stops: [0.0, 1.0],
             
             )
           ),
