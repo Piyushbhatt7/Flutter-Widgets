@@ -18,12 +18,12 @@ class Gradient_color extends StatelessWidget {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                 Color.fromARGB(255, 217, 181, 217),
-                 Color.fromARGB(255, 156, 229, 237),
+                 Color(0XFFFFFECD2),
+                 Color(0xfffCB69F),
                 
               ],
-
-              
+        
+             // center: Alignment.center,
               stops: [0.0, 1.0],
             
             )
