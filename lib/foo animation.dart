@@ -36,11 +36,21 @@ class _Foo_animationState extends State<Foo_animation> {
         
               ElevatedButton(
                 onPressed: (){
+                
                  setState(() {
 
-                  if(true)
+                  if(true){
                  _width = 150.0;
                  _height = 260.0;
+                  } 
+                  
+                  else{
+                    _width = 260.0;
+                     _height = 100.0;
+                  }
+                  
+
+                  
                  });
               }, 
               child: Text('Animated container')
