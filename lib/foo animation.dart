@@ -34,7 +34,7 @@ class _Foo_animationState extends State<Foo_animation> {
               ),
               ElevatedButton(
                   onPressed: () {
-                    setState(() {
+                    setState(() { 
                       if (flag) {
                         _width = 150.0;
                         _height = 260.0;
