@@ -17,12 +17,14 @@ class Foo_animation extends StatelessWidget {
           children: [
              AnimatedContainer(
               color: Colors.grey,
-              width: 200,
-              height: 200,
+              width: 260,
+              height: 150,
               duration: Duration(seconds: 3
               ),
               
               ),
+
+              SizedBox(height: 10,),
         
               ElevatedButton(onPressed: (){
         
