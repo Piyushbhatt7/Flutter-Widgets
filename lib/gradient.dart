@@ -10,6 +10,10 @@ class Gradient_color extends StatelessWidget {
         title: Text('Gradient color'),
         backgroundColor: Colors.lightBlueAccent.shade400,
       ),
+
+      body: Container(
+        
+      ),
     );
   }
 }
