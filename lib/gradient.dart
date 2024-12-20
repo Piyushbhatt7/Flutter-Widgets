@@ -20,7 +20,7 @@ class Gradient_color extends StatelessWidget {
               colors: [
                  Color.fromARGB(255, 245, 172, 245),
                  Color.fromARGB(255, 26, 184, 202),
-                 Color.fromARGB(255, 113, 219, 243),
+                
               ],
 
               
