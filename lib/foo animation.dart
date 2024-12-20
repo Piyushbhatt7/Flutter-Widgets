@@ -8,11 +8,12 @@ class Foo_animation extends StatefulWidget {
 }
 
 class _Foo_animationState extends State<Foo_animation> {
+   double _width = 260.0;
+    double _height = 150.0;
   @override
   Widget build(BuildContext context) {
 
-    var _width = 260.0;
-    var _height = 150.0;
+   
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.redAccent.shade100,
@@ -27,18 +28,15 @@ class _Foo_animationState extends State<Foo_animation> {
               color: Colors.grey,
               width: _width,
               height: _height,
-
-              duration: Duration(seconds: 3
-              ),
-              
+              duration: Duration(seconds: 3),
               ),
 
               SizedBox(height: 10,),
         
-              ElevatedButton(onPressed: (){
-                
+              ElevatedButton(
+                onPressed: (){
                  setState(() {
-                    _width = 150.0;
+                 _width = 150.0;
                  _height = 260.0;
                  });
               }, 
