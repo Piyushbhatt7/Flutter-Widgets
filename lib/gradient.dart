@@ -18,9 +18,9 @@ class Gradient_color extends StatelessWidget {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                 Colors.orange,              // work accordind to index given
-                 Colors.purple,
-                 Colors.green
+                 Colors.orange.shade100,              // work accordind to index given
+                 Colors.purple.shade100,
+                 Colors.green.shade100
 
               ] 
             
