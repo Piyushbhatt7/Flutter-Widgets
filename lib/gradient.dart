@@ -10,21 +10,15 @@ class Gradient_color extends StatelessWidget {
         title: Text('Gradient color'),
         backgroundColor: Colors.lightBlueAccent.shade400,
       ),
-
       body: Center(
         child: Container(
           height: 480,
           width: 400,
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                 Color(0XFFd9afd9),
-                 Color(0xFF97d9e1),
-
-              ] 
-            
-            )
-          ),
+              gradient: LinearGradient(colors: [
+            Color(0XFFd9afd9),
+            Color(0xFF97d9e1),
+          ])),
         ),
       ),
     );
