@@ -46,12 +46,15 @@ class _Foo_animationState extends State<Foo_animation> {
                         bgcolr = Colors.orange;
                         mydeco = BoxDecoration(
                           borderRadius: BorderRadius.circular(22)
-                        );                                                                                           
+                        );
                       } else {
                         _width = 260.0; 
                         _height = 150.0;
                         flag = true;
                         bgcolr = Colors.greenAccent;
+                        mydeco = BoxDecoration(
+                          borderRadius: BorderRadius.circular(10)
+                        )
                       }
                     });
                   },
