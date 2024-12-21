@@ -11,9 +11,10 @@ class _Foo_animationState extends State<Foo_animation> {
   double _width = 260.0;
   double _height = 150.0;
   bool flag = false;
-  Color bgcolr = Colors.blueGrey;
+  //Color bgcolr = Colors.blueGrey;
   Decoration mydeco = BoxDecoration(
-    borderRadius: BorderRadius.circular(10)
+    borderRadius: BorderRadius.circular(10),
+    color: Colors.blueGrey
   );
   @override
   Widget build(BuildContext context) {
