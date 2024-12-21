@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_wigets/animatedopacity.dart';
 import 'package:flutter_wigets/foo%20animation.dart';
 
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: Foo_animation(),
+      home: Animated_opacity(),
     );
   }
 }
