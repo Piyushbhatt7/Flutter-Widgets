@@ -7,7 +7,8 @@ class crossfade extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.amber.shade200,
+        title: Text('Cross Fade'),
       ),
     );
   }
