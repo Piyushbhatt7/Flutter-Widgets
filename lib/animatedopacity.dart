@@ -5,6 +5,8 @@ class Animated_opacity extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    var myopactity = 1.0;
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.amberAccent.shade400,
@@ -14,7 +16,7 @@ class Animated_opacity extends StatelessWidget {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-             AnimatedOpacity(opacity: 1, duration: Duration(seconds: 3), curve: Curves.bounceInOut,
+             AnimatedOpacity(opacity: myopactity, duration: Duration(seconds: 3), curve: Curves.bounceInOut,
                child: Center(
                  child: Container(
                   width: 200,
