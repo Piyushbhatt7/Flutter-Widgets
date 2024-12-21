@@ -38,11 +38,12 @@ class _Animated_opacityState extends State<Animated_opacity> {
                  setState(() {
                        if(isVisible){
                           myopactity = 0.0; // invisible
-
+                          isVisible = false;
                        }
-
+                      
                        else{
                            myopactity = 1.0;   // visible
+                           isVisible = true;
                        }
                  });
              }, 
