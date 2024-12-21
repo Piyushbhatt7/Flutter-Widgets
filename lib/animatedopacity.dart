@@ -9,7 +9,7 @@ class Animated_opacity extends StatefulWidget {
 
 class _Animated_opacityState extends State<Animated_opacity> {
   var myopactity = 1.0;
-  var isVisible = true;
+  bool isVisible = true;
   @override
   Widget build(BuildContext context) {
 
