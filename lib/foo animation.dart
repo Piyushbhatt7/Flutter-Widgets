@@ -28,6 +28,7 @@ class _Foo_animationState extends State<Foo_animation> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               AnimatedContainer(
+                curve: Curves.decelerate,
                 //color: bgcolr,
                 width: _width,
                 height: _height,
