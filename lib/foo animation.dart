@@ -28,10 +28,11 @@ class _Foo_animationState extends State<Foo_animation> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               AnimatedContainer(
-                color: bgcolr,
+                //color: bgcolr,
                 width: _width,
                 height: _height,
                 duration: Duration(seconds: 3),
+                color: Colors.blueGrey,
                 decoration: mydeco,
               ),
               SizedBox(
