@@ -7,13 +7,15 @@ class Animated_opacity extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.amberAccent,
+        backgroundColor: Colors.amberAccent.shade400,
         title: Text('Animated container'),
       ),
 
         body: Column(
           children: [
-             AnimatedOpacity(opacity: 1, duration: Duration(seconds: 3))
+             AnimatedOpacity(opacity: 1, duration: Duration(seconds: 3), curve: Curves.bounceInOut,
+             
+             )
           ],
         ),
     );
