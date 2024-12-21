@@ -27,7 +27,7 @@ class _Animated_opacityState extends State<Animated_opacity> {
                  child: Container(
                   width: 200,
                   height: 100,
-                  color: Colors.blue,
+                  color: Colors.pink.shade200,
                  ),
                ),
              ),
