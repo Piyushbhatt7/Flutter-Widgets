@@ -23,7 +23,7 @@ class _Animated_opacityState extends State<Animated_opacity> {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-             AnimatedOpacity(opacity: myopactity, duration: Duration(seconds: 3), curve: Curves.bounceInOut,
+             AnimatedOpacity(opacity: myopactity, duration: Duration(seconds: 1), curve: Curves.bounceInOut,
                child: Center(
                  child: Container(
                   width: 200,
