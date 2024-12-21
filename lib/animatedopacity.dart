@@ -13,7 +13,7 @@ class Animated_opacity extends StatelessWidget {
 
         body: Column(
           children: [
-            
+             AnimatedOpacity(opacity: opacity, duration: duration)
           ],
         ),
     );
