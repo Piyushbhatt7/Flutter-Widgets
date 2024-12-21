@@ -44,6 +44,9 @@ class _Foo_animationState extends State<Foo_animation> {
                         _height = 260.0;
                         flag = false;
                         bgcolr = Colors.orange;
+                        mydeco = BoxDecoration(
+                          borderRadius: BorderRadius.circular(22)
+                        )
                       } else {
                         _width = 260.0; 
                         _height = 150.0;
