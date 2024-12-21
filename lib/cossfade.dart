@@ -12,7 +12,7 @@ class _crossfadeState extends State<crossfade> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.amber.shade200,
+        backgroundColor: Colors.amber.shade400,
         title: Text('Cross Fade'),
       ),
 
