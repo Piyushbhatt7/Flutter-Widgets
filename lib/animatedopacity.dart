@@ -6,7 +6,7 @@ class Animated_opacity extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    var myopactity = 1.0;
+    
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.amberAccent.shade400,
