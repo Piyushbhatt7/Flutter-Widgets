@@ -15,16 +15,18 @@ class _crossfadeState extends State<crossfade> {
           backgroundColor: Colors.amber.shade400,
           title: Text('Cross Fade'),
         ),
-        body: AnimatedCrossFade(
-            firstChild: Container(
-              width: 200,
-              height: 200,
-              color: Colors.grey,
-            ),
-            secondChild: Image.asset("assets/images/bob.png",width: 200, height: 200,),
-            crossFadeState: CrossFadeState.showFirst,
-            duration: Duration(seconds: 2
-            )
+        body: Center(
+          child: AnimatedCrossFade(
+              firstChild: Container(
+                width: 200,
+                height: 200,
+                color: Colors.grey,
+              ),
+              secondChild: Image.asset("assets/images/bob.png",width: 200, height: 200,),
+              crossFadeState: CrossFadeState.showFirst,
+              duration: Duration(seconds: 2
+              )
+          ),
         ),
             );
   }
