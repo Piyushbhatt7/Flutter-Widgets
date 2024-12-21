@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 
-class Animated_opacity extends StatelessWidget {
+class Animated_opacity extends StatefulWidget {
   const Animated_opacity({super.key});
 
+  @override
+  State<Animated_opacity> createState() => _Animated_opacityState();
+}
+
+class _Animated_opacityState extends State<Animated_opacity> {
+  var myopactity = 1.0;
   @override
   Widget build(BuildContext context) {
 
