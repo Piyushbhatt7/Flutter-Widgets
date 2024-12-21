@@ -24,7 +24,10 @@ class Animated_opacity extends StatelessWidget {
                ),
              ),
 
-             ElevatedButton(onPressed: onPressed, child: child)
+             ElevatedButton(onPressed: (){
+
+             }, 
+             child: Text('Pussy'))
           ],
         ),
     );
