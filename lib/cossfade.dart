@@ -16,9 +16,16 @@ class _crossfadeState extends State<crossfade> {
           title: Text('Cross Fade'),
         ),
         body: AnimatedCrossFade(
-            firstChild: firstChild,
+            firstChild: Container(
+              width: 200,
+              height: 200,
+              color: Colors.grey,
+            ),
             secondChild: secondChild,
             crossFadeState: crossFadeState,
-            duration: duration));
+            duration: Duration(seconds: 2
+            )
+        ),
+            );
   }
 }
