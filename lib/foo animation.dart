@@ -48,7 +48,7 @@ class _Foo_animationState extends State<Foo_animation> {
                         flag = false;
                      //   bgcolr = Colors.orange;
                         mydeco = BoxDecoration(
-                          borderRadius: BorderRadius.circular(250),
+                          borderRadius: BorderRadius.circular(50),
                           color: Colors.blueGrey
                         );
                       } else {
