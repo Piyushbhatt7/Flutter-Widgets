@@ -32,8 +32,8 @@ class _Foo_animationState extends State<Foo_animation> {
                 width: _width,
                 height: _height,
                 duration: Duration(seconds: 3),
-                color: Colors.blueGrey,
-              //  decoration: mydeco,
+                //color: Colors.blueGrey,
+                decoration: mydeco,
               ),
               SizedBox(
                 height: 10,
@@ -47,7 +47,7 @@ class _Foo_animationState extends State<Foo_animation> {
                         flag = false;
                      //   bgcolr = Colors.orange;
                         mydeco = BoxDecoration(
-                          borderRadius: BorderRadius.circular(22),
+                          borderRadius: BorderRadius.circular(250),
                           color: Colors.orange
                         );
                       } else {
