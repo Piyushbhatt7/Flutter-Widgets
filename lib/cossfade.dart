@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 class crossfade extends StatefulWidget {
@@ -8,8 +10,26 @@ class crossfade extends StatefulWidget {
 }
 
 class _crossfadeState extends State<crossfade> {
+ 
+ bool isfirst = true;
+  @override
+  void initState() {
+    super.initState();
+    Timer(Duration(seconds: 4), (){
+         
+         reload();
+        
+    });
+  }
 
-  bool isfirst = true;
+    void reload(){
+      setState(() {
+          isfirst = false;
+      });
+    }
+  
+
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
