@@ -14,10 +14,12 @@ class Animated_opacity extends StatelessWidget {
         body: Column(
           children: [
              AnimatedOpacity(opacity: 1, duration: Duration(seconds: 3), curve: Curves.bounceInOut,
-               child: Container(
-                width: 200,
-                height: 100,
-                color: Colors.blue,
+               child: Center(
+                 child: Container(
+                  width: 200,
+                  height: 100,
+                  color: Colors.blue,
+                 ),
                ),
              )
           ],
