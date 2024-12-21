@@ -10,6 +10,12 @@ class Animated_opacity extends StatelessWidget {
         backgroundColor: Colors.amberAccent,
         title: Text('Animated container'),
       ),
+
+        body: Column(
+          children: [
+            
+          ],
+        ),
     );
   }
 }
