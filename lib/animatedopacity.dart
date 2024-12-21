@@ -14,7 +14,7 @@ class Animated_opacity extends StatelessWidget {
         body: Column(
           children: [
              AnimatedOpacity(opacity: 1, duration: Duration(seconds: 3), curve: Curves.bounceInOut,
-             
+               child: ,
              )
           ],
         ),
