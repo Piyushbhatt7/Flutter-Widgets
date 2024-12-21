@@ -8,6 +8,8 @@ class crossfade extends StatefulWidget {
 }
 
 class _crossfadeState extends State<crossfade> {
+
+  bool isfirst = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +25,7 @@ class _crossfadeState extends State<crossfade> {
                 color: Colors.grey,
               ),
               secondChild: Image.asset("assets/images/bob.png",width: 200, height: 200,),
-              crossFadeState: CrossFadeState.showSecond,
+              crossFadeState: isfirst?,
               duration: Duration(seconds: 2)
               
           ),
