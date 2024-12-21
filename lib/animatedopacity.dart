@@ -34,6 +34,9 @@ class _Animated_opacityState extends State<Animated_opacity> {
 
              ElevatedButton(onPressed: (){
                  myopactity = 0.0;
+                 setState(() {
+                   
+                 });
              }, 
              child: Text('Pussy'))
           ],
