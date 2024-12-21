@@ -28,7 +28,7 @@ class _Foo_animationState extends State<Foo_animation> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               AnimatedContainer(
-                curve: Curves.bounceOut,
+                curve: Curves.bounceInOut,
                 //color: bgcolr,
                 width: _width,
                 height: _height,
