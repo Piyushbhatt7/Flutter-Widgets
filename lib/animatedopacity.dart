@@ -12,6 +12,7 @@ class Animated_opacity extends StatelessWidget {
       ),
 
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
              AnimatedOpacity(opacity: 1, duration: Duration(seconds: 3), curve: Curves.bounceInOut,
                child: Center(
@@ -21,7 +22,9 @@ class Animated_opacity extends StatelessWidget {
                   color: Colors.blue,
                  ),
                ),
-             )
+             ),
+
+             ElevatedButton(onPressed: onPressed, child: child)
           ],
         ),
     );
