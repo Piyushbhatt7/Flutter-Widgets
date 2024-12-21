@@ -23,9 +23,9 @@ class _crossfadeState extends State<crossfade> {
                 color: Colors.grey,
               ),
               secondChild: Image.asset("assets/images/bob.png",width: 200, height: 200,),
-              crossFadeState: CrossFadeState.showFirst,
-              duration: Duration(seconds: 2
-              )
+              crossFadeState: CrossFadeState.showSecond,
+              duration: Duration(seconds: 2)
+              
           ),
         ),
             );
