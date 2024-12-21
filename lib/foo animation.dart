@@ -58,6 +58,7 @@ class _Foo_animationState extends State<Foo_animation> {
                         mydeco = BoxDecoration(
                           
                           borderRadius: BorderRadius.circular(10),
+                          color: Colors.green
                           
                         );
                       }
