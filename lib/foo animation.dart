@@ -33,7 +33,7 @@ class _Foo_animationState extends State<Foo_animation> {
                 height: _height,
                 duration: Duration(seconds: 3),
                 color: Colors.blueGrey,
-                decoration: mydeco,
+              //  decoration: mydeco,
               ),
               SizedBox(
                 height: 10,
@@ -55,8 +55,7 @@ class _Foo_animationState extends State<Foo_animation> {
                         _height = 150.0;
                         flag = true;
                         
-                        mydeco = BoxDecoration(
-                          
+                        mydeco = BoxDecoration(    
                           borderRadius: BorderRadius.circular(10),
                           color: Colors.green
                           
